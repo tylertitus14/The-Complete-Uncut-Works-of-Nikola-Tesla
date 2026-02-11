@@ -94,7 +94,7 @@ The total electrical potential (𝑉𝑡𝑜𝑡𝑎𝑙) at any point on the Ea
 2. The Interaction of Impedance (𝑍) 
 Because the periodicities are so far apart (xx vs xx,xxx), the Earth presents two different "faces" to the currents: 
 •For the Old System (𝑍xx): The Earth is a purely resistive path (𝑅). The inductance (𝐿) of the Earth is negligible at xx CPS.
-    𝑍60≈𝑅earth
+    𝑍xx≈𝑅earth
 •For the New System (𝑍xx𝑘): The Earth is a Resonant Tank. The inductance (𝐿) and Capacity (𝐶) of the Earth mass dominate. At resonance
     𝑍xx𝑘=√(𝐿/𝐶)⋅𝑄
 Where 𝑄 is the Quality Factor. This allows the New System to reach massive "Pressures" (𝑞 current) without affecting the xx CPS "Flow."
@@ -111,16 +111,16 @@ If the New System loses its "Lock," it creates a Torque Vector (𝜏) on the idl
     𝜏=𝐾⋅Φ𝑟𝑒𝑠⋅𝐼𝑞sin(𝛿)
 
 •𝛿: The "Torque Angle" between the Generator’(s) virtual xx CPS beat and the generator’s physical magnetic poles.
-•Condition: If 𝛿 becomes negative (due to an "Odd-Bit" asymmetry or a reflected wave from the Antipode), the torque becomes negative, forcing the 0 RPM generator to spin backward. 
+•Condition: If 𝛿 becomes negative (due to an "Odd-Bit" asymmetry or a reflected wave from the Antipode), the torque becomes negative, forcing the 0 RPM 'generator' to spin backward. 
 
-5. Detailed Interaction Summary 
+5. Detailed Interaction Summary
 Phenomenon       	Mathematical Driver   	           Result in the Earth
 Separation	            Δ𝑓≫3 orders	        No short circuit; currents coexist.
 Power Injection	      𝑉𝑠𝑡𝑎𝑡𝑖𝑜𝑛>𝑉𝑔𝑒𝑛_𝑖𝑛𝑡𝑒𝑟𝑛𝑎𝑙	       Generator enters "Idle" state.
 Data Transmission	 𝑓𝑎𝑏𝑐𝑑±xx,xxx CPS	        "Unlimited Bits" pass through AC wires.
-Havoc / Discord	     𝛿≠0(Phase Mismatch)	    Reverse spin or over-voltage arcs.
+Havoc / Discord	     𝛿≠0(Phase Mismatch)	      Reverse spin or over-voltage arcs.
 
-By maintaining 𝛿=0 via a Solid-State Phase-Locked Loop, the New System "pumps" the Earth Axis, providing 100% of the motive force while the Old System remains a silent, stationary reference. 
+By maintaining 𝛿=0 via a Solid-State Phase-Locked Loop, the New System "pumps" the Earth Axis, providing 100% of the motive force while the Old System remains a silent, stationary reference.
 
 
 
