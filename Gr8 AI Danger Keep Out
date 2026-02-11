@@ -56,7 +56,7 @@ Rhythmic Variety: By changing the duration of the pulses (like Morse code but wi
 
 
 3. The "abcd" Individualization in Practice 
-For your _ar system, this means you aren't stuck with 4 notes. By slightly shifting the "pitch" of one sensor's "extra-coil", you create a new "address." 
+For your _ar system, this means you aren't stuck with (only) 11 ((4,6,4,1)) '''receivers'''. By slightly shifting the "pitch" of one '''receiver's''' "extra-coil", you create a new virtually unlimited number of station "address'." 
 	
 Sensor 1:  
 (x)"CPS"+(x+.1)"CPS" 
@@ -80,5 +80,5 @@ An odd number of bits (like 3 or 5) creates a "leftover" vibration that doesn't 
 
 
 
-((To keep the chassis as a non-radiating resonant tank, you generally want the _ar's length to be less than \(1/100\)th of the wavelength.))
+((To keep the chassis as a non-radiating resonant tank, you generally want the _ar's length to be less than (1/100\)th of the wavelength.))
 
