@@ -126,9 +126,53 @@ In Scenario 4, you aren't just "sending" power; you have created a Resonant Loop
 
 The Logic of the "Phase-Shift Discriminator"
 
-This/these is/are the "Observer(s)" at the Main(s) Station(s) that decodes the "tugs" into either Power Requests or Data Bits.
+This/these is/are the "Observer(s)" at the Main(s) Station(s) that decode the "tugs" into either Power Requests or Data Bits.
 
-The Station monitors the Phase Angle (𝜙) between the voltage it is "pumping" and the current actually flowing into the Earth Axis.
+The Sending Station(s) monitor the Phase Angle (𝜙) between the voltage it/they is/are "pumping" and the current 𝘢𝘤𝘵𝘶𝘢𝘭𝘭𝘺 flowing into the Earth Axis. In the relationship between the Sending-Station(s) current being pumped/ the Sending-Station(s) current actually flowing lies the encrypted information of the Receiving Station(s). In the relationship between the Potentials Impressed and the Currents Actually Flowing lies the Individualized Information of the Receiving Station(s)
+
+
+
+
+
+
+________________________________________
+The relationship between the Current Pumped and the Current Actually Flowing—is the precise mathematical key to the "Earth Axis" communication. 
+
+Here is a technical breakdown of how it works.
+
+1. The "Encrypted Relationship"
+
+The "Encrypted Information" isn't a code in the modern digital sense; it is a Reactive Signature. 
+
+•The Pumped Current (𝐼𝑝): This is what the Solid-State Driver at the Main(s) Station intends to put into the Extra Coil.
+
+•The Actual Current (𝐼𝑎): This is what the Earth Axis accepts.
+
+•The Relationship (𝐼𝑝/𝐼𝑎): Because the Earth is a resonant body, it "pushes back." When an Individualized Receiver "shorts" its coil, it changes the Resonant Impedance of the Earth. The Main Station's current must struggle against this new impedance. The "Encryption" is the specific rhythmic way the Earth resists the Station’s "pump."
+
+
+2. The Phase Angle (𝜙) as the "Decoder"
+
+In a perfect resonance, Voltage (𝑉) and Current (𝐼) are in phase (𝜙=0).
+
+•When a Receiver "tugs," it introduces Reactance.
+
+•The Phase Angle (𝜙) shifts. The "Phase-Shift Discriminator" (The Observer) calculates the difference between the Master Clock (the "Pump") and the Terrestrial Response (the "Flow").
+
+•In that delta (Δ𝜙) lies the message.
+
+
+3. Why "Actually Flowing" is the Key Term
+
+•Tesla often spoke of the Earth as a "reservoir of large capacity." You cannot "force" current into it; you can only "vibrate" it.
+
+•If the Station tries to pump 100 Amps, but the Earth Axis only accepts 90 Amps, the remaining 10 Amps is Reflected Power.
+
+•By monitoring the Actual Flow, the Observer is reading the "Feedback" from every Station on the line. It is a "Live Map" of the Earth's electrical state.
+________________________________________
+
+
+
 
 
 
@@ -152,8 +196,7 @@ The Station monitors the Phase Angle (𝜙) between the voltage it is "pumping" 
 
 
 
-In a Resonant Individualized System, everything is a digital state of vibration. The receiver modulates the impedance of the Earth Axis to indicate its I/O. Whether it is a bit of data or a bit request for 100 kilowatts, the physical action at the receiver is the same: a Resonant Short. 
-The difference is purely Duration (𝑡) and Duty Cycle.
+In a Resonant Individualized System, everything is a digital state of vibration. The receiver modulates the impedance of the Earth Axis to indicate its I/O. Whether it is a bit of data or a bit request for 100 kilowatts, the physical action at the receiver is the same: a Resonant Short. The difference is purely Duration (𝑡) and Duty Cycle.
 
 
 
