@@ -45,13 +45,19 @@ Scenario 2: Two Stations (Antipodes) | No Receiver(s)
 ________________________________________
 Scenario 3: One Station + Receiver(s)
 
-•The Physical State: The Station pumps; the Receiver extracts 𝑞 current (harvested from the base of the Extra-Coil using a loosely coupled 'Extra-Extra-Coil') for Typical 2wire AC System Load(s).
+•The Physical State: The Sending-Station pumps the Earth Axis; the Receiving-Station captures this longitudinal pressure via its Extra-Coil. The current-peak at the base of this "free-resonator" (the extra-coil) ٭ is loosely coupled to the Receiving-Station's Primary-Coil where typical 2-wire Alternating Current loads can be attached, or where the Primary-Coils output can be rectified to direct current.
+
+This 'Extra-Coil' is "free" to vibrate at its own natural period (1/4 wave) without being magnetically damped by the primary-coil or the primary coil's load.
+٭
+Does the Receiver have a Secondary-Coil?
+Tesla often found that using all four ( ‘ ‘𝘱𝘳𝘪𝘮𝘢𝘳𝘪𝘭𝘺’ ’ 𝘵𝘩𝘦 𝘌𝘢𝘳𝘵𝘩-𝘈𝘹𝘪𝘴, ‘ ‘𝘴𝘦𝘤𝘰𝘯𝘥𝘢𝘳𝘪𝘭𝘺’ ’ 𝘵𝘩𝘦 𝘚𝘦𝘤𝘰𝘯𝘥𝘢𝘳𝘺-𝘊𝘰𝘪𝘭,  ‘ ‘𝘛𝘦𝘳𝘵𝘪𝘢𝘳𝘪𝘭𝘺’ ’  𝘵𝘩𝘦 𝘌𝘹𝘵𝘳𝘢-𝘊𝘰𝘪𝘭 & ‘ ‘𝘘𝘶𝘢𝘵𝘦𝘳𝘯𝘢𝘳𝘪𝘭𝘺’ ’ 𝘵𝘩𝘦 𝘗𝘳𝘪𝘮𝘢𝘳𝘺-𝘊𝘰𝘪𝘭) stages for receiving was inefficient because of "Dissipation of Energy" (heat loss in the Secondary-Coil). He often bypassed the "Secondary-Coil" and picked up power directly from the base of the ‘Extra-Coil’ using the Primary-Coil loosely coupled to the former; altho a  Station ‘ ‘primarily’ ’ for Sending (𝘸𝘪𝘵𝘩 3𝘹 𝘱𝘩𝘺𝘴𝘪𝘤𝘢𝘭 𝘤𝘰𝘪𝘭 𝘸𝘪𝘯𝘥𝘪𝘯𝘨𝘴, 𝘪𝘦 𝘱𝘳𝘪𝘮𝘢𝘳𝘺, 𝘴𝘦𝘤𝘰𝘯𝘥𝘢𝘳𝘺, 𝘢𝘯𝘥 𝘦𝘹𝘵𝘳𝘢) can serve as a receiver in a limited fashion, moreso if the Secondary-Coil is able to be 'switched out' partially or entirely enabling the inductive chain to be shortened to a state that yields a Selective Quality Factor more appropriate for extracting 𝑞 current during receiving.
+Note, Tesla typically refered to I²R losses as Dissipation of Energy.
 
 •The Power Demand: The Receiver’s BMS (Battery Management System) [or another load determining artifice] determines it needs more power.
 
 •The "Request": The Receiver’s Extra-Coil performs "Load Modulation." It "tugs" on the resonance at a specific Periodicity ٭(𝑎𝑏𝑐𝑑).
 
-•The Station Reaction: The Main(s) Station detects this ٭"tug" as a drop in its Resonant Rise (𝑉𝑟𝑒𝑠). To compensate and "assume the full burden," the Station’s Solid-State Driver increases the Primary-Coil Amplitude.
+•The Station Reaction: The Main(s) Station detects this ٭"tug" as a drop in its Resonant Rise (𝑉𝑟𝑒𝑠). To compensate and "assume the full burden," the Station’s Solid-State Driver increases the Primary-Coil Amplitude to restore the Useful 𝑞 Current and maintain the Resonant Rise.
 
 •The Result: Power delivery is modulated by the Receiver's power "draw" needs, not by the Station "pushing" blindly.
 
@@ -74,7 +80,7 @@ Scenario 4: Two Stations (Antipodes) + One Receiver(s)
 
 •Station B sees the "Tug" from the South.
 
-•The Math: By comparing the two signals ٭(𝐴−𝐵), the Stations can triangulate exactly how much power the Receiver needs to be using from the Axis.
+•The Math: By comparing the two signals ٭(𝐴−𝐵), the Stations can ٭٭triangulate exactly how much power the Receiver needs to be using (effectively using the Earth as a differential sensor) from the Axis, and at which (the Spatial Impedance) balance.
 
 •The "Unison" Power Injection: If the Receiver’s load increases, both Stations increase their "pumping" in perfect symmetry. This ensures the Antipode Reflection stays balanced, preventing any 'Old Style' Generators on the line from spinning backward and/or experiencing "Havoc."
 
@@ -89,6 +95,9 @@ Scenario 4: Two Stations (Antipodes) + One Receiver(s)
 
     •The "Unlimited" Address Mapping: By comparing the phase shifts across a network of, say, 7 Stations, the system can identify exactly which "Individualized Receiver" is talking. It’s like a spider web: the spider does not need to see the fly; it knows exactly where it is by how the tension changes across the different strands of the web.
 
+
+٭٭The word "triangulate" is technically a 2D/3D geometric term. In a single-axis resonant system, you are performing "Axial Ratiometric Balancing." However, "triangulate" works well as a modern metaphor for the Differential Sensor logic.
+In Tesla’s terrestrial resonance, the Standing Wave Envelope is a delicate symmetry. The "Assume the Burden" Action tells the Stations not just how much power to pump, but how to distribute it. Station A might need to provide 70% of the 𝑞 current while Station B provides 30% to keep the Earth Axis from "wobbling" or experiencing Havoc. The Stations "feel" the load's position and magnitude through the Deep Axis Flow and adjust their "Pressure" to maintain a perfect, non-radiating equilibrium.
 
 
 
@@ -181,11 +190,11 @@ ________________________________________
 
 1. How it identifies a "Power Request Bit"
 
-•The Signature: A "Power Request Bit" is a >micro-second sustained and heavy "Individualized" phase shift.
+•The Signature: A "Power Request Bit" is a > micro-second sustained and heavy "Individualized" phase shift.
 
-•The Logic: The load determining artifice at the station intended on receiving power intermitently shorts its Extra-Coil(s). This causes a long-term "Lag" in the Receiving Station's Primary-Coil circuit.
+•The Logic: The load determining artifice at the station intended on receiving power intermitently shorts its Extra-Coil. This causes a long-term "Lag" in the distant Sending Station's Primary-Coil.
 
-•The Action: The Discriminating Observer of the Main(s) Station(s) see this "Lag" persisting for many cycles. It tells the Solid-State Driver: "Increase the Amplitude (𝑉𝑛𝑒𝑤) to assume the new or updated burden."
+•The Action: The Discriminating Observer of the Sending Station(s) see this "Lag" persisting for many cycles. It tells the Solid-State Driver(s): "Increase the Amplitude (𝑉𝑛𝑒𝑤) to assume the new or updated burden."
 
 
 
