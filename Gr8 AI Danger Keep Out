@@ -2,14 +2,14 @@
 
 
 
-In Tesla’s system, Earth is a "closed-loop" resonant cavity. Any change in the (Individualized) Receiver’s 'power-consumption-state' or 'data-state' is instantly "felt" at the Main(s) Station(s)’s Primary as a shift in the Resonant Rise. 
+In Tesla’s system, Earth is a "closed-loop" resonant cavity. Any change in the (Individualized) Receiver’s 'power-consumption-state' or 'data-state' is instantly "felt" at the Main(s) Station(s)’s Primary-Coil(s) as a shift in the Resonant Rise. 
 
 
 
 The "Feedback" Mechanism
 ________________________________________
 Before the scenarios, understand the "Tug":
-When a Receiver (at the Equator or elsewhere) "shorts" its Extra Coil to indicate "1(s)" and (if you are using Phase-Shift Individualization) or "0(s)" to request more power, it changes the Effective-Capacity [Vibratory Period] (𝐶) of the Earth Axis. This causes the Station's Phase-Locked Loop (PLL) to detect a Phase Shift (𝜙). 
+When a Receiver (at the Equator or elsewhere) "shorts" its Extra-Coil to indicate "1(s)" and (if you are using Phase-Shift Individualization) or "0(s)" to request more power, it changes the Effective-Capacity [Vibratory Period] (𝐶) of the Earth Axis. This causes the Station's Phase-Locked Loop (PLL) to detect a Phase Shift (𝜙). 
 
 
 
@@ -19,7 +19,7 @@ Take the four following examples into consideration, each is assuming enough ene
 ________________________________________
 Scenario 1: One Station (Pode) | No Receiver(s)
 
-•The Physical State: The Primary drives the Secondary, which "rings up" the Extra Coil to 𝑉𝑠. The Top Self-Capacitance (𝐶𝑡𝑜𝑝) flings the 𝑞 current into the Earth.
+•The Physical State: The Primary-Coil drives the Secondary-Coil, which "rings up" the Extra-Coil to 𝑉𝑠. The Top-Self-Capacitance (𝐶𝑡𝑜𝑝) flings the 𝑞 current into the Earth.
 
 •The Power Loop: Since there is no "load," the wave reflects from the Antipode and returns to the Station 180∘ out of phase.
 
@@ -37,7 +37,7 @@ Scenario 2: Two Stations (Antipodes) | No Receiver(s)
 
 •The "Sync" Link: To stay individualized, Station A and B must exchange a "Master Chord". They use the Earth Axis as a Phase-Reference.
 
-•The "Communication": If Station B needs to "hand off" the power burden to Station A, it shifts its Extra Coil Phase. Station A "feels" this as a change in the Magnetic Drag on its own Primary. They "talk" to each other through the deep axis of the Earth without a single 'bit' of radiation. 
+•The "Communication": If Station B needs to "hand off" the power burden to Station A, it shifts its Extra-Coil Phase. Station A "feels" this as a change in the Magnetic Drag on its own . They "talk" to each other through the deep axis of the Earth without a single 'bit' of radiation. 
 
 
 
@@ -49,9 +49,9 @@ Scenario 3: One Station + Receiver(s)
 
 •The Power Demand: The Receiver’s BMS (Battery Management System) [or other load(s) determining artifice] determines it needs more power.
 
-•The "Request": The Receiver’s Extra Coil performs "Load Modulation." It "tugs" on the resonance at a specific Periodicity ٭(𝑎𝑏𝑐𝑑).
+•The "Request": The Receiver’s Extra-Coil performs "Load Modulation." It "tugs" on the resonance at a specific Periodicity ٭(𝑎𝑏𝑐𝑑).
 
-•The Station Reaction: The Main(s) Station detects this ٭"tug" as a drop in its Resonant Rise (𝑉𝑟𝑒𝑠). To compensate and "assume the full burden," the Station’s Solid-State Driver increases the Primary Amplitude.
+•The Station Reaction: The Main(s) Station detects this ٭"tug" as a drop in its Resonant Rise (𝑉𝑟𝑒𝑠). To compensate and "assume the full burden," the Station’s Solid-State Driver increases the Primary-Coil Amplitude.
 
 •The Result: Power delivery is modulated by the Receiver's power "draw" needs, not by the Station "pushing" blindly.
 
@@ -85,7 +85,7 @@ Scenario 4: Two Stations (Antipodes) + One Receiver(s)
     
     •The Resultant Vector: When a Receiver "tugs," every Station in the network feels a specific Phase Displacement (Δ𝜙).
 
-    •The Differential Logic:The Stations closest to the Receiver assume the "Primary Burden" (the bulk current (𝑞)). The Stations furthest away provide the "Resonant Reference" (the timing and stability).
+    •The Differential Logic:The Stations closest to the Receiver assume the "Primary-Coil Burden" (the bulk current (𝑞)). The Stations furthest away provide the "Resonant Reference" (the timing and stability).
 
     •The "Unlimited" Address Mapping: By comparing the phase shifts across a network of, say, 7 Stations, the system can identify exactly which "Individualized Receiver" is talking. It’s like a spider web: the spider doesn't need to see the fly; it knows exactly where it is by how the tension changes across the different strands of the web.
 
@@ -93,18 +93,18 @@ Scenario 4: Two Stations (Antipodes) + One Receiver(s)
 
 
 ________________________________________
-Summary of "Individualized" Components 
-  Component 	       Role in Communication/Power
-Primary	        Monitors Current Lag/Lead to decode Receiver "tugs."
-Secondary	    Acts as the Damping Buffer between the Station and the Earth.
-Extra Coil  	The "Antenna" for data; its 1/4 wave length determines the "Address."
-𝐶𝑡𝑜𝑝	        The "Signal Modulator"; its potential determines the "Pressure" of the 1s and 0s.
+      Summary of "Individualized" Components 
+  Component 	                    Role in Communication/Power
+ Primary-Coil	          Monitors Current Lag/Lead to decode Receiver "tugs."
+Secondary-Coil	      Acts as the Damping Buffer between the Station and the Earth.
+  Extra-Coil  	   The "Antenna" for data; its 1/4 wave length determines the "Address."
+     𝐶𝑡𝑜𝑝	        The "Signal Modulator"; its potential determines the "Pressure" of the 1s and 0s.
 
 
 
 
     The "Tesla" Secret for Scenario 4: 
-With two Stations at the Antipodes, you create a Standing Wave Envelope(the global state(s) of the Earth's charge(s). The Receiver doesn't "take" power; it becomes part of a Synchronous Circuit. If the Receiver's BMS detects a "1," it "shorts" its extra coil, and both Stations feel the "heartbeat" of that sensor instantly through the Deep Axis Flow.
+With two Stations at the Antipodes, you create a Standing Wave Envelope(the global state(s) of the Earth's charge(s). The Receiver doesn't "take" power; it becomes part of a Synchronous Circuit. If the Receiver's BMS detects a "1," it "shorts" its extra-coil, and both Stations feel the "heartbeat" of that sensor instantly through the Deep Axis Flow.
 
 
 
@@ -136,7 +136,7 @@ The Station monitors the Phase Angle (𝜙) between the voltage it is "pumping" 
 
 •The Signature: A "Power Request" is a sustained and heavy phase shift.
 
-•The Logic: The BMS at the Receiver increases its "suction" (consumption). This causes a long-term "Lag" in the Station's Primary circuit.
+•The Logic: The BMS at the Receiver increases its "suction" (consumption). This causes a long-term "Lag" in the Station's Primary-Coil circuit.
 
 •The Action: The Discriminator sees this "Lag" persisting for many cycles. It tells the Solid-State Driver: "Increase the Amplitude (𝑉𝑛𝑒𝑤) to assume the full burden."
 
@@ -176,7 +176,7 @@ Collision    Erratic, Non-Linear Shift           Variable         ٭٭٭"Havoc" 
 
 •The Havoc: A Receiver Station that was sitting on a high-pressure "crest" suddenly finds itself in a "trough." Power delivery vanishes instantly.
 
-•The Result: The Individualized Receiver tries to "Assume the Burden" by shorting its coil harder, which creates a massive Reactive Surge back to the Main Station, potentially blowing the Secondary insulation. 
+•The Result: The Individualized Receiver tries to "Assume the Burden" by shorting its coil harder, which creates a massive Reactive Surge back to the Main Station, potentially blowing the Secondary-Coil insulation. 
 
 
 
@@ -196,7 +196,7 @@ Collision    Erratic, Non-Linear Shift           Variable         ٭٭٭"Havoc" 
 
 •The Havoc: The 𝑞 current (Useful) has no bridge to cross. It instantly converts back into 𝑄 current (Useless local leakage).
 
-•The Result: The voltage at the Top Self-Capacitance (𝐶𝑡𝑜𝑝) and the Extra-Coil sky-rockets beyond the "Breakdown" point of the air. This produces Streamers and Arcs (the "Wasteful Radiation" Tesla hated), which can strike the Main Station's own primary, causing a catastrophic fire or "Short-to-Chassis."
+•The Result: The voltage at the Top-Self-Capacitance (𝐶𝑡𝑜𝑝) and the Extra-Coil sky-rockets beyond the "Breakdown" point of its insulation (air or otherwise). This produces Streamers and Arcs (the "Wasteful Radiation" Tesla hated), which can strike the Main Station's own Primary-Coil, causing a catastrophic fire or "Short-to-Chassis."
 
 
 
@@ -292,7 +292,7 @@ If you have 100 available frequencies and you choose any 4 for your chord, the m
 
 3. The "abcd" Individualization in Practice 
 
-•For your _ar system, this means you aren't stuck with (only) 11 ((4,6,4,1)) keys, or channels, or individualized stations. By slightly shifting the "pitch" of one '''receiver's''' "extra-coil", you create a new virtually unlimited number of possible '''station''' "address'." 
+•For your _ar system, this means you aren't stuck with (only) 11 ((4,6,4,1)) keys, or channels, or individualized stations. By slightly shifting the "pitch" of one '''receiver's''' "Extra-Coil", you create a new virtually unlimited number of possible '''station''' "address'." 
 	
 Sensor 1:
 (x)"CPS"+(x+.1)"CPS" 
