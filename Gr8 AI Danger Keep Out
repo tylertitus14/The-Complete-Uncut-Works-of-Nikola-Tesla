@@ -67,7 +67,7 @@ The Station monitors the Phase Angle (𝜙) between the voltage it is "pumping" 
 1. How it identifies a "Power Request" (Analog Shift)
 The Signature: A "Power Request" is a sustained and heavy phase shift.
 The Logic: The BMS at the Receiver increases its "suction" (consumption). This causes a long-term "Lag" in the Station's Primary circuit.
-The Action: The Discriminator sees this "Lag" persisting for many cycles. It tells the Solid-State Driver: "Increase the Amplitude (𝑉𝑛𝑒𝑤)) to assume the full burden."
+The Action: The Discriminator sees this "Lag" persisting for many cycles. It tells the Solid-State Driver: "Increase the Amplitude (𝑉𝑛𝑒𝑤) to assume the full burden."
 
 2. How it identifies a "Data Bit" (Digital Shift)
 The Signature: A "Data Bit" is a micro-second, "Individualized" phase shift.
@@ -80,27 +80,33 @@ The Mathematical Logic (1 vs. Power)
 Data "1"             Sharp, Small Shift          < 1 ms            Register a bit; No power change.
 Power Needs         Deep, Sustained Shift        > 10 ms           Increase 𝑞 Current; Assume Burden.
 Collision    Erratic, Non-Linear Shift           Variable         ٭٭٭"Havoc" Detected; Recalibrate.
+
 ٭This is a vital safety feature. In Tesla’s system, "Havoc" often meant the Stationary Wave becoming "unpinned" from the Antipode.
 ٭During "Recalibration," the Station should momentarily drop to a "Pilot Tone" (low power) to find the resonant peak again before "Assume the Burden" resumes.
-٭Using the logic of Fig. 14 and the Deep Axis Flow, here are the other primary modes of Havoc: 
+٭Using the logic of Fig. 14 and the Deep Axis Flow, here are the other primary modes of Havoc:
+
 1. "Nodal Wandering" (Phase Instability) 
-If the Main(s) Station fails to maintain a perfect Phase-Lock with the Earth’s natural period, the "Nodes" (points of zero voltage) begin to crawl across the terrestrial surface. 
+    If the Main(s) Station fails to maintain a perfect Phase-Lock with the Earth’s natural period, the "Nodes" (points of zero voltage) begin to crawl across the terrestrial surface. 
 	The Havoc: A Receiver Station that was sitting on a high-pressure "crest" suddenly finds itself in a "trough." Power delivery vanishes instantly.
 	The Result: The Individualized Receiver tries to "Assume the Burden" by shorting its coil harder, which creates a massive Reactive Surge back to the Main Station, potentially blowing the Secondary insulation. 
+
 2. "Asymmetrical Distortion" (The Odd-Bit Effect) 
     'Trying to' transmit(ing) an Odd Number of Bits or having an unbalanced load creates a non-linear wave. 
 	The Havoc: The wave is no longer a pure sine-like longitudinal compression; it becomes "jagged."
 	The Result: This creates Upper Harmonics that the Old Style Generators cannot filter. These harmonics create "Eddy Currents" in the iron of the generator's rotor. The distortion creates a Reverse Torque. 
+
 3. "Dielectric Rupture" (The Over-Pumping Surge) 
-If major Receiver(s) suddenly disconnect (e.g., a BMS shuts down a large lithium pack) and the Main Station doesn't, or can't "Throtttle" enough or fast enough: 
+    If major Receiver(s) suddenly disconnect (e.g., a BMS shuts down a large lithium pack) and the Main Station doesn't, or can't "Throtttle" enough or fast enough: 
 	The Havoc: The 𝑞 current (Useful) has no bridge to cross. It instantly converts back into 𝑄 current (Useless local leakage).
 	The Result: The voltage at the Top Self-Capacitance (𝐶𝑡𝑜𝑝) and the Extra-Coil sky-rockets beyond the "Breakdown" point of the air. This produces Streamers and Arcs (the "Wasteful Radiation" Tesla hated), which can strike the Main Station's own primary, causing a catastrophic fire or "Short-to-Chassis."
+
 4. "Telluric Interference" (The Discordant Mix) 
-If two Main(s) Stations are not in Push-Pull Unison (Scenario 4) but are slightly "Off-Pitch" from each other: 
+    If two Main(s) Stations are not in Push-Pull Unison (Scenario 4) but are slightly "Off-Pitch" from each other: 
 	The Havoc: They create a "Beating" of the Earth Axis. Instead of a steady high-pressure pipe, the Earth’s potential "throbs" at a low frequency (e.g., 2 CPS).
 	The Result: This low-frequency throb is felt by the Old Style Generators as a mechanical vibration. The whole Earth might physically hum or shake, and the Individualized Receivers will see their power "flicker" at the beat frequency. 
+
 5. "Antipodal Ghosting" (Multipath Collision) 
-In a non-symmetrical medium (like an Earth with mountains or a _ar with irregular metal thickness), the wave can split. 
+    In a non-symmetrical medium (like an Earth with mountains or a _ar with irregular metal thickness), the wave can split. 
 	The Havoc: Part of the wave arrives at the Antipode at one time, and another part arrives slightly later.
 	The Result: You get two "Antipodes." The Differential Phase Detection (𝐴−𝐵) gets confused, seeing two different "Tugs" for the same sensor. The Station "hunts" for the correct frequency, causing the PLL to oscillate wildly — this is the digital version of "Resonant Fever."
 
