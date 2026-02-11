@@ -76,7 +76,7 @@ Scenario 4: Two Stations (Antipodes) + One Receiver(s)
 
 •The Math: By comparing the two signals ٭(𝐴−𝐵), the Stations can triangulate exactly how much power the Receiver needs to be using from the Axis.
 
-•The "Unison" Power Injection: If the Receiver’s load increases, both Stations increase their "pumping" in perfect symmetry. This ensures the Antipode Reflection stays balanced, preventing any 'Old Style' Generators on the line from spinning backward or experiencing "Havoc."
+•The "Unison" Power Injection: If the Receiver’s load increases, both Stations increase their "pumping" in perfect symmetry. This ensures the Antipode Reflection stays balanced, preventing any 'Old Style' Generators on the line from spinning backward and/or experiencing "Havoc."
 
 
 ٭If you have multiple Stations (and not just at the Antipodes, or at the antipodes at all), the Earth becomes a Multi-Vector Differential Array.
