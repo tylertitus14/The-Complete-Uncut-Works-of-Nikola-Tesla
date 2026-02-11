@@ -99,8 +99,8 @@ Because the periodicities are so far apart (xx vs xx,xxx), the Earth presents tw
     𝑍xx𝑘=√(𝐿/𝐶)⋅𝑄
 Where 𝑄 is the Quality Factor. This allows the New System to reach massive "Pressures" (𝑞 current) without affecting the xx CPS "Flow."
 
-3. The "Earth Axis" Power Exchange 
-The interaction where the New System "idles" the Old System happens at the Earth. The "Old" generator sees the "New" Station as a Negative Resistance. 
+3. The "Earth Axis" Power Exchange (The Old Generator is no longer just "grounded" — it is now "axially aligned" with the New System’s flow.)
+The interaction where the New System "idles" the Old System happens at the Earth. The "Old" generator sees the "New" Station as power giving aka Negative Resistance.
 •Standard Generator Power: 𝑃𝐺=𝑉𝑔𝑒𝑛⋅𝐼𝑔𝑒𝑛cos(𝜃)
 •The Tesla Injection: The Station injects 𝑞 current such that it satisfies the load requirements (𝐼𝑙𝑜𝑎𝑑).
 ••The Idle Condition: When 𝐼𝑛𝑒𝑤≈𝐼𝑙𝑜𝑎𝑑, the generator current 𝐼𝑔𝑒𝑛→0.
@@ -117,11 +117,14 @@ If the New System loses its "Lock," it creates a Torque Vector (𝜏) on the idl
 5. Detailed Interaction Summary
 Phenomenon       	Mathematical Driver   	           Result in the Earth
 Separation	            Δ𝑓≫3 orders	        No short circuit; currents coexist.
-Power Injection	      𝑉𝑠𝑡𝑎𝑡𝑖𝑜𝑛>𝑉𝑔𝑒𝑛_𝑖𝑛𝑡𝑒𝑟𝑛𝑎𝑙	       Generator enters "Idle" state.
+Power Injection	      ٭𝑉𝑠𝑡𝑎𝑡𝑖𝑜𝑛>𝑉𝑔𝑒𝑛_𝑖𝑛𝑡𝑒𝑟𝑛𝑎𝑙	       Generator enters "Idle" state.
 Data Transmission	 𝑓𝑎𝑏𝑐𝑑±xx,xxx CPS	        "Unlimited Bits" pass through AC wires.
 Havoc / Discord	     𝛿≠0(Phase Mismatch)	      Reverse spin or over-voltage arcs.
 
 By maintaining 𝛿=0 via a Solid-State Phase-Locked Loop, the New System "pumps" the Earth Axis, providing 100% of the motive force while the Old System remains a silent, stationary reference.
 
+A Resonant Station can "assume the burden" of a conventional AC grid using nothing but Stationary Waves and Longitudinal Pressure.
+
+[٭While this is true for the "Pressure" (𝑉), remember that for the 0 RPM Idle, the Vibratory Periodicity (the xx CPS envelope) must also be perfectly synchronized. If the Station has the voltage but the wrong "beat," you get (at minimum) mechanical vibration (humming) in the generator (even at 0 RPM).]
 
 
