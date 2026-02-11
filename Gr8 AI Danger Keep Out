@@ -4,47 +4,79 @@
 
 In Tesla’s system, Earth is a "closed-loop" resonant cavity. Any change in the (Individualized) Receiver’s 'power-consumption-state' or 'data-state' is instantly "felt" at the Main(s) Station’s Primary as a shift in the Resonant Rise. 
 
+
+The "Feedback" Mechanism
 ________________________________________
-The "Feedback" Mechanism 
 Before the scenarios, understand the "Tug":
 When a Receiver (at the Equator or elsewhere) "shorts" its Extra Coil to indicate "1(s)" and (if you are using Phase-Shift Individualization) or "0(s)" to request more power, it changes the Effective-Capacity [Vibratory Period] (𝐶) of the Earth Axis. This causes the Station's Phase-Locked Loop (PLL) to detect a Phase Shift (𝜙). 
+
+
 
 Take the four following examples into consideration, each is assuming enough energy to throw the terrestrial sytem as a whole into resonance.
 ________________________________________
 Scenario 1: One Station (Pode) | No Receiver(s)
-	The Physical State: The Primary drives the Secondary, which "rings up" the Extra Coil to 𝑉𝑠. The Top Self-Capacitance (𝐶𝑡𝑜𝑝) flings the 𝑞 current into the Earth.
-	The Power Loop: Since there is no "load," the wave reflects from the Antipode and returns to the Station 180∘ out of phase.
-	The "Communication": The Station’s PLL is "Idle." It sees a perfectly steady, high-𝑄 resonance. It "knows" there are no receivers because the Reflected Wave is ٭identical to the Transmitted Wave.
+
+•The Physical State: The Primary drives the Secondary, which "rings up" the Extra Coil to 𝑉𝑠. The Top Self-Capacitance (𝐶𝑡𝑜𝑝) flings the 𝑞 current into the Earth.
+
+•The Power Loop: Since there is no "load," the wave reflects from the Antipode and returns to the Station 180∘ out of phase.
+
+•The "Communication": The Station’s PLL is "Idle." It sees a perfectly steady, high-𝑄 resonance. It "knows" there are no receivers because the Reflected Wave is ٭identical to the Transmitted Wave.
+
 ٭Technically, in a perfect quarter-wave resonance with no load, the reflected wave returns to the station to create a Standing Wave Node. To be more precise, the Station knows there is no load because the Impedance (𝑍) is at a maximum. It feels like "pumping into a brick wall." The moment a receiver appears, that "wall" softens, and the Station feels its "burdens" move. 
 
+
+
 Scenario 2: Two Stations (Antipodes) | No Receiver(s)
-	The Physical State: Station A and Station B are in Push-Pull Unison.
-	The "Sync" Link: To stay individualized, Station A and B must exchange a "Master Chord". They use the Earth Axis as a Phase-Reference.
-	The "Communication": If Station B needs to "hand off" the power burden to Station A, it shifts its Extra Coil Phase. Station A "feels" this as a change in the Magnetic Drag on its own Primary. They "talk" to each other through the deep axis of the Earth without a single 'bit' of radiation. 
+
+•The Physical State: Station A and Station B are in Push-Pull Unison.
+
+•The "Sync" Link: To stay individualized, Station A and B must exchange a "Master Chord". They use the Earth Axis as a Phase-Reference.
+
+•The "Communication": If Station B needs to "hand off" the power burden to Station A, it shifts its Extra Coil Phase. Station A "feels" this as a change in the Magnetic Drag on its own Primary. They "talk" to each other through the deep axis of the Earth without a single 'bit' of radiation. 
+
+
 
 ________________________________________
 Scenario 3: One Station + Receiver(s)
-	The Physical State: The Station pumps; the Receiver extracts 𝑞 current (harvested from the base of the Extra-Coil using a loosely coupled 'Extra-Extra-Coil') for Typical 2wire AC System Load(s).
-	The Power Demand: The Receiver’s BMS (Battery Management System) [or other load(s) determining artifice] determines it needs more power.
-	The "Request": The Receiver’s Extra Coil performs "Load Modulation." It "tugs" on the resonance at a specific Periodicity ٭(𝑎𝑏𝑐𝑑).
-	The Station Reaction: The Main(s) Station detects this ٭"tug" as a drop in its Resonant Rise (𝑉𝑟𝑒𝑠). To compensate and "assume the full burden," the Station’s Solid-State Driver increases the Primary Amplitude.
-	The Result: Power delivery is modulated by the Receiver's power "draw" needs, not by the Station "pushing" blindly.
+
+•The Physical State: The Station pumps; the Receiver extracts 𝑞 current (harvested from the base of the Extra-Coil using a loosely coupled 'Extra-Extra-Coil') for Typical 2wire AC System Load(s).
+
+•The Power Demand: The Receiver’s BMS (Battery Management System) [or other load(s) determining artifice] determines it needs more power.
+
+•The "Request": The Receiver’s Extra Coil performs "Load Modulation." It "tugs" on the resonance at a specific Periodicity ٭(𝑎𝑏𝑐𝑑).
+
+•The Station Reaction: The Main(s) Station detects this ٭"tug" as a drop in its Resonant Rise (𝑉𝑟𝑒𝑠). To compensate and "assume the full burden," the Station’s Solid-State Driver increases the Primary Amplitude.
+
+•The Result: Power delivery is modulated by the Receiver's power "draw" needs, not by the Station "pushing" blindly.
+
 ٭"abcd" isn't just a frequency, but a Rhythmic Signature.
-٭the Station filters for that specific signature so it doesn't accidentally "Assume the Burden" of a lightning strike, a ground fault, thieves, etc
+ ٭the Station filters for that specific signature so it doesn't accidentally "Assume the Burden" of a lightning strike, a ground fault, thieves, etc
+
+
 
 Scenario 4: Two Stations (Antipodes) + One Receiver(s)
-	The Physical State: The most "Developed" system. A "Virtual High-Pressure Pipe" is established through the Earth’s center.
-	The Data Extraction: The Equatorial Receiver is now sending "Unlimited Bits" (Pressure, Temp, BMS or other load(s) etc.) back to the Station(s).
-	The "Collision Avoidance": Because there are two Stations, they use Differential Phase Detection.
-	Station A sees the "Tug" from the North.
-	Station B sees the "Tug" from the South.
-	The Math: By comparing the two signals ٭(𝐴−𝐵), the Stations can triangulate exactly how much power the Receiver needs to be using from the Axis.
-	The "Unison" Power Injection: If the Receiver’s load increases, both Stations increase their "pumping" in perfect symmetry. This ensures the Antipode Reflection stays balanced, preventing any 'Old Style' Generators on the line from spinning backward or experiencing "Havoc."
+
+•The Physical State: The most "Developed" system. A "Virtual High-Pressure Pipe" is established through the Earth’s center.
+
+•The Data Extraction: The Equatorial Receiver is now sending "Unlimited Bits" (Pressure, Temp, BMS or other load(s) etc.) back to the Station(s).
+
+•The "Collision Avoidance": Because there are two Stations, they use Differential Phase Detection.
+
+•Station A sees the "Tug" from the North.
+
+•Station B sees the "Tug" from the South.
+
+•The Math: By comparing the two signals ٭(𝐴−𝐵), the Stations can triangulate exactly how much power the Receiver needs to be using from the Axis.
+
+•The "Unison" Power Injection: If the Receiver’s load increases, both Stations increase their "pumping" in perfect symmetry. This ensures the Antipode Reflection stays balanced, preventing any 'Old Style' Generators on the line from spinning backward or experiencing "Havoc."
+
 ٭If you have multiple Stations (and not just at the Antipodes, or at the antipodes at all), the Earth becomes a Multi-Vector Differential Array.
-A Network of Unison: Every Station is individualized and synchronized to the same Master Chord.
-The Resultant Vector: When a Receiver "tugs," every Station in the network feels a specific Phase Displacement (Δ𝜙).
-The Differential Logic:The Stations closest to the Receiver assume the "Primary Burden" (the bulk current (𝑞)). The Stations furthest away provide the "Resonant Reference" (the timing and stability).
-The "Unlimited" Address Mapping: By comparing the phase shifts across a network of, say, 7 Stations, the system can identify exactly which "Individualized Receiver" is talking. It’s like a spider web: the spider doesn't need to see the fly; it knows exactly where it is by how the tension changes across the different strands of the web.
+    •A Network of Unison: Every Station is individualized and synchronized to the same Master Chord.
+    •The Resultant Vector: When a Receiver "tugs," every Station in the network feels a specific Phase Displacement (Δ𝜙).
+    •The Differential Logic:The Stations closest to the Receiver assume the "Primary Burden" (the bulk current (𝑞)). The Stations furthest away provide the "Resonant Reference" (the timing and stability).
+    •The "Unlimited" Address Mapping: By comparing the phase shifts across a network of, say, 7 Stations, the system can identify exactly which "Individualized Receiver" is talking. It’s like a spider web: the spider doesn't need to see the fly; it knows exactly where it is by how the tension changes across the different strands of the web.
+
+
 
 ________________________________________
 Summary of "Individualized" Components 
