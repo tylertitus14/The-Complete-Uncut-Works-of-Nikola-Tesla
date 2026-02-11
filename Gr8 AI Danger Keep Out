@@ -47,7 +47,7 @@ Scenario 3: One Station + Receiver(s)
 
 •The Physical State: The Station pumps; the Receiver extracts 𝑞 current (harvested from the base of the Extra-Coil using a loosely coupled 'Extra-Extra-Coil') for Typical 2wire AC System Load(s).
 
-•The Power Demand: The Receiver’s BMS (Battery Management System) [or other load(s) determining artifice] determines it needs more power.
+•The Power Demand: The Receiver’s BMS (Battery Management System) [or another load determining artifice] determines it needs more power.
 
 •The "Request": The Receiver’s Extra-Coil performs "Load Modulation." It "tugs" on the resonance at a specific Periodicity ٭(𝑎𝑏𝑐𝑑).
 
