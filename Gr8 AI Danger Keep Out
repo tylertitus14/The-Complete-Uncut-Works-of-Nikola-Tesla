@@ -110,7 +110,8 @@ The interaction where the New System "idles" the Old System happens at the Earth
 If the New System loses its "Lock," it creates a Torque Vector (𝜏) on the idle generator’s rotor:
     𝜏=𝐾⋅Φ𝑟𝑒𝑠⋅𝐼𝑞sin(𝛿)
 
-•𝛿: The "Torque Angle" between the Generator’(s) virtual xx CPS beat and the generator’s physical magnetic poles.
+
+•𝛿: The "Torque Angle" between the New Station’s virtual xx CPS beat and the Old Generator’s physical magnetic poles.
 •Condition: If 𝛿 becomes negative (due to an "Odd-Bit" asymmetry or a reflected wave from the Antipode), the torque becomes negative, forcing the 0 RPM 'generator' to spin backward. 
 
 5. Detailed Interaction Summary
