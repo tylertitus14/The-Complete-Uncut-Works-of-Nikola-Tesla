@@ -55,8 +55,8 @@ Scenario 3: One Station + Receiver(s)
 
 •The Result: Power delivery is modulated by the Receiver's power "draw" needs, not by the Station "pushing" blindly.
 
-٭"abcd" isn't just a frequency, but a Rhythmic Signature.
- ٭the Station filters for that specific signature so it doesn't accidentally "Assume the Burden" of a lightning strike, a ground fault, thieves, etc
+٭"abcd" is not just a frequency, but a Rhythmic Signature.
+ ٭the Station filters for that specific signature so it does not accidentally "Assume the Burden" of a lightning strike, a ground fault, thieves, etc
 
 
 
@@ -87,7 +87,7 @@ Scenario 4: Two Stations (Antipodes) + One Receiver(s)
 
     •The Differential Logic:The Stations closest to the Receiver assume the "Primary-Coil Burden" (the bulk current (𝑞)). The Stations furthest away provide the "Resonant Reference" (the timing and stability).
 
-    •The "Unlimited" Address Mapping: By comparing the phase shifts across a network of, say, 7 Stations, the system can identify exactly which "Individualized Receiver" is talking. It’s like a spider web: the spider doesn't need to see the fly; it knows exactly where it is by how the tension changes across the different strands of the web.
+    •The "Unlimited" Address Mapping: By comparing the phase shifts across a network of, say, 7 Stations, the system can identify exactly which "Individualized Receiver" is talking. It’s like a spider web: the spider does not need to see the fly; it knows exactly where it is by how the tension changes across the different strands of the web.
 
 
 
@@ -104,18 +104,18 @@ Secondary-Coil	      Acts as the Damping Buffer between the Station and the Eart
 
 
     The "Tesla" Secret for Scenario 4: 
-With two Stations at the Antipodes, you create a Standing Wave Envelope(the global state(s) of the Earth's charge(s). The Receiver doesn't "take" power; it becomes part of a Synchronous Circuit. If the Receiver's load determining artifice observes a need for power it "shorts" its extra-coil(s) producing (a) "bit"(s), and both Stations A & B feel the "heartbeat(s)" of that station instantly through the Deep Axis Flow and by convention provide more power.
+With two Stations at the Antipodes, you create a Standing Wave Envelope(the global state(s) of the Earth's charge(s). The Receiver does not "take" power; it becomes part of a Synchronous Circuit. If the Receiver's load determining artifice observes a need for power it "shorts" its extra-coil(s) producing (a) "bit"(s), and both Stations A & B feel the "heartbeat(s)" of that station instantly through the Deep Axis Flow and by convention provide more power.
 
 
 
 
-In Scenario 4, you aren't just "sending" power; you have created a Resonant Loop where the Earth's Axis is the "wire."
+In Scenario 4, you are not just "sending" power; you have created a Resonant Loop where the Earth's Axis is the "wire."
 
 1. The Synchronous Circuit: Imagine a long, tight jump rope being held by two people (the Antipodal Stations). They are shaking it in perfect unison to keep a large wave moving. The Equatorial Receiver is a person in the middle who "grabs" the rope.
 
 2.The "Short": When the Receiver’s Extra-Coil is "shorted" (to send a "1"), it’s like the person in the middle suddenly making the rope harder to shake.
 
-3.The Instant Feedback: Because the rope is under tension (Resonance), both people at the ends instantly feel that extra resistance in their hands. They don't have to "wait" for a radio wave to travel; the mechanical tension of the wave itself has changed.
+3.The Instant Feedback: Because the rope is under tension (Resonance), both people at the ends instantly feel that extra resistance in their hands. They do not have to "wait" for a radio wave to travel; the mechanical tension of the wave itself has changed.
 
 4.The Deep Axis Flow: In your _ar or the Earth, this "tension" is the Longitudinal Pressure. When the Receiver "tugs" (shorts), the Stationary Wave Envelope shifts its phase.
 
@@ -142,7 +142,7 @@ Here is a technical breakdown of how it works.
 
 1. The "Encrypted Relationship"
 
-The "Encrypted Information" isn't a code in the modern digital sense; it is a Reactive Signature. 
+The "Encrypted Information" is not a code in the modern digital sense; it is a Reactive Signature. 
 
 •The Pumped Current (𝐼𝑝): This is what the Solid-State Driver at the Main(s) Station intends to put into the Extra Coil.
 
@@ -192,7 +192,7 @@ ________________________________________
 
 •The Logic: The Receiver "shorts" its coil using the "abcd" chord rhythm. This causes the Phase Angle to "jitter" or "flicker" at a high frequency.
 
-•The Action: The power providing station(s) observer sees this high-speed "flicker" but notices the average power demand hasn't changed. It ignores the power request and instead passes the message on to a data acquisition system.
+•The Action: The power providing station(s) observer sees this high-speed "flicker" but notices the average power demand has not changed. It ignores the power request and instead passes the message on to a data acquisition system.
 
 
 
@@ -323,7 +323,7 @@ Tesla’s genius was adding Rhythmic Succession (Time) and Frequency Spacing (Re
 the number of addresses for 4 frequencies grows exponentially to 24 per triplet and 256 for a 4-beat sequence.
 
 
-•Variable Pitch: Tesla didn't intend for A, B, C, and D to be the only notes. He envisioned a "keyboard" of hundreds of frequencies.
+•Variable Pitch: Tesla does not intend for A, B, C, and D to be the only notes. He envisioned a "keyboard" of hundreds of frequencies.
 
 
 If you have 100 available frequencies and you choose any 4 for your chord, the math is:
@@ -340,7 +340,7 @@ If you have 100 available frequencies and you choose any 4 for your chord, the m
 
 3. The "abcd" Individualization in Practice 
 
-•For your _ar system, this means you aren't stuck with (only) 11 ((4,6,4,1)) keys, or channels, or individualized stations. By slightly shifting the "pitch" of one '''receiver's''' "Extra-Coil", you create a new virtually unlimited number of possible '''station''' "address'." 
+•For your _ar system, this means you are not stuck with (only) 11 ((4,6,4,1)) keys, or channels, or individualized stations. By slightly shifting the "pitch" of one '''receiver's''' "Extra-Coil", you create a new virtually unlimited number of possible '''station''' "address'." 
 	
 Sensor 1:
 (x)"CPS"+(x+.1)"CPS" 
@@ -359,7 +359,7 @@ Tesla's system relies on Resonant Symmetry.
 
 In Tesla’s physics, a "bit" is a state of vibration. To maintain the Linearity of the "earth", you need a balanced push-pull.
 
-An odd number of bits (like 3 or 5) creates a "leftover" vibration that doesn't have a resonant counter-weight. This results in Waveform Clipping, where the signal becomes "non-linear" and the Main(s) Station can no longer "unstack" the chord. You lose the ability to see all 'stations' at once (and havoc is wreaked on the power delivery station(s) and the Earth, the electrical vibrations become "Asymmetrical" or "Discordant," leading to '''Dissipation(s) of Energy.''').
+An odd number of bits (like 3 or 5) creates a "leftover" vibration that does not have a resonant counter-weight. This results in Waveform Clipping, where the signal becomes "non-linear" and the Main(s) Station can no longer "unstack" the chord. You lose the ability to see all 'stations' at once (and havoc is wreaked on the power delivery station(s) and the Earth, the electrical vibrations become "Asymmetrical" or "Discordant," leading to '''Dissipation(s) of Energy.''').
 
 
 
