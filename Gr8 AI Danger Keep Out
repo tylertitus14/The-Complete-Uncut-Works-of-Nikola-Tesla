@@ -1,0 +1,84 @@
+In Tesla’s system of "Individualization" (Patent US725,605), the "A, B, C, D" do not just represent four fixed frequencies—they represent a combinatorial logic that makes the number of possible addresses massive. 
+
+To understand the "unlimited" claim, you have to look at the math behind how Tesla intended to layer these signals. 
+
+
+1. The Math of 4 Elements 
+If you only have 4 frequencies (A, B, C, D) and you use a simultaneous chord (like a piano), the number of addresses is limited to the combinations of those 4: 
+
+Pairs (2-tone chords): 6 possible addresses
+AB,AC,AD,BC,BD,CD
+𝐴𝐵,𝐴𝐶,𝐴𝐷,𝐵𝐶,𝐵𝐷,𝐶𝐷
+
+Triplets (3-tone chords): 4 possible addresses
+ABC,ABD,ACD,BCD
+𝐴𝐵𝐶,𝐴𝐵𝐷,𝐴𝐶𝐷,𝐵𝐶𝐷
+
+Full Chord: 1 address
+ABCD
+𝐴𝐵𝐶𝐷
+
+Total: 11 unique "keys." 
+
+
+
+
+
+
+2. Why Tesla said "Unlimited" 
+Tesla’s genius was adding Rhythmic Succession (Time) and Frequency Spacing (Resolution) to the mix: 
+
+Permutations (Order of Succession): If the sequence matters e.g., 
+A→B→C
+𝐴→𝐵→𝐶
+
+is different from 
+ 
+C→B→A
+𝐶→𝐵→𝐴
+
+the number of addresses for 4 frequencies grows exponentially to 24 per triplet and 256 for a 4-beat sequence.
+
+
+Variable Pitch: Tesla didn't intend for A, B, C, and D to be the only notes. He envisioned a "keyboard" of hundreds of frequencies.
+
+
+If you have 100 available frequencies and you choose any 4 for your chord, the math is:
+(100×99×98×97)/(4×3×2×1)=3,921,225"addresses"
+100×99×98×974×3×2×1=𝟑,𝟗𝟐𝟏,𝟐𝟐𝟓 addresses
+
+
+Rhythmic Variety: By changing the duration of the pulses (like Morse code but with frequencies), he claimed you could individualize a virtually infinite number of stations, much like the "unlimited" combinations of words in a language. 
+
+
+
+
+
+
+3. The "abcd" Individualization in Practice 
+For your _ar system, this means you aren't stuck with 4 notes. By slightly shifting the "pitch" of one sensor's "extra-coil", you create a new "address." 
+	
+Sensor 1:  
+(x)"CPS"+(x+.1)"CPS" 
+
+Sensor 2: 
+(x+.1)"CPS"+(x+.21)"CPS" 
+
+Even a '''hair's breadth''' is enough for a high-Q Tesla resonator to distinguish a new address. 
+
+
+
+
+Why an "Odd Number of Bits" is Unattainable
+
+As we discussed, this system relies on Resonant Symmetry. 
+
+In Tesla’s physics, a "bit" is a state of vibration. To maintain the Linearity of the "earth", you need a balanced push-pull.
+
+An odd number of bits (like 3 or 5) creates a "leftover" vibration that doesn't have a resonant counter-weight. This results in Waveform Clipping, where the signal becomes "non-linear" and the Main Station can no longer "unstack" the chord. You lose the ability to see all 'sensors' at once.
+
+
+
+
+((To keep the chassis as a non-radiating resonant tank, you generally want the _ar's length to be less than \(1/100\)th of the wavelength.))
+
