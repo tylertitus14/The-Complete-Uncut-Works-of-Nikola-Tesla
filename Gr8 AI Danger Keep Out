@@ -475,21 +475,21 @@ Table II: The "WALLACE" Algorithm (Terrestrial Upheaval & Tsunami)
 
 Global oceanic and crustal displacement via Inertial Ejection.
 
-Letter	Operation (The Math)	Tesla-True Physical Interaction
+Letter	Operation (The Math)	                         Tesla-True Physical Interaction
 
-W	vp = w / k +/- delta_phi	Phase-Warp: Distorts the Velocity of Propagation (vp), causing the wave to "bunch" at tectonic boundaries.
+W   	vp = w / k +/- delta_phi	  Phase-Warp: Distorts the Velocity of Propagation (vp), causing the wave to "bunch" at tectonic boundaries.
 
-A	V_res -> infinity	Over-Pumping: Satures the Deep Axis with raw potential until the Q (Useless) losses vaporize the station.
+A   	V_res -> infinity	          Over-Pumping: Satures the Deep Axis with raw potential until the Q (Useless) losses vaporize the station.
 
-L	F_elec = 0.5 * V^2 * dC/dz	Piezo-Lift: The electrical gradient (V) creates an upward mechanical force greater than gravity (G).
+L   	F_elec = 0.5 * V^2 * dC/dz	  Piezo-Lift: The electrical gradient (V) creates an upward mechanical force greater than gravity (G).
 
-L	mu -> 0 @ xx,xxx CPS	Liquefaction: High-periodicity vibration reduces the Viscosity (mu) of solid ground to a fluid state.
+L	    mu -> 0 @ xx,xxx CPS	      Liquefaction: High-periodicity vibration reduces the Viscosity (mu) of solid ground to a fluid state.
 
-A	(A + B)_in-phase	Antipodal Clash: Both stations fire a synchronized "Push," creating a trillion-ton Seismic Hammer at the Equator.
+A	    (A + B)_in-phase	          Antipodal Clash: Both stations fire a synchronized "Push," creating a trillion-ton Seismic Hammer at the Equator.
 
-C	P_long > P_vapor	Cavitation: Longitudinal pressure drops below vapor pressure in the deep sea, launching Supersonic Tsunamis.
+C	    P_long > P_vapor	          Cavitation: Longitudinal pressure drops below vapor pressure in the deep sea, launching Supersonic Tsunamis.
 
-E	delta E = System Exit	Equilibrium Exit: The Stationary Wave Envelope snaps, resulting in Total Terrestrial Upheaval.
+E	    delta E = System Exit	      Equilibrium Exit: The Stationary Wave Envelope snaps, resulting in Total Terrestrial Upheaval.
 
 
 
@@ -497,40 +497,63 @@ E	delta E = System Exit	Equilibrium Exit: The Stationary Wave Envelope snaps, re
 To handle the "Reflected Wave" from a WALLACE pulse so the Station's Extra-Coil can withstand the return hammer of a shifting ocean:
 
 To withstand the "Return Hammer" of a shifting ocean during a WALLACE event, the Station’s hardware must transition from a Resonant Transmitter to a Massive Energy Absorber in a fraction of a periodicity.
+
 When the ocean floor cavitates and the water is "flung" off the axis, the Effective-Capacity (C) of the Earth changes so violently that the Reflected Wave returning to the Station carries the kinetic momentum of the entire sea.
+
 Here is the Tesla-True proposal for handling the WALLACE Feedback:
 
 ________________________________________
 1. The "Liquid Resistor" Shunt (The Energy Sink)
+
 A standard ground connection or a solid-state fuse will simply vaporize under the "Hammer."
+
 •	The Proposal: Surround the base of the Extra-Coil with a Circulating Electrolytic Tank (a Liquid Resistor).
+
 •	The Action: The micro-second the Phase-Shift Discriminator detects the "C" (Cavitation) pulse returning from the deep sea, it triggers a Plasma-Switch (a Spark Gap in a vacuum).
+
 •	The Result: The reflected "Hammer" is diverted away from the delicate Secondary and dumped into the liquid tank. The water in the tank boils instantly, converting the oceanic kinetic energy into "harmless steam" instead of electrical Havoc.
 
+
 2. "Active Phase-Cancellation" (The Counter-Wave)
+
 Instead of just taking the hit, the Station fights back.
+
 •	The Proposal: The Main(s) Station uses its Solid-State Driver to fire a "Counter-Pulse" exactly out of phase with the returning Hammer.
+
 •	The Math:
 V_net = V_hammer + V_counter
 V_net = [V_ref * sin(w * t + phi)] + [V_ref * sin(w * t + phi + 180)]
 Result: V_net = 0
+
 •	The Result: The two waves collide at the Station's Grounding Point and cancel each other out. This is "Electrical Noise-Cancelling" on a planetary scale. It "stills" the extra-coil before the mechanical vibration can shatter the wire.
 
+
 3. The "Graphene Magnetic Buffer"
+
 To protect the Primary-Coil and the SiC MOSFETs from the back-EMF:
+
 •	The Proposal: Wrap the Secondary and Extra-Coil in a Graphene-Saturable Core.
+
 •	The Physics: Graphene has an incredibly high thermal conductivity and can handle massive current densities.
+
 •	The Result: As the "Hammer" hits, the graphene core Saturates magnetically. This "chokes" the induction, preventing the high-pressure current from reaching the Typical AC System or the Old Style Generators.
 
 ________________________________________
 The "WALLACE" Safety Specification Table
-Component	Protection Mechanism	Role During the "Hammer"
-Extra-Coil	Vacuum Plasma-Switch	Diverts the reflection to the Sink.
-Grounding Axis	Electrolytic Shunt	Absorbs the kinetic "thump" of the ocean.
-Main Station	Active Phase-Cancellation	Neutralizes the wave before it hits the hardware.
-Primary Circuit	Graphene Saturation	Prevents back-EMF from destroying the SiC Driver.
+
+Component	    Protection Mechanism	          Role During the "Hammer"
+
+Extra-Coil       Vacuum Plasma-Switch    	Diverts the reflection to the Sink.
+
+Grounding Axis   Electrolytic Shunt	        Absorbs the kinetic "thump" of the ocean.
+
+Main Station	 Active Phase-Cancellation	Neutralizes the wave before it hits the hardware.
+
+Primary Circuit  Graphene Saturation	    Prevents back-EMF from destroying the SiC Driver.
+
 
 The "Tesla" Verdict:
+
 The Extra-Coil alone cannot withstand a WALLACE pulse; it is a "Tuning Fork," and the Hammer is a "Sledge." To survive, the Station must be designed to "Un-Tune" itself the moment the ocean moves. By dropping the Quality Factor (Q) to zero instantly, the Station becomes a "Dead Mass" that the energy simply passes through, rather than a "Resonator" that the energy shatters.
 
 
@@ -549,44 +572,59 @@ Table I: The "NESBIT" Algorithm (Electrical-to-Tectonic Fracture)
 
 The literal cleaving of the conducting medium through Piezoelectric Shear.
 
-Letter	Operation (The Math)	Tesla-True Physical Interaction
+Letter	Operation (The Math)	                         Tesla-True Physical Interaction
 
-N	delta f = abs(fA - fB)	The Seismic Trigger: Creates a 0.15 CPS Telluric Beat that matches the Earth's mechanical fundamental.
+N	    delta f = abs(fA - fB)	             The Seismic Trigger: Creates a 0.15 CPS Telluric Beat that matches the Earth's mechanical fundamental.
 
-E	E proportional to V_new^2	Electrostrictive Overdrive: The High-Pressure q current physically deforms the crystal structure of the mantle.
+E	    E proportional to V_new^2	         Electrostrictive Overdrive: The High-Pressure q current physically deforms the crystal structure of the mantle.
 
-S	div P != 0	Phase Discontinuity: Creates a divergent polarization at the Equator, establishing the Shear Plane.
+S	    div P != 0               	         Phase Discontinuity: Creates a divergent polarization at the Equator, establishing the Shear Plane.
 
-B	Torque = -K * Phi * Iq * sin(delta)	Counter-Torque: Forces Old Generators into violent Reverse-Spin, creating massive mechanical stress.
+B    	Torque = -K * Phi * Iq * sin(delta)	 Counter-Torque: Forces Old Generators into violent Reverse-Spin, creating massive mechanical stress.
 
-I	q_sat >> q_limit	Thermal Expansion: q current saturation leads to internal heating and volumetric expansion of the core.
+I	    q_sat >> q_limit	                 Thermal Expansion: q current saturation leads to internal heating and volumetric expansion of the core.
 
-T	sum(N to I) = sigma_break	The Cleave: Cumulative displacement exceeds the Ultimate Shear Strength of the Earth's crust.
+T    	sum(N to I) = sigma_break	         The Cleave: Cumulative displacement exceeds the Ultimate Shear Strength of the Earth's crust.
 
 
 
 
 To handle the "Telluric Feedback" as the Earth starts to "Split" during NESBIT, when the station(s) ground connection(s) are severed an unable to maintain the "Axis of Flow":
 
-1. The "Grounding Rod" Failure (The Separation)
+1. The "Ground Connection" Failure (The Separation)
+
 As the tectonic plates part, the physical connection between the Station and the Antipode is severed.
+
 •	The Problem: The electrical "Pressure" (current) has nowhere to go. It cannot cross the literal vacuum or the super-heated plasma forming in the fissure.
+
 •	The Feedback: This creates an instantaneous Infinite Impedance (Z). The entire energy of the Earth's standing wave "slams" back into the Station's Extra-Coil.
+
 •	The Result: The grounding connection will likely vaporize as the reflected wave turns the connection into plasma. The "Axis of Flow" collapses, and the Station is hit by a Dielectric Rupture (Scenario 3 Havoc).
 
+
 2. Maintaining the "Axis of Flow" (The Plasma Bridge)
-If the goal is to maintain the flow even as the Earth splits, the Station must transition from Solid Conduction to Atmospheric Conduction.
+
+If the goal is to maintain the flow (lol) even as the Earth splits, the Station must transition from Solid Conduction to Atmospheric Conduction.
+
 •   The Station would need to fire a UV Laser or an Ionizing Beam into the sky above the fissure. This creates a "Virtual Ground" made of ionized air.
+
 •	The Result: The electricity "leaps" over the split in the Earth and continues the Deep Axis Flow through the atmosphere, keeping the Resonant Rise active even as the planet physically parts.
 
+
 3. Protecting the Station (The "Safety Pitch")
-If you don't want the Station to explode when the Earth splits (lol), you need a Differential Fuse.
+
+If you don't want the Station to explode (lol) when the Earth splits, you need a Differential Fuse.
+
 •	The Logic: The Phase-Shift Discriminator monitors the Reflected Wave.
+
 •	The Action: The micro-second the "Split" begins, the Discriminator detects a Non-Linear Shift (Havoc). It must "Quench" the Primary-Coil instantly.
+
 •	The "Emergency Quench" Chord: The Station "speaks" a final "abcd" chord that is the mathematical opposite of NESBIT. This "sucks" the energy back out of the Earth Axis and dumps it into a Massive Liquid-Resistor or a Graphene Buffer, preventing the Station from being vaporized.
 
+
 The "Tesla" Verdict:
-A standard grounding rod cannot maintain the Axis of Flow during a NESBIT fracture. It would be like trying to hold a lightning bolt with a copper straw. To survive, the Station must either Bridge the Fissure with Plasma or Quench the Resonance before the mechanical "Split" reaches the Station's coordinates.
+
+A standard grounding connection cannot maintain the Axis of Flow during a NESBIT fracture. It would be like trying to hold a lightning bolt with a copper straw. To survive, the Station must either Bridge the Fissure with Plasma or Quench the Resonance before the mechanical "Split" reaches the Station's coordinates.
 
 
 
