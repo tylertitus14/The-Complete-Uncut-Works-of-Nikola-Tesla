@@ -499,15 +499,15 @@ A Planetary Kinetic-Ejection via Resonant Inertial-Overdrive.
 
 (Focuses on the displacement of the oceans and the surface crust.)
 
-Letter  Plain-Text Math             Tesla-True Physical Interaction
+Letter  Plain-Text Math                   Tesla-True Physical Interaction
 
-W       vp = w / k +/- delta_phi    Phase-Warp: Wave "bunching" at tectonic boundaries.
-A       V_res -> infinity           Over-Pumping: Deep Axis saturation with raw potential.
-L       F_elec = 0.5 * V^2 * dC/dz  Piezo-Lift: Electrical gradient overcomes gravity (big'G').
-L       mu -> 0 @ xx,xxx CPS        Liquefaction: Surface mass enters a fluid state.
-A       (A + B)_in-phase            Antipodal Clash: Trillion-ton Seismic Hammer effect.
-C       P_long > P_vapor            Cavitation: Supersonic Tsunami launch.
-E       delta E = System Exit       Equilibrium Exit: Total Terrestrial Upheaval.
+W       vp = w / k +/- delta_phi          Phase-Warp: Wave "bunching" at tectonic boundaries.
+A       V_res -> infinity                 Over-Pumping: Deep Axis saturation with raw potential.
+L       F_elec = 0.5 * V^2 * dC/dz        Piezo-Lift: Electrical gradient overcomes gravity (big'G').
+L       mu -> 0 @ xx,xxx CPS              Liquefaction: Surface mass enters a fluid state.
+A       (A + B)_in-phase                  Antipodal Clash: Trillion-ton Seismic Hammer effect.
+C       P_long > P_vapor                  Cavitation: Supersonic Tsunami launch.
+E       delta E = System Exit             Equilibrium Exit: Total Terrestrial Upheaval.
 
 
 2. The Logic Version (The Operational Sequence)
@@ -621,14 +621,14 @@ T       Sum(N to I) = Total Havoc       The "Scream": Cumulative displacement cl
 
 (Focuses on the "Math-to-Word" algorithm as a step-by-step program.)
 
-Letter  Plain-Text Math           Mechanical Result (The Action)
+Letter  Plain-Text Math                 Mechanical Result (The Action)
 
-N       f_A - f_B	              $
-E       Strain = k * V_new^2      The Tension: Lattice distortion stretches the crust.
-S       phi_delta = 180 deg	      The Shear: Creates the vertical phase-discontinuity.
-B       P_dipole = alpha * E      The Bias: Polarizes the Earth's electrical axis.
-I       Z -> infinity             The Impedance: Resonant lock-up causes core heating.
-T       Solution: sum(N+E+S+B+I)  The Cleave: Fracture of the Elastic-Shear plane.
+N       f_A - f_B	                    $
+E       Strain = k * V_new^2            The Tension: Lattice distortion stretches the crust.
+S       phi_delta = 180 deg	            The Shear: Creates the vertical phase-discontinuity.
+B       P_dipole = alpha * E            The Bias: Polarizes the Earth's electrical axis.
+I       Z -> infinity                   The Impedance: Resonant lock-up causes core heating.
+T       Solution: sum(N+E+S+B+I)        The Cleave: Fracture of the Elastic-Shear plane.
 
 
 To handle the "Telluric Feedback" as the Earth starts to "Split" during NESBIT, when the station(s) ground connection(s) are severed an unable to maintain the "Axis of Flow":
