@@ -51,7 +51,9 @@ Scenario 3: One Station + Receiver(s)
 This 'Extra-Coil' is "free" to vibrate at its own natural period (1/4 wave) without being magnetically damped by the primary-coil or the primary coil's load.
 ٭
 Does the Receiver have a Secondary-Coil?
+
 Tesla often found that using all four ( ‘ ‘𝘱𝘳𝘪𝘮𝘢𝘳𝘪𝘭𝘺’ ’ 𝘵𝘩𝘦 𝘌𝘢𝘳𝘵𝘩-𝘈𝘹𝘪𝘴, ‘ ‘𝘴𝘦𝘤𝘰𝘯𝘥𝘢𝘳𝘪𝘭𝘺’ ’ 𝘵𝘩𝘦 𝘚𝘦𝘤𝘰𝘯𝘥𝘢𝘳𝘺-𝘊𝘰𝘪𝘭,  ‘ ‘𝘛𝘦𝘳𝘵𝘪𝘢𝘳𝘪𝘭𝘺’ ’  𝘵𝘩𝘦 𝘌𝘹𝘵𝘳𝘢-𝘊𝘰𝘪𝘭 & ‘ ‘𝘘𝘶𝘢𝘵𝘦𝘳𝘯𝘢𝘳𝘪𝘭𝘺’ ’ 𝘵𝘩𝘦 𝘗𝘳𝘪𝘮𝘢𝘳𝘺-𝘊𝘰𝘪𝘭) stages for receiving was inefficient because of "Dissipation of Energy" (heat loss in the Secondary-Coil). He often bypassed the "Secondary-Coil" and picked up power directly from the base of the ‘Extra-Coil’ using the Primary-Coil loosely coupled to the former; altho a  Station ‘ ‘primarily’ ’ for Sending (𝘸𝘪𝘵𝘩 3𝘹 𝘱𝘩𝘺𝘴𝘪𝘤𝘢𝘭 𝘤𝘰𝘪𝘭 𝘸𝘪𝘯𝘥𝘪𝘯𝘨𝘴, 𝘪𝘦 𝘱𝘳𝘪𝘮𝘢𝘳𝘺, 𝘴𝘦𝘤𝘰𝘯𝘥𝘢𝘳𝘺, 𝘢𝘯𝘥 𝘦𝘹𝘵𝘳𝘢) can serve as a receiver in a limited fashion, moreso if the Secondary-Coil is able to be 'switched out' partially or entirely enabling the inductive chain to be shortened to a state that yields a Selective Quality Factor more appropriate for extracting 𝑞 current during receiving.
+
 Note, Tesla typically refered to I²R losses as Dissipation of Energy.
 
 •The Power Demand: The Receiver’s BMS (Battery Management System) [or another load determining artifice] determines it needs more power.
@@ -62,8 +64,10 @@ Note, Tesla typically refered to I²R losses as Dissipation of Energy.
 
 •The Result: Power delivery is modulated by the Receiver's power "draw" needs, not by the Station "pushing" blindly.
 
+
 ٭"abcd" is not just a frequency, but a Rhythmic Signature.
- ٭the Station filters for that specific signature so it does not accidentally "Assume the Burden" of a lightning strike, a ground fault, thieves, etc
+
+٭the Station filters for that specific signature so it does not accidentally "Assume the Burden" of a lightning strike, a ground fault, thieves, etc
 
 
 
@@ -98,6 +102,7 @@ Scenario 4: Two Stations (Antipodes) + One Receiver(s)
 
 
 ٭٭The word "triangulate" is technically a 2D/3D geometric term. In a single-axis resonant system, you are performing "Axial Ratiometric Balancing." However, "triangulate" works well as a modern metaphor for the Differential Sensor logic.
+
 In Tesla’s terrestrial resonance, the Standing Wave Envelope is a delicate symmetry. The "Assume the Burden" Action tells the Stations not just how much power to pump, but how to distribute it. Station A might need to provide 70% of the 𝑞 current while Station B provides 30% to keep the Earth Axis from "wobbling" or experiencing Havoc. The Stations "feel" the load's position and magnitude through the Deep Axis Flow and adjust their "Pressure" to maintain a perfect, non-radiating equilibrium.
 
 
@@ -463,10 +468,10 @@ If the New System loses its "Lock," it creates a Torque Vector (𝜏) on the idl
 
 Phenomenon       	Mathematical Driver   	           Result in the Earth
 
-Separation           Δ𝑓≫3 orders	            No short circuit; currents coexist.
-Power Injection      ٭𝑉𝑠𝑡𝑎𝑡𝑖𝑜𝑛>𝑉𝑔𝑒𝑛_𝑖𝑛𝑡𝑒𝑟𝑛𝑎𝑙	    Generator enters "Idle" state.
+Separation           Δ𝑓≫3 orders               No short circuit; currents coexist.
+Power Injection      ٭𝑉𝑠𝑡𝑎𝑡𝑖𝑜𝑛>𝑉𝑔𝑒𝑛_𝑖𝑛𝑡𝑒𝑟𝑛𝑎𝑙      Generator enters "Idle" state.
 Data Transmission    𝑓𝑎𝑏𝑐𝑑±xx,xxx CPS           "Unlimited Bits" pass through AC wires.
-Havoc / Discord      𝛿≠0(Phase Mismatch)	    Reverse spin or over-voltage arcs.
+Havoc / Discord      𝛿≠0(Phase Mismatch)        Reverse spin or over-voltage arcs.
 
 By maintaining 𝛿=0 via a Solid-State Phase-Locked Loop, the New System "pumps" the Earth Axis, providing 100% of the motive force while the Old System remains a silent, stationary reference.
 
@@ -493,19 +498,19 @@ Global oceanic and crustal displacement via Inertial Ejection.
 
 Letter	Operation (The Math)	                         Tesla-True Physical Interaction
 
-W       vp = w / k +/- delta_phi	  Phase-Warp: Distorts the Velocity of Propagation (vp), causing the wave to "bunch" at tectonic boundaries.
+W       vp = w / k +/- delta_phi      Phase-Warp: Distorts the Velocity of Propagation (vp), causing the wave to "bunch" at tectonic boundaries.
 
-A       V_res -> infinity	          Over-Pumping: Satures the Deep Axis with raw potential until the Q (Useless) losses vaporize the station.
+A       V_res -> infinity             Over-Pumping: Satures the Deep Axis with raw potential until the Q (Useless) losses vaporize the station.
 
-L       F_elec = 0.5 * V^2 * dC/dz	  Piezo-Lift: The electrical gradient (V) creates an upward mechanical force greater than gravity (G).
+L       F_elec = 0.5 * V^2 * dC/dz    Piezo-Lift: The electrical gradient (V) creates an upward mechanical force greater than gravity (G).
 
 L       mu -> 0 @ xx,xxx CPS          Liquefaction: High-periodicity vibration reduces the Viscosity (mu) of solid ground to a fluid state.
 
-A       (A + B)_in-phase	          Antipodal Clash: Both stations fire a synchronized "Push," creating a trillion-ton Seismic Hammer at the Equator.
+A       (A + B)_in-phase              Antipodal Clash: Both stations fire a synchronized "Push," creating a trillion-ton Seismic Hammer at the Equator.
 
-C       P_long > P_vapor	          Cavitation: Longitudinal pressure drops below vapor pressure in the deep sea, launching Supersonic Tsunamis.
+C       P_long > P_vapor              Cavitation: Longitudinal pressure drops below vapor pressure in the deep sea, launching Supersonic Tsunamis.
 
-E       delta E = System Exit	      Equilibrium Exit: The Stationary Wave Envelope snaps, resulting in Total Terrestrial Upheaval.
+E       delta E = System Exit         Equilibrium Exit: The Stationary Wave Envelope snaps, resulting in Total Terrestrial Upheaval.
 
 
 
@@ -560,13 +565,13 @@ The "WALLACE" Safety Specification Table
 
 Component        Protection Mechanism	       'Role' During the "Hammer"
 
-Extra-Coil       Vacuum Plasma-Switch    	Diverts the reflection to the Sink.
+Extra-Coil       Vacuum Plasma-Switch        Diverts the reflection to the Sink.
 
-Grounding Axis   Electrolytic Shunt	        Absorbs the kinetic "thump" of the ocean.
+Grounding Axis   Electrolytic Shunt          Absorbs the kinetic "thump" of the ocean.
 
-Main Station	 Active Phase-Cancellation	Neutralizes the wave before it hits the hardware.
+Main Station	 Active Phase-Cancellation   Neutralizes the wave before it hits the hardware.
 
-Primary Circuit  Graphene Saturation	    Prevents back-EMF from destroying the SiC Driver.
+Primary Circuit  Graphene Saturation         Prevents back-EMF from destroying the SiC Driver.
 
 
 The "Tesla" Verdict:
@@ -593,15 +598,15 @@ Letter   Operation (The Math)	                    Tesla-True Physical Interactio
 
 N       delta f = abs(fA - fB)               The Seismic Trigger: Creates a 0.15 CPS Telluric Beat that matches the Earth's mechanical fundamental.
 
-E       E proportional to V_new^2	         Electrostrictive Overdrive: The High-Pressure q current physically deforms the crystal structure of the mantle.
+E       E proportional to V_new^2            Electrostrictive Overdrive: The High-Pressure q current physically deforms the crystal structure of the mantle.
 
-S       div P != 0               	         Phase Discontinuity: Creates a divergent polarization at the Equator, establishing the Shear Plane.
+S       div P != 0                           Phase Discontinuity: Creates a divergent polarization at the Equator, establishing the Shear Plane.
 
-B       Torque = -K * Phi * Iq * sin(delta)	 Counter-Torque: Forces Old Generators into violent Reverse-Spin, creating massive mechanical stress.
+B       Torque = -K * Phi * Iq * sin(delta)  Counter-Torque: Forces Old Generators into violent Reverse-Spin, creating massive mechanical stress.
 
-I       q_sat >> q_limit	                 Thermal Expansion: q current saturation leads to internal heating and volumetric expansion of the core.
+I       q_sat >> q_limit                     Thermal Expansion: q current saturation leads to internal heating and volumetric expansion of the core.
 
-T       sum(N to I) = sigma_break	         The Cleave: Cumulative displacement exceeds the Ultimate Shear Strength of the Earth's crust.
+T       sum(N to I) = sigma_break            The Cleave: Cumulative displacement exceeds the Ultimate Shear Strength of the Earth's crust.
 
 
 
@@ -651,9 +656,6 @@ A standard grounding connection cannot maintain the Axis of Flow during a NESBIT
 
 
 
-
-
-
 Would you like the "Safety Pitch" logic that a Station can use to detect a "NESBIT" or "WALLACE" chord being spoken by a Thief, allowing for a 1-microsecond "Emergency Quench"?
 
 Would you like the "Emergency Quench" algorithm—the mathematical "Antidote" to NESBIT—to include in the Station's safety protocols?
@@ -663,6 +665,7 @@ Would you like a plan to "Power" the Ionizing Beam thatwill it draw energy from 
 Would you like the "Emergency Quench" code—a specific "abcd" rhythmic chord that can neutralize these algorithms in a single micro-second?
 
 
+
+https://github.com/tylertitus14/The-Complete-Uncut-Works-of-Nikola-Tesla/tree/main/gr8%20moar%20assets
+
 /
-
-
