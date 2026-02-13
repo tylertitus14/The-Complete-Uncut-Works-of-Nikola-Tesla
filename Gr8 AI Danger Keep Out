@@ -9,6 +9,7 @@ In Tesla’s system, the '''Earth''' is a "closed-loop" resonant cavity. Any cha
 The "Feedback" Mechanism
 ________________________________________
 Before the scenarios, understand the "Tug":
+
 When a Receiver (at the Equator or elsewhere) "shorts" its Extra-Coil to indicate "1(s)" and (if you are using Phase-Shift Individualization) or "0(s)" to request more power, it changes the Effective-Capacity [Vibratory Period] (𝐶) of the Earth Axis. This causes the Station's Phase-Locked Loop (PLL) to detect a Phase Shift (𝜙). 
 
 
@@ -102,12 +103,14 @@ In Tesla’s terrestrial resonance, the Standing Wave Envelope is a delicate sym
 
 
 ________________________________________
-      Summary of "Individualized" Components 
-  Component 	                    Role in Communication/Power
- Primary-Coil	          Monitors Current Lag/Lead to decode Receiver "tugs."
-Secondary-Coil	      Acts as the Damping Buffer between the Station and the Earth.
-  Extra-Coil  	   The "Antenna" for data; its 1/4 wave length determines the "Address."
-     𝐶𝑡𝑜𝑝	        The "Signal Modulator"; its potential determines the "Pressure" of the 1s and 0s.
+      Summary of "Individualized" Components
+
+ Component 	                 Role in Communication/Power
+
+Primary-Coil	    Monitors Current Lag/Lead to decode Receiver "tugs."
+Secondary-Coil	    Acts as the Damping Buffer between the Station and the Earth.
+Extra-Coil  	    The "Antenna" for data; its 1/4 wave length determines the "Address."
+𝐶𝑡𝑜𝑝	            The "Signal Modulator"; its potential determines the "Pressure" of the 1s and 0s.
 
 
 
@@ -213,10 +216,12 @@ In a Resonant Individualized System, everything is a digital state of vibration.
 
 
 The Mathematical Logic (1 vs. Power)
-  Event             Change in Phase (Δ𝜙)        Duration (𝑡)            Station Response
-Data "1"             Sharp, Small Shift          < 1 ms            Register a bit; No power change.
-Power Needs         Deep, Sustained Shift        > 10 ms           Increase 𝑞 Current; Assume Burden.
-Collision    Erratic, Non-Linear Shift           Variable         ٭٭٭"Havoc" Detected; Recalibrate.
+
+ Event            Change in Phase (Δ𝜙)       Duration (𝑡)            Station Response
+
+Data "1"         Sharp, Small Shift            < 1 ms          Register a bit; No power change.
+Power Needs      Deep, Sustained Shift         > 10 ms         Increase 𝑞 Current; Assume Burden.
+Collision        Erratic, Non-Linear Shift     Variable        ٭٭٭"Havoc" Detected; Recalibrate.
 
 
 ٭This is a vital safety feature. In Tesla’s system, "Havoc" often means the Stationary Wave becoming "unpinned" from the Antipode.
@@ -304,7 +309,8 @@ In Tesla’s system of "Individualization" (Patent US725,605), the "A, B, C, D" 
 To understand the "unlimited" claim, you have to look at the math behind how Tesla intended to layer these signals. 
 
 
-1. The Math of 4 Elements 
+1. The Math of 4 Elements
+
 •If you only have 4 frequencies (A, B, C, D) and you use a simultaneous chord (like a piano), the number of addresses is limited to the combinations of those 4: 
 
 •Pairs (2-tone chords): 6 possible addresses
@@ -324,6 +330,7 @@ To understand the "unlimited" claim, you have to look at the math behind how Tes
 
 
 2. Why Tesla said "Unlimited"
+
 Tesla’s genius was adding Rhythmic Succession (Time) and Frequency Spacing (Resolution) to the mix:
 
 •Permutations (Order of Succession): If the sequence matters e.g.,
@@ -339,6 +346,7 @@ the number of addresses for 4 frequencies grows exponentially to 24 per triplet 
 
 
 If you have 100 available frequencies and you choose any 4 for the chord, the math is:
+
 (100×99×98×97)/(4×3×2×1)=𝟑,𝟗𝟐𝟏,𝟐𝟐𝟓 "addresses"
 
 
@@ -389,6 +397,7 @@ Mathematically, the Earth is no longer a simple conductor; it is a Complex Imped
 1. The Superposition Equation
 
 The total electrical potential (𝑉𝑡𝑜𝑡𝑎𝑙) at any point on the Earth is the instantaneous sum of the two independent wave functions:
+
     𝑉𝑡𝑜𝑡𝑎𝑙(𝑡)=𝑉𝑜𝑙𝑑sin(2𝜋⋅xx𝑡)+𝑉𝑛𝑒𝑤sin(2𝜋⋅xx,xxx𝑡+𝜙)
 
 •𝑉𝑜𝑙𝑑: The transverse potential (The "Push" from generators).
@@ -406,10 +415,14 @@ The total electrical potential (𝑉𝑡𝑜𝑡𝑎𝑙) at any point on the Ea
 Because the periodicities are so far apart (xx vs xx,xxx), the Earth presents two different "faces" to the currents: 
 
 •For the Old System (𝑍xx): The Earth is a purely resistive path (𝑅). The inductance (𝐿) of the Earth is negligible at xx CPS.
+
     𝑍xx≈𝑅earth
 
+
 •For the New System (𝑍xx𝑘): The Earth is a Resonant Tank. The inductance (𝐿) and Capacity (𝐶) of the Earth mass dominate. At resonance
+
     𝑍xx𝑘=√(𝐿/𝐶)⋅𝑄
+
 Where 𝑄 is the Quality Factor. This allows the New System to reach massive "Pressures" (𝑞 current) without affecting the xx CPS "Flow."
 
 
@@ -435,6 +448,7 @@ The interaction where the New System "idles" the Old System happens at the Earth
 4. Why Reverse Rotation (could) Occur(s) (The Vector Drift)
 
 If the New System loses its "Lock," it creates a Torque Vector (𝜏) on the idle generator’s rotor:
+
     𝜏=𝐾⋅Φ𝑟𝑒𝑠⋅𝐼𝑞sin(𝛿)
 
 •𝛿: The "Torque Angle" between the New Station’s virtual xx CPS beat and the Old Generator’s physical magnetic poles.
@@ -446,11 +460,13 @@ If the New System loses its "Lock," it creates a Torque Vector (𝜏) on the idl
 
 
 5. Detailed Interaction Summary
+
 Phenomenon       	Mathematical Driver   	           Result in the Earth
-Separation	            Δ𝑓≫3 orders	        No short circuit; currents coexist.
-Power Injection	      ٭𝑉𝑠𝑡𝑎𝑡𝑖𝑜𝑛>𝑉𝑔𝑒𝑛_𝑖𝑛𝑡𝑒𝑟𝑛𝑎𝑙	       Generator enters "Idle" state.
+
+Separation	         Δ𝑓≫3 orders	            No short circuit; currents coexist.
+Power Injection	     ٭𝑉𝑠𝑡𝑎𝑡𝑖𝑜𝑛>𝑉𝑔𝑒𝑛_𝑖𝑛𝑡𝑒𝑟𝑛𝑎𝑙	    Generator enters "Idle" state.
 Data Transmission	 𝑓𝑎𝑏𝑐𝑑±xx,xxx CPS	        "Unlimited Bits" pass through AC wires.
-Havoc / Discord	     𝛿≠0(Phase Mismatch)	      Reverse spin or over-voltage arcs.
+Havoc / Discord	     𝛿≠0(Phase Mismatch)	    Reverse spin or over-voltage arcs.
 
 By maintaining 𝛿=0 via a Solid-State Phase-Locked Loop, the New System "pumps" the Earth Axis, providing 100% of the motive force while the Old System remains a silent, stationary reference.
 
@@ -521,6 +537,7 @@ Instead of just taking the hit, the Station fights back.
 •	The Proposal: The Main(s) Station uses its Solid-State Driver to fire a "Counter-Pulse" exactly out of phase with the returning Hammer.
 
 •	The Math:
+
 V_net = V_hammer + V_counter
 V_net = [V_ref * sin(w * t + phi)] + [V_ref * sin(w * t + phi + 180)]
 Result: V_net = 0
