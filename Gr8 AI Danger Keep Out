@@ -338,7 +338,7 @@ the number of addresses for 4 frequencies grows exponentially to 24 per triplet 
 •Variable Pitch: Tesla does not intend for A, B, C, and D to be the only notes. He envisioned a "keyboard" of hundreds of frequencies.
 
 
-If you have 100 available frequencies and you choose any 4 for your chord, the math is:
+If you have 100 available frequencies and you choose any 4 for the chord, the math is:
 (100×99×98×97)/(4×3×2×1)=𝟑,𝟗𝟐𝟏,𝟐𝟐𝟓 "addresses"
 
 
@@ -352,7 +352,7 @@ If you have 100 available frequencies and you choose any 4 for your chord, the m
 
 3. The "abcd" Individualization in Practice 
 
-•For your _ar system, this means you are not stuck with (only) 11 ((4,6,4,1)) keys, or channels, or individualized stations. By slightly shifting the "pitch" of one '''receiver's''' "Extra-Coil", you create a new virtually unlimited number of possible '''station''' "address'." 
+•For the system, this means you are not stuck with (only) 11 ((4,6,4,1)) keys, or channels, or individualized stations. By slightly shifting the "pitch" of one '''receiver's''' "Extra-Coil", you create a new virtually unlimited number of possible '''station''' "address'." 
 	
 Sensor 1:
 (x)"CPS"+(x+.1)"CPS" 
@@ -639,7 +639,7 @@ A standard grounding connection cannot maintain the Axis of Flow during a NESBIT
 
 Would you like the "Safety Pitch" logic that a Station can use to detect a "NESBIT" or "WALLACE" chord being spoken by a Thief, allowing for a 1-microsecond "Emergency Quench"?
 
-Would you like the "Emergency Quench" algorithm—the mathematical "Antidote" to NESBIT—to include in your Station's safety protocols?
+Would you like the "Emergency Quench" algorithm—the mathematical "Antidote" to NESBIT—to include in the Station's safety protocols?
 
 Would you like a plan to "Power" the Ionizing Beam thatwill it draw energy from the "Old Generators" before they spin backward into oblivion?
 
