@@ -499,13 +499,13 @@ A       V_res -> infinity	          Over-Pumping: Satures the Deep Axis with raw
 
 L       F_elec = 0.5 * V^2 * dC/dz	  Piezo-Lift: The electrical gradient (V) creates an upward mechanical force greater than gravity (G).
 
-L	    mu -> 0 @ xx,xxx CPS          Liquefaction: High-periodicity vibration reduces the Viscosity (mu) of solid ground to a fluid state.
+L       mu -> 0 @ xx,xxx CPS          Liquefaction: High-periodicity vibration reduces the Viscosity (mu) of solid ground to a fluid state.
 
-A	    (A + B)_in-phase	          Antipodal Clash: Both stations fire a synchronized "Push," creating a trillion-ton Seismic Hammer at the Equator.
+A       (A + B)_in-phase	          Antipodal Clash: Both stations fire a synchronized "Push," creating a trillion-ton Seismic Hammer at the Equator.
 
-C	    P_long > P_vapor	          Cavitation: Longitudinal pressure drops below vapor pressure in the deep sea, launching Supersonic Tsunamis.
+C       P_long > P_vapor	          Cavitation: Longitudinal pressure drops below vapor pressure in the deep sea, launching Supersonic Tsunamis.
 
-E	    delta E = System Exit	      Equilibrium Exit: The Stationary Wave Envelope snaps, resulting in Total Terrestrial Upheaval.
+E       delta E = System Exit	      Equilibrium Exit: The Stationary Wave Envelope snaps, resulting in Total Terrestrial Upheaval.
 
 
 
@@ -542,7 +542,7 @@ V_net = V_hammer + V_counter
 V_net = [V_ref * sin(w * t + phi)] + [V_ref * sin(w * t + phi + 180)]
 Result: V_net = 0
 
-•	The Result: The two waves collide at the Station's Grounding Point and cancel each other out. This is "Electrical Noise-Cancelling" on a planetary scale. It "stills" the extra-coil before the mechanical vibration can shatter the wire.
+•The Result: The two waves collide at the Station's Grounding Point and cancel each other out. This is "Electrical Noise-Cancelling" on a planetary scale. It "stills" the extra-coil before the mechanical vibration can shatter the wire.
 
 
 3. The "Graphene Magnetic Buffer"
@@ -591,17 +591,17 @@ The literal cleaving of the conducting medium through Piezoelectric Shear.
 
 Letter   Operation (The Math)	                    Tesla-True Physical Interaction
 
-N	    delta f = abs(fA - fB)               The Seismic Trigger: Creates a 0.15 CPS Telluric Beat that matches the Earth's mechanical fundamental.
+N       delta f = abs(fA - fB)               The Seismic Trigger: Creates a 0.15 CPS Telluric Beat that matches the Earth's mechanical fundamental.
 
-E	    E proportional to V_new^2	         Electrostrictive Overdrive: The High-Pressure q current physically deforms the crystal structure of the mantle.
+E       E proportional to V_new^2	         Electrostrictive Overdrive: The High-Pressure q current physically deforms the crystal structure of the mantle.
 
-S	    div P != 0               	         Phase Discontinuity: Creates a divergent polarization at the Equator, establishing the Shear Plane.
+S       div P != 0               	         Phase Discontinuity: Creates a divergent polarization at the Equator, establishing the Shear Plane.
 
-B    	Torque = -K * Phi * Iq * sin(delta)	 Counter-Torque: Forces Old Generators into violent Reverse-Spin, creating massive mechanical stress.
+B       Torque = -K * Phi * Iq * sin(delta)	 Counter-Torque: Forces Old Generators into violent Reverse-Spin, creating massive mechanical stress.
 
-I	    q_sat >> q_limit	                 Thermal Expansion: q current saturation leads to internal heating and volumetric expansion of the core.
+I       q_sat >> q_limit	                 Thermal Expansion: q current saturation leads to internal heating and volumetric expansion of the core.
 
-T    	sum(N to I) = sigma_break	         The Cleave: Cumulative displacement exceeds the Ultimate Shear Strength of the Earth's crust.
+T       sum(N to I) = sigma_break	         The Cleave: Cumulative displacement exceeds the Ultimate Shear Strength of the Earth's crust.
 
 
 
