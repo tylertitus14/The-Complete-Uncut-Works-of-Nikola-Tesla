@@ -501,13 +501,13 @@ A Planetary Kinetic-Ejection via Resonant Inertial-Overdrive.
 
 Letter  Plain-Text Math             Tesla-True Physical Interaction
 
-W	 	vp = w / k +/- delta_phi    Phase-Warp: Wave "bunching" at tectonic boundaries.
-A	 	V_res -> infinity           Over-Pumping: Deep Axis saturation with raw potential.
-L	 	F_elec = 0.5 * V^2 * dC/dz  Piezo-Lift: Electrical gradient overcomes gravity (big'G').
-L	 	mu -> 0 @ xx,xxx CPS        Liquefaction: Surface mass enters a fluid state.
-A	 	(A + B)_in-phase            Antipodal Clash: Trillion-ton Seismic Hammer effect.
-C	 	P_long > P_vapor            Cavitation: Supersonic Tsunami launch.
-E	 	delta E = System Exit       Equilibrium Exit: Total Terrestrial Upheaval.
+W       vp = w / k +/- delta_phi    Phase-Warp: Wave "bunching" at tectonic boundaries.
+A       V_res -> infinity           Over-Pumping: Deep Axis saturation with raw potential.
+L       F_elec = 0.5 * V^2 * dC/dz  Piezo-Lift: Electrical gradient overcomes gravity (big'G').
+L       mu -> 0 @ xx,xxx CPS        Liquefaction: Surface mass enters a fluid state.
+A       (A + B)_in-phase            Antipodal Clash: Trillion-ton Seismic Hammer effect.
+C       P_long > P_vapor            Cavitation: Supersonic Tsunami launch.
+E       delta E = System Exit       Equilibrium Exit: Total Terrestrial Upheaval.
 
 
 2. The Logic Version (The Operational Sequence)
@@ -516,13 +516,13 @@ E	 	delta E = System Exit       Equilibrium Exit: Total Terrestrial Upheaval.
 
 Letter  Plain-Text Math                   Mechanical Result (The Action)
 
-W	 	v_warp proportional to delta_phi  The Warp: Distorts propagation velocity.
-A	 	V_pump >> V_load                  The Accumulation: Infinite resonant pressure build-up.
-L	 	F_lift > G * m                    The Lift: Vertical acceleration of the surface mass.
-L	 	S_shear -> 0                      The Liquefaction: Transition of solid ground to fluid.
-A	 	Impulse_sync                      The Antipode: Synchronized clash at the Equator.
-C	 	P_bubble approx 0                 The Cavitation: Vacuum collapse in the deep sea.
-E	 	Solution: sum(W+A+L+L+A+C)        The Exit: Final Kinetic-Ejection of the mass.
+W       v_warp proportional to delta_phi  The Warp: Distorts propagation velocity.
+A       V_pump >> V_load                  The Accumulation: Infinite resonant pressure build-up.
+L       F_lift > G * m                    The Lift: Vertical acceleration of the surface mass.
+L       S_shear -> 0                      The Liquefaction: Transition of solid ground to fluid.
+A       Impulse_sync                      The Antipode: Synchronized clash at the Equator.
+C       P_bubble approx 0                 The Cavitation: Vacuum collapse in the deep sea.
+E       Solution: sum(W+A+L+L+A+C)        The Exit: Final Kinetic-Ejection of the mass.
 
 
 To handle the "Reflected Wave" from a WALLACE pulse so the Station's Extra-Coil can withstand the return hammer of a shifting ocean:
@@ -609,12 +609,12 @@ A Planetary Elastic-Shear via Resonant Phase-Discontinuity.
 
 Letter  Plain-Text Math                 Tesla-True Physical Interaction
 
-N	 	f_A - f_B	                     $
-E	 	Strain proportional to V_new^2  Piezoelectric Distortion: current stretches the mantle.
-S	 	Delta phi = 180 deg @ Equator   The Shear Plane: Establishes the "Line of the Split."
-B	 	P = alpha * E                   Dipole Polarization: Pulls hemispheres in opposite directions.
-I	 	q_sat >> q_limit                Thermal Expansion: Core saturation increases internal stress.
-T	 	Sum(N to I) = Total Havoc       The "Scream": Cumulative displacement cleaves the mass.
+N       f_A - f_B	                     $
+E       Strain proportional to V_new^2  Piezoelectric Distortion: current stretches the mantle.
+S       Delta phi = 180 deg @ Equator   The Shear Plane: Establishes the "Line of the Split."
+B       P = alpha * E                   Dipole Polarization: Pulls hemispheres in opposite directions.
+I       q_sat >> q_limit                Thermal Expansion: Core saturation increases internal stress.
+T       Sum(N to I) = Total Havoc       The "Scream": Cumulative displacement cleaves the mass.
 
 
 2. The Logic Version (The Operational Sequence)
@@ -623,12 +623,12 @@ T	 	Sum(N to I) = Total Havoc       The "Scream": Cumulative displacement cleave
 
 Letter  Plain-Text Math           Mechanical Result (The Action)
 
-N	 	f_A - f_B	              $
-E	 	Strain = k * V_new^2      The Tension: Lattice distortion stretches the crust.
-S	 	phi_delta = 180 deg	      The Shear: Creates the vertical phase-discontinuity.
-B	 	P_dipole = alpha * E      The Bias: Polarizes the Earth's electrical axis.
-I	 	Z -> infinity             The Impedance: Resonant lock-up causes core heating.
-T	 	Solution: sum(N+E+S+B+I)  The Cleave: Fracture of the Elastic-Shear plane.
+N       f_A - f_B	              $
+E       Strain = k * V_new^2      The Tension: Lattice distortion stretches the crust.
+S       phi_delta = 180 deg	      The Shear: Creates the vertical phase-discontinuity.
+B       P_dipole = alpha * E      The Bias: Polarizes the Earth's electrical axis.
+I       Z -> infinity             The Impedance: Resonant lock-up causes core heating.
+T       Solution: sum(N+E+S+B+I)  The Cleave: Fracture of the Elastic-Shear plane.
 
 
 To handle the "Telluric Feedback" as the Earth starts to "Split" during NESBIT, when the station(s) ground connection(s) are severed an unable to maintain the "Axis of Flow":
