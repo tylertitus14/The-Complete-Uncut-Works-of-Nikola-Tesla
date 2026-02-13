@@ -92,13 +92,13 @@ Scenario 4: Two Stations (Antipodes) + One Receiver(s)
 
 ٭If you have multiple Stations (and not just at the Antipodes, or at the antipodes at all), the Earth becomes a Multi-Vector Differential Array.
 
-    •A Network of Unison: Every Station is individualized and synchronized to the same Master Chord.
+•A Network of Unison: Every Station is individualized and synchronized to the same Master Chord.
     
-    •The Resultant Vector: When a Receiver "tugs," every Station in the network feels a specific Phase Displacement (Δ𝜙).
+•The Resultant Vector: When a Receiver "tugs," every Station in the network feels a specific Phase Displacement (Δ𝜙).
 
-    •The Differential Logic:The Stations closest to the Receiver assume the "Primary-Coil Burden" (the bulk current (𝑞)). The Stations furthest away provide the "Resonant Reference" (the timing and stability).
+•The Differential Logic:The Stations closest to the Receiver assume the "Primary-Coil Burden" (the bulk current (𝑞)). The Stations furthest away provide the "Resonant Reference" (the timing and stability).
 
-    •The "Unlimited" Address Mapping: By comparing the phase shifts across a network of, say, 7 Stations, the system can identify exactly which "Individualized Receiver" is talking. It’s like a spider web: the spider does not need to see the fly; it knows exactly where it is by how the tension changes across the different strands of the web.
+•The "Unlimited" Address Mapping: By comparing the phase shifts across a network of, say, 7 Stations, the system can identify exactly which "Individualized Receiver" is talking. It’s like a spider web: the spider does not need to see the fly; it knows exactly where it is by how the tension changes across the different strands of the web.
 
 
 ٭٭The word "triangulate" is technically a 2D/3D geometric term. In a single-axis resonant system, you are performing "Axial Ratiometric Balancing." However, "triangulate" works well as a modern metaphor for the Differential Sensor logic.
