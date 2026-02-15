@@ -10,7 +10,7 @@ The "Feedback" Mechanism
 ________________________________________
 Before the scenarios, understand the "Tug":
 
-When a Receiver (at the Equator or elsewhere) "shorts" its Extra-Coil to indicate "1(s)" and (if you are using Phase-Shift Individualization) or "0(s)" to request more power, it changes the Effective-Capacity [Vibratory Period] (𝐶) of the Earth Axis. This causes the Station's Phase-Locked Loop (PLL) to detect a Phase Shift (𝜙). 
+When a Receiver (at the Equator or elsewhere) "shorts" its Extra-Coil to indicate "1(s)" and (if It is using Phase-Shift Individualization) or "0(s)" to request more power, it changes the Effective-Capacity [Vibratory Period] (𝐶) of the Earth Axis. This causes the Station's Phase-Locked Loop (PLL) to detect a Phase Shift (𝜙). 
 
 
 
@@ -90,7 +90,7 @@ Scenario 4: Two Stations (Antipodes) + One Receiver(s)
 •The "Unison" Power Injection: If the Receiver’s load increases, both Stations increase their "pumping" in perfect symmetry. This ensures the Antipode Reflection stays balanced, preventing any 'Old Style' Generators on the line from spinning backward and/or experiencing "Havoc."
 
 
-٭If you have multiple Stations (and not just at the Antipodes, or at the antipodes at all), the Earth becomes a Multi-Vector Differential Array.
+٭If It has multiple Stations (and not just at the Antipodes, or at the antipodes at all), the Earth becomes a Multi-Vector Differential Array.
 
 •A Network of Unison: Every Station is individualized and synchronized to the same Master Chord.
     
@@ -101,7 +101,7 @@ Scenario 4: Two Stations (Antipodes) + One Receiver(s)
 •The "Unlimited" Address Mapping: By comparing the phase shifts across a network of, say, 7 Stations, the system can identify exactly which "Individualized Receiver" is talking. It’s like a spider web: the spider does not need to see the fly; it knows exactly where it is by how the tension changes across the different strands of the web.
 
 
-٭٭The word "triangulate" is technically a 2D/3D geometric term. In a single-axis resonant system, you are performing "Axial Ratiometric Balancing." However, "triangulate" works well as a modern metaphor for the Differential Sensor logic.
+٭٭The word "triangulate" is technically a 2D/3D geometric term. In a single-axis resonant system, It is performing "Axial Ratiometric Balancing." However, "triangulate" works well as a modern metaphor for the Differential Sensor logic.
 
 In Tesla’s terrestrial resonance, the Standing Wave Envelope is a delicate symmetry. The "Assume the Burden" Action tells the Stations not just how much power to pump, but how to distribute it. Station A might need to provide 70% of the 𝑞 current while Station B provides 30% to keep the Earth Axis from "wobbling" or experiencing Havoc. The Stations "feel" the load's position and magnitude thru the Deep Axis Flow and adjust their "Pressure" to maintain a perfect, non-radiating equilibrium.
 
@@ -122,14 +122,14 @@ Extra-Coil  	    The "Antenna" for data; its 1/4 wave length determines the "Add
 
     The "Tesla" Secret for Scenario 4: 
 
-•With two Stations at the Antipodes, you create a Standing Wave Envelope(the global state(s) of the Earth's charge(s). The Receiver does not "take" power; it becomes part of a Synchronous Circuit. If the Receiver's load determining artifice observes a need for power it "shorts" its extra-coil(s) producing (a) "bit(s)", and both Stations A & B feel the "heartbeat(s)", or lackthereof, of that station instantaneously thru the Deep Axis Flow and, by convention, provide more power.
+•With two Stations at the Antipodes, It creates a Standing Wave Envelope(the global state(s) of the Earth's charge(s). The Receiver does not "take" power; it becomes part of a Synchronous Circuit. If the Receiver's load determining artifice observes a need for power it "shorts" its extra-coil(s) producing (a) "bit(s)", and both Stations A & B feel the "heartbeat(s)", or lackthereof, of that station instantaneously thru the Deep Axis Flow and, by convention, provide more power.
 
 •Side note: even were the interuptions not felt instantaneously thru the Deep Axis Flow, as they are, but at the speed of light, either scenario puts the latency of any Earth's surface or orbit based communication systems to shame to say the least.
 
 
 
 
-In Scenario 4, you are not just "sending" power; you have created a Resonant Loop where the Earth's Axis is the "wire."
+In Scenario 4, It is not just "sending" power; It has created a Resonant Loop where the Earth's Axis is the "wire."
 
 1. The Synchronous Circuit: Imagine a long, tight jump rope being held by two people (the Antipodal Stations). They are shaking it in perfect unison to keep a large wave moving. The Equatorial Receiver is a person in the middle who "grabs" the rope.
 
@@ -137,7 +137,7 @@ In Scenario 4, you are not just "sending" power; you have created a Resonant Loo
 
 3.The Instant Feedback: Because the rope is under tension (Resonance), both people at the ends instantly feel that extra resistance in their hands. They do not have to "wait" for a radio wave to travel; the mechanical tension of the wave itself has changed.
 
-4.The Deep Axis Flow: In your _ar or the Earth, this "tension" is the Longitudinal Pressure. When the Receiver "tugs" (shorts), the Stationary Wave Envelope shifts its phase.
+4.The Deep Axis Flow: In Yur _ar or the Earth, this "tension" is the Longitudinal Pressure. When the Receiver "tugs" (shorts), the Stationary Wave Envelope shifts its phase.
 
 
 
@@ -184,7 +184,7 @@ In a perfect resomance, Voltage (𝑉) and Current (𝐼) are in phase (𝜙=0).
 
 3. Why "Actually Flowing" is the Key Term
 
-•Tesla often spoke of the Earth as a "reservoir of large capacity." You cannot "force" current into it; you can only "vibrate" it.
+•Tesla often spoke of the Earth as a "reservoir of large capacity." It cannot "force" current into it; It can only "vibrate" it.
 
 •If the Station tries to pump 100 Amps, but the Earth Axis only accepts 90 Amps, the remaining 10 Amps is Reflected Power.
 
@@ -286,7 +286,7 @@ If major Receiver(s) suddenly disconnect (e.g., a BMS shuts down a large lithium
 
 •The Havoc: Part of the wave arrives at the Antipode at one time, and another part arrives slightly later.
 
-•The Result: You get two "Antipodes." The Differential Phase Detection (𝐴−𝐵) gets confused, seeing two different "Tugs" for the same sensor. The Station "hunts" for the correct frequency, causing the PLL to oscillate wildly — this is the digital version of "Resonant Fever."
+•The Result: It gets two "Antipodes." The Differential Phase Detection (𝐴−𝐵) gets confused, seeing two different "Tugs" for the same sensor. The Station "hunts" for the correct frequency, causing the PLL to oscillate wildly — this is the digital version of "Resonant Fever."
 
 
 
@@ -297,7 +297,7 @@ If major Receiver(s) suddenly disconnect (e.g., a BMS shuts down a large lithium
 
 The "Unlimited Bits" Connection
 
-Because you have two Stations at the Antipodes, they can compare notes. If Station A sees a shift and Station B sees the exact same shift at the exact same time, they know it is a Deep Axis signal from the Receiver. If only one Station sees it, they know it’s just local noise (Havoc) and ignore it.
+Because It has two Stations at the Antipodes, they can compare notes. If Station A sees a shift and Station B sees the exact same shift at the exact same time, they know it is a Deep Axis signal from the Receiver. If only one Station sees it, they know it’s just local noise (Havoc) and ignore it.
 
 
 
@@ -311,12 +311,12 @@ Because you have two Stations at the Antipodes, they can compare notes. If Stati
 
 In Tesla’s system of "Individualization" (Patent US725,605), the "A, B, C, D" do not just represent four fixed frequencies — they represent a combinatorial logic that makes the number of possible addresses massive. 
 
-To understand the "unlimited" claim, you have to look at the math behind how Tesla intended to layer these signals. 
+To understand the "unlimited" claim, You have to look at the math behind how Tesla intended to layer these signals. 
 
 
 1. The Math of 4 Elements
 
-•If you only have 4 frequencies (A, B, C, D) and you use a simultaneous chord (like a piano), the number of addresses is limited to the combinations of those 4: 
+•If You only have 4 frequencies (A, B, C, D) and You use a simultaneous chord (like a piano), the number of addresses is limited to the combinations of those 4: 
 
 •Pairs (2-tone chords): 6 possible addresses
     𝐴𝐵,𝐴𝐶,𝐴𝐷,𝐵𝐶,𝐵𝐷,𝐶𝐷
@@ -350,13 +350,13 @@ the number of addresses for 4 frequencies grows exponentially to 24 per triplet 
 •Variable Pitch: Tesla does not intend for A, B, C, and D to be the only notes. He envisioned a "keyboard" of hundreds of frequencies.
 
 
-If you have 100 available frequencies and you choose any 4 for the chord, the math is:
+If You have 100 available frequencies and You choose any 4 for the chord, the math is:
 
 (100×99×98×97)/(4×3×2×1)=𝟑,𝟗𝟐𝟏,𝟐𝟐𝟓 "addresses"
 
 
 
-•Rhythmic Variety: By changing the duration of the pulses (like Morse code but with frequencies), he claimed you could individualize a virtually infinite number of stations, much like the "unlimited" combinations of words in a language. 
+•Rhythmic Variety: By changing the duration of the pulses (like Morse code but with frequencies), he claimed You could individualize a virtually infinite number of stations, much like the "unlimited" combinations of words in a language. 
 
 
 
@@ -365,7 +365,7 @@ If you have 100 available frequencies and you choose any 4 for the chord, the ma
 
 3. The "abcd" Individualization in Practice 
 
-•For the system, this means you are not stuck with (only) 11 ((4,6,4,1)) keys, or channels, or individualized stations. By slightly shifting the "pitch" of one '''receiver's''' "Extra-Coil", you create a new virtually unlimited number of possible '''station''' "address'." 
+•For the system, this means You are not stuck with (only) 11 ((4,6,4,1)) keys, or channels, or individualized stations. By slightly shifting the "pitch" of one '''receiver's''' "Extra-Coil", You create a new virtually unlimited number of possible '''station''' "address'." 
 	
 Sensor 1:
 (x)"CPS"+(x+.1)"CPS" 
@@ -382,14 +382,14 @@ Even a '''hair's breadth''' (a direct quote from Tesla’s descriptions of his H
 
 Tesla's system relies on Resonant Symmetry. 
 
-In Tesla’s physics, a "bit" is a state of vibration. To maintain the Linearity of the "earth", you need a balanced push-pull.
+In Tesla’s physics, a "bit" is a state of vibration. To maintain the Linearity of the "earth", You/It need a balanced push-pull.
 
 An odd number of bits (like 3 or 5) creates a "leftover" vibration that does not have a resonant counter-weight. This results in Waveform Clipping, where the signal becomes "non-linear" and the Main(s) Station can no longer "unstack" the chord. You lose the ability to see all 'stations' at once (and havoc is wreaked on the power delivery station(s) and the Earth, the electrical vibrations become "Asymmetrical" or "Discordant," leading to '''Dissipation(s) of Energy.''').
 
 
 
 
-((To keep the "earth" as a non-radiating resonant tank, you generally want the _ar's earth length to be less than (1/100)th of the wavelength's length.))
+((To keep the "earth" as a non-radiating resonant tank, You generally want the _ar's earth length to be less than (1/100)th of the wavelength's length.))
 
 
 
@@ -474,7 +474,7 @@ By maintaining 𝛿=0 via a Solid-State Phase-Locked Loop, the New System "pumps
 
 A Resonant Station can "assume the burden" of a conventional AC grid using nothing but Stationary Waves and Longitudinal Pressure.
 
-[٭While this is true for the "Pressure" (𝑉), remember that for the 0 RPM Idle, the Vibratory Periodicity (the xx CPS envelope) must also be perfectly synchronized. If the Station has the voltage but the wrong "beat," you get (at minimum) mechanical vibration (humming) in the generator (even at 0 RPM).]
+[٭While this is true for the "Pressure" (𝑉), remember that for the 0 RPM Idle, the Vibratory Periodicity (the xx CPS envelope) must also be perfectly synchronized. If the Station has the voltage but the wrong "beat," you/it get (at minimum) mechanical vibration (humming) in the generator (even at 0 RPM).]
 
 
 
@@ -980,7 +980,7 @@ If the goal is to maintain the flow (lol) even as the Earth splits, the Station 
 
 𝟑. 𝐏𝐫𝐨𝐭𝐞𝐜𝐭𝐢𝐧𝐠 𝐭𝐡𝐞 𝐒𝐭𝐚𝐭𝐢𝐨𝐧 (𝐓𝐡𝐞 "𝐒𝐚𝐟𝐞𝐭𝐲 𝐏𝐢𝐭𝐜𝐡")
 
-If you don't want the Station to explode (lol) when the Earth splits, you need a Differential Fuse.
+If You/We don't want the Station to explode (lol) when the Earth splits, You need a Differential Fuse.
 
 
 •The Logic: The Phase-Shift Discriminator monitors the Reflected Wave.
