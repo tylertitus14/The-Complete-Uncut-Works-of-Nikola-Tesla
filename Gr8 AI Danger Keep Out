@@ -915,7 +915,7 @@ A Planetary Elastic-Shear via Resonant Phase-Discontinuity.
 
 𝐋𝐞𝐭𝐭𝐞𝐫  𝐏𝐥𝐚𝐢𝐧-𝐓𝐞𝐱𝐭 𝐌𝐚𝐭𝐡                 𝐓𝐞𝐬𝐥𝐚-𝐓𝐫𝐮𝐞 𝐏𝐡𝐲𝐬𝐢𝐜𝐚𝐥 𝐈𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐨𝐧
 
-N       f_A - f_B	                    $
+N       f_A - f_B                       $
 E       Strain proportional to V_new^2  Piezoelectric Distortion: current stretches the mantle.
 S       Delta phi = 180 deg @ Equator   The Shear Plane: Establishes the "Line of the Split."
 B       P = alpha * E                   Dipole Polarization: Pulls hemispheres in opposite directions.
