@@ -1538,11 +1538,14 @@ This figure establishes the "Planetary Circuit" logic that your Axis-Exit docume
 
 In Nikola Tesla's 1919 article "The True Wireless," he clarifies that "action at a distance" refers specifically to the mean current of ground conduction, defined as ie = 4qn.
 
+
 In this model of antenna current, Q represents the local charge, q represents the effective distant charge, n is the frequency, and the total average antenna current is Im = 4Qn + 4qn.
 
 Tesla defined electrical efficiency as the ratio of effective charge to total charge, Efficiency = q / (Q + q), noting that this fraction was often very small in standard radio engineering.
 
+
 These definitions highlight why the total measured current Im = 4Qn + 4qn is no criterion for actual performance, as the "useless" local current I = 4Qn often dominates the reading.
+
 
 
 The true criterion for actual performance is instead the magnitude of the distant charge q and its resulting current ie, which represent the energy actually recovered at a distance.
@@ -1556,6 +1559,15 @@ To maximize this, the system must achieve a state of resonance where the frequen
 
 
 
+To maximize this performance, the frequency n must satisfy the condition of terrestrial resonance. Tesla maintained that the Earth behaves as a conductor of limited dimensions, requiring the system to be tuned so that the wavelength lambda of the oscillations is a specific multiple of the Earth's diameter or circumference.
+
+This is expressed by the relation v = n * lambda, where v is the velocity of the current through the ground.
+
+
+A critical point of analysis in this calculation is whether v equals the standard velocity of light (c) or Tesla’s proposed "Velocity of Ground Current," which he calculated as v = (pi / 2) * c (approximately 471,000 km/s).
+
+
+When the system is properly tuned to this velocity, the Earth acts as a zero-resistance conductor, allowing the distant charge q to be recovered with high efficiency.
 
 
 
@@ -1563,7 +1575,45 @@ To maximize this, the system must achieve a state of resonance where the frequen
 
 
 
+Excitation vs. Maintenance: Power and Energy Requirements
 
+To transition the Earth from a neutral state to a "workable" resonant condition, the system must first overcome the planet's massive electrical inertia. This requires a clear distinction between Energy (the total "investment" needed to charge the globe) and Power (the rate of flow required to maintain that state and perform work).
+
+
+
+1. Tesla’s Era: The Challenge of the Initial Charge
+
+In 1900, the global electrical infrastructure was virtually non-existent. To excite the Earth into a sustained condition where power could be withdrawn at a distance, Tesla had to "fill" the Earth's capacity using a very small "faucet."
+
+The Investment (Energy): Using the Earth's capacitance (C = 710 microFarads) and a target potential of 100,000,000 Volts, the energy required to establish the resonant field is approximately 3,550 GJ.
+
+The Struggle (Power): Wardenclyffe’s 300 kW plant was a "toy" in this context. At that rate, it would have taken roughly 136 days of continuous, lossless operation just to "prime" the Earth's resonant cavity before a single industrial motor could be powered elsewhere. In Tesla's era, the lack of high-power generation meant that "exciting" the system was a long-term accumulation process, making it difficult to reach a "sustained workable condition" for anything beyond signaling.
+
+
+
+
+2. The Current Era: Instantaneous Excitation
+
+In our modern world, the electrification of the planet is already immense, and our generation capacity is vast. We can excite the system into a workable condition almost instantaneously.
+
+The Excitation (Power): A modern high-voltage DC (HVDC) converter station or a large nuclear installation can output 3 GW (3,000,000,000 Watts).
+
+The Result: At a 3 GW flow rate, the same 3,550 GJ "investment" required to charge the Earth to Tesla’s 100-million-volt potential would take only 20 minutes. In the current era, we have the "pressure" (Power) to snap the Earth into resonance nearly at will, allowing for a sustained condition where industrial-scale work can begin immediately.
+
+
+
+
+3. Maintaining the Workable Condition
+
+Once the Earth is excited, the "True Wireless" efficiency comes into play.
+
+Power for Maintenance: In a "high-Q" resonant system, the energy stored in the Earth oscillates back and forth. You only need to supply enough power to cover the resistive losses and the actual work being done by the distant receivers (ie = 4qn).
+
+Energy Consumption: While the Energy stored in the Earth's field is massive, it is not "consumed" unless a receiver draws it. Therefore, the Power required from the plant is simply the sum of the distant loads plus the internal losses of the transmitter (I_m = 4Qn + 4qn).
+
+
+
+In short: Tesla's era had the theory but lacked the Power to prime the pump efficiently. The modern era possesses the Power to trigger global resonance as a routine utility, turning the Earth into a sustained, pressurized reservoir of available energy.
 
 
 
