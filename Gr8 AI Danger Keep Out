@@ -1447,7 +1447,7 @@ The Math: V_total = [Earth_State + CMB_State] + q_injection
 
 
 
-The Condition: If Authorized == FALSE, the Plasma-Bridge ensures that q_injection is 180 degrees out of phase for you, but In-Phase for the meddler.
+The Condition: If Authorized == FALSE, the Plasma-Bridge ensures that q_injection is 180 degrees out of phase for The Discriminating Observer, but In-Phase for the meddler.
 
 
 
