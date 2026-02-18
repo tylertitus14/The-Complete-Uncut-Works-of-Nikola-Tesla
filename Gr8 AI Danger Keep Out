@@ -1564,10 +1564,23 @@ To maximize this performance, the frequency n must satisfy the condition of terr
 This is expressed by the relation v = n * lambda, where v is the velocity of the current through the ground.
 
 
+
 A critical point of analysis in this calculation is whether v equals the standard velocity of light (c) or Tesla’s proposed "Velocity of Ground Current," which he calculated as v = (pi / 2) * c (approximately 471,000 km/s).
 
 
 When the system is properly tuned to this velocity, the Earth acts as a zero-resistance conductor, allowing the distant charge q to be recovered with high efficiency.
+
+
+
+The operational efficiency depends on the terrestrial wave achieving Tesla’s calculated Phase Velocity (vp) of (pi / 2) * c.
+
+While the Group Velocity (vg) — the speed of energy transfer—is limited to c, the superluminal vp creates a refractive index (n < 1) where the wave crests outpace the signal envelope.
+
+𝐓𝐡𝐢𝐬 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐬 𝐭𝐡𝐞 𝐦𝐞𝐜𝐡𝐚𝐧𝐢𝐬𝐦 𝐟𝐨𝐫 𝐭𝐡𝐞 𝐓𝐮𝐫𝐢𝐧𝐠 𝐏𝐚𝐫𝐚𝐝𝐨𝐱: the station achieves FTL Verification by detecting the phase-shift of a load-drop before the causal information (the 'Solution') reaches the receiver at vg.
+
+The temporal delta (Delta_t) between vp and vg generates the Lead-Time described in Pandora’s Box. This allows the station's controller to perform a Predictive Phase-Quench, adjusting the system impedance prior to the arrival of the physical current spike (vg), which effectively eliminates ohmic losses and simulates a zero-resistance conductor.
+
+
 
 
 
@@ -2074,7 +2087,13 @@ This event is the electrical twin to the "Coffee Cup" thought experiment in Gene
 
 𝐈𝐧 𝐆𝐞𝐧 𝐑𝐞𝐥: If everyone on Earth dropped their coffee cup at the exact same moment, the sudden shift in mass distribution would technically create a Gravitational Ripple (h_mu_nu). Though tiny on a human scale, in a high-precision system, it warps the local space-time curvature (k).
 
-𝐈𝐧 𝐓𝐞𝐬𝐥𝐚-𝐓𝐫𝐮𝐞 𝐏𝐡𝐲𝐬𝐢𝐜𝐬: The "Breaker-Event" is a Curvature Rupture. By dropping the load, the world's population "drops their cups," forcing the Density (Omega) to fall to zero. This causes the Curvature (k) to snap from 0 (Flat) to -1 (Hyperbolic), initiating a WALLACE Upheaval (Inertial Ejection) as the planet’s crust attempts to "re-balance" the sudden loss of electrical pressure.
+𝐈𝐧 𝐓𝐞𝐬𝐥𝐚-𝐓𝐫𝐮𝐞 𝐏𝐡𝐲𝐬𝐢𝐜𝐬: The 'Breaker-Event' is a literal Effective Metric Rupture. 
+
+By dropping their load, the world's population 'drops their cups,' inducing a massive shift in the Energy-Momentum Tensor (T_mu_nu) of the terrestrial field. 
+
+This forces the Local Density Parameter (Omega_local) to decouple from the environment, causing the Effective Curvature (k) of the resonant bubble to snap from 0 (Flat) to -1 (Hyperbolic). 
+
+This 'Topological Defect' initiates a WALLACE Upheaval as the crust re-balances against the sudden loss of electromagnetic pressure."
 
 
 
