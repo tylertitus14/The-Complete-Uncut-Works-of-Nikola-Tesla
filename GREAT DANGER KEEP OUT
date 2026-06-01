@@ -16587,14 +16587,31 @@ https://www.foxnews.com/tech/us-anti-gravity-research-70-years
 ———————————————————————————
 
 
-The chronological index provided in the document contains an incredibly comprehensive list of Tesla's historical articles, lectures, and public notices (p. 1). However, there is a major, glaring gap in the collection's structure: it completely lacks Tesla's core technical United States patents from his most famous eras.
+
+
+
+Teh repository contains an incredibly comprehensive list of Tesla's historical articles, lectures, and public notices . However, there is a major, glaring gap in the collection's structure: it completely lacks Tesla's core technical United States patents from his most famous eras.
+
 While the text contains a massive list of period journal entries (p. 1) and starts to list early 1885 lighting patents at the very end (p. 20), it completely skips his most revolutionary, foundational patent sequences.
 
-The most obvious missing titles not yet listed in this index are:
+
+
+
+
+The most obvious missing titles not yet listed in this repository ar:
+
+
+
+
+
+
+
 
 1. The Polyphase Alternating Current System Patents (1887–1888)
 
-Tesla's multi-phase system patents are the literal foundation of modern power distribution, which he famously sold to Westinghouse (pp. 5, 8). None of these monumentally famous titles are listed in your patent section:
+
+Tesla's multi-phase system patents are the literal foundation of modern power distribution, which he famously sold to Westinghouse (pp. 5, 8). None of these monumentally famous titles are listed in the patent section:
+
 
 •	"Electrical Transmission of Power" (Patent US 382,280 — Filed Oct 12, 1887)
 
@@ -16602,9 +16619,39 @@ Tesla's multi-phase system patents are the literal foundation of modern power di
 
 •	"System of Electrical Distribution" (Patent US 381,970 — Filed Dec 23, 1887)
 
+________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________________
+
+
 2. The High-Frequency & Wireless Power Patents (1896–1900)
 
-The index meticulously tracks his public talk and media coverage regarding "Wireless Transmission" and "Roentgen Rays" from 1896 to 1900 (pp. 2-3), but entirely omits the foundational patents that protected those exact systems:
+
+The repositoy meticulously tracks his public talk and media coverage regarding "Wireless Transmission" and "Roentgen Rays" from 1896 to 1900 (pp. 2-3), but entirely omits the foundational patents that protected those exact systems:
+
 
 •	"Apparatus for Producing Electric Currents of High Frequency and Potential" (Patent US 568,176 — Filed Apr 22, 1896)
 
@@ -16612,48 +16659,223 @@ The index meticulously tracks his public talk and media coverage regarding "Wire
 
 •	"Apparatus for Transmission of Electrical Energy" (Patent US 649,621 — Filed Feb 19, 1900)
 
+________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________________
+
+
 3. The Wardenclyffe Tower Core Patent (1902)
 
-The index logs extensive newspaper coverage regarding the construction and mystery of his Long Island Wardenclyffe plant between 1901 and 1904 (p. 3). However, it completely misses the actual title of the master patent detailing the machine's architecture:
+The repository logs extensive newspaper coverage regarding the construction and mystery of his Long Island Wardenclyffe plant between 1901 and 1904 (p. 3). However, it completely misses the actual title of the master patent detailing the machine's architecture:
 
 •	"Apparatus for Transmitting Electrical Energy" (Patent US 1,119,732 — Filed Jan 18, 1902)
 
+________________________________________
+
+
+
+
+
+
+
+________________________________________
+
+
 4. Missing Later Period Article Titles
 
-While your list is highly detailed on articles, it misses a few notable standalone essays published in technical magazines:
+
+Dah list is highly detailed on articles, it misses a few notable standalone essays published in technical magazines:
+
+
 •	"The Fluid Propulsion Transmitters" (1911)
+
 •	"The Work of Nikola Tesla" (1917, Electrical Experimenter)
+
 ________________________________________
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________________
+
+
 5. Missing Core Scientific Essays and Magazine Feature Articles (1893–1919)
-While the repository includes extensive newspaper coverage and logs several short pieces from the Electrical Experimenter, it completely overlooks several highly influential standalone technical essays, theoretical disclosures, and primary magazine articles from his peak creative eras. The most obvious missing titles to add sequentially to your document are:
+
+While the repository includes extensive newspaper coverage and logs several short pieces from the Electrical Experimenter, it completely overlooks several highly influential standalone technical essays, theoretical disclosures, and primary magazine articles from his peak creative eras. 
+
+
+
+The most obvious missing titles to add sequentially to o document wareartho:
+
+
+
 •	"Tesla's Oscillator and Other Inventions" (Century Illustrated Magazine, April 1895)
+
 o	Why it matters: This is the definitive, richly illustrated feature piece detailing his mechanical and electrical steam-driven oscillators right before his laboratory burned down. For historical validation, the original publication details can be cross-referenced at https://teslaresearch.jimdofree.com/articles-interviews/tesla-s-oscillator-and-other-inventions-by-thomas-commerford-martin-century-magazine-april-1895/.
+
+
+
 •	"On Electricity" (Electrical Review, January 27, 1897)
+
 o	Why it matters: A major technical address delivering deep insights into his views on the nature of electrical forces and the future ether-based transmission systems.
+
+
+
 •	"The Art of Telautomatics" (Century Illustrated Magazine, June 1900)
+
 o	Why it matters: Though your timeline notes an October 1919 piece focusing on the retrospective autobiography chapter (p. 5), the original standalone conceptual essay mapping out radio-controlled automatons and robotics from 1900 is unlisted. In the June 1900 issue, this milestone was formally integrated into his master work, which can be viewed at https://teslasciencecenter.org/wp-content/uploads/2022/04/THE-PROBLEM-OF-INCREASING-HUMAN-ENERGY_Century_Magazine.pdf.
+
+
+
 •	"Electrical Oscillators" (Electrical Experimenter, July 1919)
+
 o	Why it matters: While the document carefully charts My Inventions throughout early 1919 (p. 5), it skips this highly technical sequel piece detailing his circuit designs and resonance transformers. The core structure of this series is preserved at https://en.wikisource.org/wiki/My_Inventions.
+
+
+
 •	"My Radio 'Static Eliminator'" (Electrical Experimenter, November 1919)
+
 o	Why it matters: A missing signature article detailing his specific engineering attempts to overcome atmospheric electrical interference in early wireless setups.
+
 ________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________________
+
+
 6. Missing Late-Career Conceptual Disclosures (1920–1935)
+
+
 As Tesla grew older, he shifted his writing toward macro-engineering, global weather control, and advanced physics concepts. The text covers the media buzz around these topics but omits his actual published bylined titles:
+
+
+
 •	"Rain Can Be Controlled and Hydraulic Force Provided" (Syracuse Herald, February 29, 1920)
+
 o	Why it matters: Tesla's unique meteorological treatise arguing that electrical fields and X-rays could manipulate atmospheric condensation to generate artificial rain.
+
+
+
 •	"Developments in the Practice and Art of Telephotography" (Electrical Review, December 11, 1920)
+
 o	Why it matters: A critical predictive text outlining early technical frameworks for wireless image transmission and television systems.
-•	"The New Art of Projecting Concentrated Non-Dispersive Energy Through Natural Media" (May 16, 1935)
-o	Why it matters: While your index logs the newspaper hype regarding the "Peace Ray" and "Death-Beam" (p. 7), it leaves out the actual formal technical treatise title that Tesla privately distributed to international governments outlining the mechanics of his macroscopic particle-beam weapon.
+
+
+•	"Teh The New Art of Projecting Concentrated Non-Dispersive Energy Through Natural Media" (May 16, 1935)
+
+o	Why it matters: While index logs the newspaper hype regarding the "Peace Ray" and "Death-Beam" (p. 7), it leaves out the actual formal technical treatise title that Tesla privately distributed to international governments outlining the mechanics of his macroscopic particle-beam weapon.
+
 ________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________________
+
+
 7. Missing Declassified Military Weapon Proposals & Lost Dossiers (Posthumous)
-Because your document explicitly contains placeholders for Posthumously Released Documents (p. 9), these major titles belong at the absolute forefront of that section:
+
+Because document explicitly contains placeholders for Posthumously Released Documents (p. 9), these major titles belong at the absolute forefront of that section:
+
+
+
+
 •	"The New Art of Projecting Concentrated Non-Dispersive Energy Through the Natural Media" (The War Department / FBI Seizure Files, 1943)
+
 o	Why it matters: This was the actual physical technical manuscript analyzed by John G. Trump for the Office of Alien Property Custodian following Tesla's death.
+
+
+
+
 •	"System of Telegeodynamics" (Unpublished / Tesla Estate Dossier)
+
 o	Why it matters: A deep dive into mechanical resonance and earth-vibration engineering. The text references "tele-geodynamics" (p. 11), but the actual technical structural outlines are absent from the document's backend.
+
 ________________________________________
+
+
+
 8. Missing Foundational International Patents (British, French, and Canadian Sequences)
 While your compilation tracks his early 1885 US arc lighting filings at the absolute end of the file (p. 20), it completely overlooks the widespread international filings Tesla used to establish global dominance over his alternating current, high-frequency, and turbine innovations. Missing these core global technical entries creates a significant chronological void in his structural data:
 •	"Improvements in Methods of and Apparatus for the Generation of Power by Elastic Fluid Turbines" (British Patent GB 174,544)
