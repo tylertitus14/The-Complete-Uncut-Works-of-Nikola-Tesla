@@ -202,6 +202,7 @@ Fig. 4 vs. the Moon conclusion. Fig. 4's own caption states the general rule cor
 
 
 Errors
+
 The core substitution error (covered at length already): "no additional torque needed to sustain motion already present" is quietly treated as equivalent to "no energy exists in that motion at all." These are different claims; only the first is true.
 
 The rigid-linkage model doesn't match the actual physical mechanism. His balls-on-spokes and rifle-barrel analogies assume a mechanical/rigid coupling. The real coupling is a gravity-gradient torque acting on the Moon's slight permanent mass asymmetry — a genuinely different physical mechanism that behaves differently (see below).
@@ -212,8 +213,7 @@ Fig. 8's own setup smuggles in the rotation it claims to disprove. Assigning two
 
 
 
-Lightbulb Moments — Where the Ambiguity Might Be Deliberate
-Speculative, — but a few things are suggestive enough to be worth naming:
+Lightbulb Moments — Where the Ambiguity Might Be Deliberate  —  Speculative, — but a few things are suggestive enough to be worth naming:
 
 The title itself. "Famous Scientific Illusions" — set against an argument that a century of independent measurement has shown to be the illusion. If Tesla had any dry self-awareness here, the title is a genuinely good joke, whether or not he intended 
 
@@ -229,9 +229,13 @@ Does the Moon have rotational energy? Yes — a small, definite, positive amount
 
 The "dark side", addressed head-on — and there's a terminology mix-up worth clearing up first. The Moon doesn't have a permanently dark side at all — every part of its surface gets roughly two weeks of sunlight and two weeks of night per lunar cycle, the far side included (that's a common popular misconception). What he mean(t) is the far side — the hemisphere permanently hidden from Earth.
 
+
 Here's the resolution to the apparent paradox:
 
+
 having real rotational energy about its own axis is exactly what makes the far side stay hidden — not what would expose it. The Moon's spin is locked to precisely match its orbital rate, so it always presents the same face to Earth while genuinely rotating once per orbit relative to the distant stars. If the Moon had zero real rotation (his claim), it would show Earth every side in turn over the course of an orbit — the far side would become visible periodically. The real spin is the thing keeping it hidden, not the thing that would reveal it. This is the "always facing your friend while walking a circle around them" case from earlier — you're genuinely turning (relative to the room), and that turning is exactly what keeps the same side of you facing them.
+
+*
 
 How could energy actually be extracted, and does the answer depend on where you're observing from? This splits into two genuinely different things:
 
@@ -287,6 +291,7 @@ The pattern is stark: even a genuinely enormous, structurally extreme torque —
 
 
 Verification-Grade vs. Mission-Worthwhile — the Answer Is a Clean Split
+
 Verification-grade devices (gyroscopes, ring laser gyros, star trackers) are genuinely worthwhile, but for a completely different reason than power: they consume tiny amounts of power (milliwatts) to detect the rotation, and that's exactly matched to what they need to do. This category is real, useful, buildable today, and scientifically meaningful — confirming lunar orientation independent of any Earth-referenced measurement has actual geodetic and navigation value. Dedicated energy-extraction devices, at any practical scale, are not mission-worthwhile — full stop.
 
 
@@ -344,7 +349,7 @@ Divided by the seconds in a year (3.156×10⁷ s):
 
 5×10²¹ J / 3.156×10⁷ s ≈ 1.58×10¹⁴ W ≈ 158 TW
 
-That's a real, physical, joules-per-second number, cross-validated by satellite reflectance modeling, direct CO₂ flux towers, atmospheric mass-balance inversion, and ground biomass surveys — four independent methods converging on one figure. Extend it to everything that eats — animals, fungi, bacteria, humans — and total ecosystem respiration runs close to full gross primary productivity, roughly double NPP, putting whole-biosphere metabolic throughput near 300 TW, itself independently cross-checked by Kleiber's Law holding from bacteria to blue whales. Add humanity's own metered ~18–20 TW, and the total sits at a few hundred terawatts — worth its own unit, and Tesla's own vocabulary hands us one: he called kinetic energy vis viva, so call this the Viva.
+That's a real, physical, joules-per-second number, cross-validated by satellite reflectance modeling, direct CO₂ flux towers, atmospheric mass-balance inversion, and ground biomass surveys — four independent methods converging on one figure. Extend it to everything that eats — animals, fungi, bacteria, humans — and total ecosystem respiration runs close to full gross primary productivity, roughly double NPP, putting whole-biosphere metabolic throughput near 300 TW, itself independently cross-checked by Kleiber's Law holding from bacteria to blue whales. Add humanity's own metered ~18–20 TW, and the total sits at a few hundred terawatts — worth its own unit, and Tesla's own vocabulary hands us one: he called kinetic energy vis viva, so call this the ______.
 
 The trouble is dimensional. Tesla's formula, E = ½Mv², wants a stored energy, not a flow rate. Global standing biomass carbon is roughly 550 GtC; at a carbon fraction of 45% of dry biomass — the same fraction implicit in the 40 kJ/g-carbon conversion above (18 MJ/kg biomass ÷ 0.45 = 40 kJ/g carbon, confirming the two figures were built from one consistent ratio) — total biomass mass works out to:
 
