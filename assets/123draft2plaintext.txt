@@ -188,6 +188,11 @@ MISC
 
 
 
+https://teslauniverse.com/nikola-tesla/articles/famous-scientific-illusions
+https://teslauniverse.com/nikola-tesla/articles/moons-rotation
+https://teslauniverse.com/nikola-tesla/articles/moons-rotation-follow-up
+
+
 
 Contradictions
 
@@ -263,6 +268,7 @@ The heat is being generated somewhere * real, right now, regardless of who's wat
 
 
 A Practical Elaboration: Building This With Today's Hardware
+
 The core idea is straightforward once you separate the two reference frames properly: mount a device on the Moon's surface that ignores the Moon entirely as its reference and instead tracks its orientation against inertial space (the distant stars, or equivalently, a gyroscope's own conserved spin axis) — that device would see the Moon's surface slowly rotate underneath it once per 27.3 days, exactly the motion Earth-referenced observation hides.
 
 A fiber-optic gyroscope (FOG) or ring laser gyroscope — both mature, off-the-shelf technologies already used in spacecraft and submarine inertial navigation today — could directly register this, since they measure rotation relative to inertial space by design, not relative to any local landmark; no exotic new physics is needed, just deploying instruments that already exist for a different purpose.
@@ -274,7 +280,7 @@ For actual energy extraction rather than mere detection, the natural approach bo
 The resulting slow relative motion between the fixed flywheel and the rotating mount could, in principle, drive a generator the same way a tide-mill extracts energy from the relative motion between the (comparatively still) ocean bulge and the (rotating) Earth beneath it — the practical yield would be tiny, given how slow 1 rotation per 27.3 days actually is, but the engineering path (inertially-referenced gyrostabilized platform, geared to a slowly counter-rotating anchor point) is buildable with entirely current technology, unlike the far larger, still purely theoretical proposals for tapping Earth's own tidal dissipation at planetary scale.
 
 
-The Governing Formula, and Why It's Brutal Here
+The Governing Formula, and Why It's Brutal, Here:
 
 Power extracted from a rotating system is P = τ·ω — torque times angular velocity. The problem isn't torque; it's ω. The Moon's rotation relative to the stars is one full turn per 27.32 days, which works out to:
 
