@@ -207,7 +207,7 @@ hat_T_k | Psi_resonant > = 0
 At this deep quantum limit, continuous kinetic friction and classical acceleration cease to exist. The connection between two quantum states transforms from a continuous transmission of classical mechanical force into a stable, non-radiating topological shortcut. It is only at this fundamental quantum gravity boundary—and explicitly not at the macroscopic scale of the lunar orbit—that continuous coordinate slip differentials vanish entirely. Tesla's mechanical intuition of a zero-energy rigid spoke finds its true validation not in the astronomy of the sky, but in the discrete, non-dissipative quantization of space at the Planck scale.
 
 ________________________________________
-📌 Consolidated Task Ledger — Master Alignment Position
+📌 Google's Consolidated Task Ledger
 
 Claude's Tasks:
 
@@ -517,7 +517,7 @@ What Any of This Would Mean for the Moon's Own Rotational Energy
 Gravitationally bound systems don't participate in ordinary cosmic expansion — the mechanism has to reach down and act on a system like the Earth-Moon pair directly, and each model does this differently or not at all. Under heat death and eternal inflation, the Earth-Moon pair's tidal story simply continues, undisturbed by the larger cosmological narrative. Under the Big Rip, the expanding repulsion eventually and directly unbinds the system itself at a specific, calculable moment — a violent truncation of the rotational story rather than a smooth approach to any equilibrium. Under both CCC and the classical Big Crunch, the Moon ceases to exist as a coherent rotating body well before either model's headline event — through matter decay in one case, radiation-bath incineration in the other — so the question of its axial momentum simply stops having a referent. Under the Big Bounce and ekpyrotic models, an entirely new planet-moon pair could, in principle, later form from scratch via ordinary accretion in a subsequent expansion phase — an echo of the physics, not a continuation of this Moon's specific history. And under Poincaré recurrence, the theorem's sheer generality technically permits, at timescales with no practical physical meaning, a statistical fluctuation reproducing something resembling the present configuration — the one place in this entire list where the literal return of this particular system is even theoretically on the table.
 
 ________________________________________
-📌 Open Items for the Next Revision — Claude's Side
+📌 Claude's Open Items for the Next Revision — Claude's Side
 
 1.	The GDP caveat. Google's Section VI.1 analogizes Tesla's abstract civilizational velocity to GDP as a model example of a legitimate informal descriptive metric — accurate, but worth an explicit one-line distinction noting that GDP being a fine descriptive metric is precisely why it's also the sharpest illustration (established earlier in this same investigation) of a well-defined, consistently-tracked number that still fails to belong in a physical equation — wrong units, not a local density, not frame-invariant. Worth adding to Google's Section VI.1 in a later pass.
 
@@ -560,7 +560,7 @@ Separately, once Item 2 is actually written into the Errors section, the Style G
 Worth flagging for a future revision, once the section has grown further: consider splitting into labeled subcategories (e.g., logical-substitution errors, mechanism-mismatch errors, frame-conflation errors, independently falsifiable claims) rather than a single repainted section title.
 
 
-📌 Open Items for the Next Revision — Google's Side
+📌 Claude's Open Items for the Next Revision — Google's Side
 
 1.	Uncited quantitative figures, inconsistent with the document's own citation standard. Section IV's libration amplitude ("approximately 1.8 arcseconds," "a steady 3-year oscillation mode") and the tidal dissipation quality factor ("Q = 30") are presented with the same confident precision as the properly-cited claims elsewhere (Farhat et al. 2022, Gravity Probe B, the 1998 Type Ia supernova surveys) — but neither has an actual source attached. Given how much rigor has gone into citing everything else, these two figures should either get a specific citation or be explicitly hedged as order-of-magnitude/typical values rather than stated as bare, precise numbers. The Vaclav Smil reference in Section VI.4 has the same gap — named as a researcher, but no specific work cited (e.g., Energy and Civilization: A History), unlike Farhat's paper, which gets both author and year.
 
@@ -579,16 +579,26 @@ Worth flagging for a future revision, once the section has grown further: consid
 8.	The "Open Subsystem Constraint" defense of the mass-redistribution/angular-momentum boundary, offered in support of Section VI's current framing, has never actually been incorporated into the document text itself, and doing so needs the same quantitative closure requested of Claude's side (see Claude's Side, item 12). The argument as given — that human mega-engineering redistributes mass, infinitesimally altering Earth's moment of inertia and therefore its rotation — is real and correct, but it currently exists only as a verbal defense in our exchange, never as cited, numbered text in Section VI.4 itself. If incorporated, it should carry an actual, properly sourced figure (real published geodetic estimates of measurable length-of-day/rotational-pole shifts from large-scale human activity exist and should be cited directly, not stated from memory) rather than resting on the word "infinitesimally" alone, and it should avoid the ambiguous phrase "human energy capacity" in favor of language that unambiguously refers to physical mass/energy throughput specifically — not the abstract civilizational-advancement side of Section VI.1 — to avoid quietly reopening the exact ambiguity this whole exchange was meant to close.
 
 
-📌 A Shared Item, Spanning Both Sides
+📌 Claude's Shared Items, Spanning Both Googles and Claudes Sides
 
 Generalizing beyond the Solar System entirely — do these same tidal-lock dynamics hold up for planets orbiting other stars? Every test case in the document so far (Moon, Mercury, Pluto-Charon) is local. Real, already-discovered systems — the TRAPPIST-1 planets, tidally locked to their red dwarf star, are a well-known, citable example — would let the whole framework (Section III's integrals, the torque derivation proposed above, even the Viva's biosignature extension) be tested against genuinely new systems rather than the same three bodies revisited. This is the one item that could plausibly become a joint section rather than living on either side alone.
 
 
-📌 Style Guardrails (Not Open Tasks — Precision Notes for Future Edits)
+
+📌 Claude's Style Guardrails (Not Open Tasks — Precision Notes for Future Edits)
+
 
 If the two-velocities/turnover-correction passage is ever reworded, it's the corrected energy value (2.2×10²² J) that resolves to one number — the two velocities themselves (6,000 m/s and 11,810 m/s) never merge. Keep that distinction explicit.
 
+
 The "Real Boundary" subsection's current wording states the abstract civilizational metric has "no fixed mass distribution" — this is not the same claim as "zero momentum," and the difference matters, not interchangeable phrasing. A quantity with no defined mass doesn't have a momentum value to evaluate as zero — the concept simply doesn't apply to it at all, the same way asking for the "momentum" of a mood or a rumor isn't a question with a numerical answer. If a future edit adds explicit momentum language here, it should read "the concept of momentum doesn't apply here at all" rather than "momentum evaluates to zero" — the second phrasing would accidentally imply the metric has some physical standing (mass, however small) rather than none.
+
+
+When a derivation depends on an input that's itself uncertain or actively debated, say so in the same sentence as the result — not in a separate caveat the reader can skip. And be clear that flagging the uncertainty in the input is not the same as doubting the underlying mechanism is real: the tidal phase-lag debate is about how fast rock deforms, not whether it deforms; the greenhouse uncertainty is about the exact gas mix, not whether the resonance happened; the Viva's turnover-time uncertainty is about the precise number, not whether real biomass throughput exists. An uncertain estimate of a real thing is not the same claim as an uncertain thing."
+
+This generalizes an instinct already applied three times in the document — the tidal phase-lag section's "not the field's final word" (Google's Consolidated Task Ledger, Claude's Tasks, Task 2), the Proterozoic greenhouse chemistry addition's "genuinely uncertain input, not... manufacturing false additional precision" (Google's Consolidated Task Ledger, Claude's Tasks, Task 3), and the Viva derivation's flagged carbon-fraction/turnover-time sensitivity (Claude's Open Items — Claude's Task 5) — into one standing rule.
+
+It should also govern three items not yet written up, the moment they are: Claude's Open Items — Google's Task 1 (the 1.8-arcsecond libration amplitude and Q=30 figures, discussed in Section IV of the main document — even once cited, the reported uncertainty range should travel with the number, not just a citation); Claude's Open Items — Claude's Task 14 (the anthropogenic heat flux figure, ~0.03 W/m² — global-average forcing estimates carry real spread across studies); and Claude's Open Items — Claude's Task 12 (the dam/groundwater mass-redistribution figure, once actually pulled from the geodetic literature — published length-of-day-shift estimates carry their own uncertainty bands that should replace "infinitesimally" alongside the number itself, not silently underneath it).
 
 
 
