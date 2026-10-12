@@ -13,13 +13,15 @@ E_total = 0.5 * M * V^2 + 0.5 * I * w^2
 
 Where M is the total mass, V is the translational velocity of the center of mass, I is the moment of inertia, and w is the angular velocity vector relative to an inertial reference point. In my early mechanical treatises, I asserted that a tidally locked satellite possesses zero independent internal vis viva (living force of motion) specifically dedicated to axial spinning.
 
-To evaluate this claim within general relativity without creating mathematical errors, we map this system using a Post-Newtonian line element configured to a non-inertial frame co-rotating with the orbital axis of the system:
+To evaluate this claim within general relativity without creating mathematical errors, we map this system using a weak-field (Newtonian-limit) line element configured to a non-inertial frame co-rotating with the orbital axis of the system:
 
-ds^2 = -(1 + 2 * Phi - w^2 * r^2) * dt^2 + 2 * N_i * dx^i * dt + (1 - 2 * Phi) * dx^2
+ds^2 = -(1 + 2 * Phi - w^2 * rho^2) * dt^2 + 2 * N_i * dx^i * dt + (1 - 2 * Phi) * dx^2
 
-Where Phi is the gravitational potential, dx^2 represents the standard spatial metric components, and N_i is the off-diagonal shift vector defined by the orbital tracking velocity:
+Where Phi is the gravitational potential, rho^2 = x^2 + y^2 is the squared cylindrical distance from the rotation axis (the z-axis, w = w_z), dx^2 represents the standard spatial metric components, and N_i is the off-diagonal shift vector defined by the orbital tracking velocity:
 
 N_i = (w cross r)_i
+
+This line element is a weak-field (Newtonian-limit) form, not a post-Newtonian (1PN) metric. A 1PN metric would require terms of second order in Φ in g_00, such as −2Φ², which are not included here. The expansion orders are defined in Section III.2, subsection 3, Step 1.
 
 Under this specific coordinate transform, an observer restricted to the T̶e̶r̶r̶e̶s̶t̶r̶i̶a̶l̶ ̶R̶e̶f̶e̶r̶e̶n̶c̶e̶ ̶F̶r̶a̶m̶e̶ Co-Rotating Orbital Frame measures a local tracking velocity of exactly zero. The average spatial coordinate velocity of the satellite is completely absorbed by the shift vector N_i.
 
@@ -76,6 +78,150 @@ This volume integral framework scales directly to more complex resonance profile
 •	Mercury's 3:2 Spin-Orbit Resonance: Unlike the Moon, Mercury completes exactly three axial rotations for every two orbital revolutions around the Sun. Within its non-inertial tracking frame, v_local does not evaluate to zero. The local coordinate velocity remains non-zero and oscillates dynamically, meaning the volume integral retains an active, independent internal spin energy component that cannot be coordinate-transformed away, even at perihelion.
 
 •	The Pluto-Charon Mutual Double Lock: In this system, both the primary body and its satellite are tidally locked to one another, meaning v_local equals zero for both extended masses within a shared co-rotating coordinate grid. The parallel axis volume integral must be evaluated simultaneously for both bodies, locking their independent moments of inertia (I_Pluto and I_Charon) into a single, synchronized mechanical flywheel where all localized spin vectors are bound strictly to their shared orbital frequency.
+
+3. Non-Inertial Geodesic Christoffel Symbols and Metric Force Isolation
+
+Step 1. Metric Tensor Components and Expansion Orders
+
+This formulation employs a weak-field metric (Newtonian-limit, not 1PN, because g_00 lacks O(ε²) terms such as −2Φ²; this is the same metric introduced in Section I).
+
+We define a smallness expansion parameter ε. The gravitational potential Φ and the shift vector components N_i scale such that Φ ~ O(ε), N^i ~ O(ε^{1/2}), and the squared rotational term N² = |N|² = ω²ρ² ~ O(ε). Mixed contractions and products such as N^i N_j, Φ N_i, and g^{i0} ∂_j g_00 scale at O(ε) or O(ε^{3/2}).
+
+Let ρ² = x² + y² be the cylindrical radius from the rotation axis (aligned with the z-axis, ω = ω_z). The covariant metric components g_μν to leading order are:
+
+• g_00 = −(1 + 2Φ − ω²ρ²) = −(1 + 2Φ − N²)
+
+• g_0i = N_i = e_{ikm} ω^k x^m = (ω × x)_i (where e_{ikm} is the Levi-Civita symbol, and x^m is spatial position)
+
+• g_ij = (1 − 2Φ) δ_ij
+
+Step 2. Inverse Metric Components (Exact Block Inversion and Expansion)
+
+Solving g^{μα} g_{αν} = δ^μ_ν up to O(ε²) yields:
+
+• g^00 = −1/(1+2Φ) ≈ −1 + 2Φ + O(ε²)
+
+• g^0i = N^i + O(ε^{3/2}) (where N^i = δ^ij N_j; leading order is O(ε^{1/2}), with corrections at O(ε^{3/2}))
+
+• g^ij = (1 + 2Φ) δ^ij − N^i N^j + O(ε²) (where N^i N^j is O(ε))
+
+Where the −N^i N^j piece matters: It enters spatial contractions in Γ^i_00 and Γ^i_jk.
+
+Step 3. Spatial Christoffel Connection Components (Γ^i_αβ)
+
+The connection formula is Γ^i_αβ = 0.5 g^iρ (∂_α g_βρ + ∂_β g_αρ − ∂_ρ g_αβ) with a stationary background (∂_0 g_μν = 0).
+
+Component A: Γ^i_00
+
+Full sum over ρ in {0, k}:
+
+• For ρ = 0: 0.5 g^i0 (2 ∂_0 g_00 − ∂_0 g_00) = 0.5 N^i (0) = 0.
+
+• For ρ = k: −0.5 g^ik ∂_k g_00.
+
+Substitute g^ik = (1+2Φ) δ^ik − N^i N^k and ∂_k g_00 = −2 ∂_k Φ + 2 ω² ρ_k (where ρ_k = (x, y, 0)).
+
+Expanding fully:
+
+Γ^i_00 = [ (1+2Φ) δ^ik − N^i N^k ] * [ ∂_k Φ − ω² ρ_k ]
+
+Γ^i_00 = (∇^i Φ − ω² ρ^i) + 2Φ (∇^i Φ − ω² ρ^i) − N^i N^k (∂_k Φ − ω² ρ_k)
+
+Order classification and symmetric treatment:
+
+• Leading order O(ε): ∇^i Φ − ω² ρ^i. This isolates the Newtonian gravitational acceleration (∇^i Φ) and the outward centrifugal acceleration (−ω² ρ^i).
+
+• Second order O(ε²): +2Φ ∇^i Φ, −2Φ ω² ρ^i, and −N^i N^k (∂_k Φ − ω² ρ_k). All three cross-terms are discarded because the metric isn’t accurate to O(ε²).
+
+Component B: Γ^i_0j
+
+Full sum over ρ in {0, k}:
+
+• For ρ = 0: 0.5 g^i0 ∂_j g_00 = 0.5 N^i ∂_j g_00. Order: O(ε^{1/2}) * O(ε) = O(ε^{3/2}), discarded at leading order.
+
+• For ρ = k: 0.5 g^ik (∂j N_k − ∂k N_j). Substitute g^ik ≈ δ^ik at leading order: 0.5 δ^ik (e_{klj} ω^l − e_{jlk} ω^l).
+
+Using N_k = e_{klm} ω^l x^m and antisymmetry e_{jlk} = −e_{klj}, this yields 2 e_{klj} ω^l.
+
+Thus 0.5 δ^ik (2 e_{klj} ω^l) = e_{ilj} ω^l = −e_{ijl} ω^l.
+
+Physical Identification & Coriolis Sign:
+
+The connection contraction is 2 Γ^i_0j v^j_local = +2 (ω × v_local)^i.
+
+In the coordinate-time geodesic equation, the inertial acceleration contribution is −2 (ω × v_local)^i. The velocity v is explicitly the co-rotating frame velocity v_local (not v_inertial).
+
+Component C: Γ^i_jk
+
+Full sum over ρ in {0, l}:
+
+• For ρ = 0: 0.5 g^i0 (∂j N_k + ∂k N_j) = 0.5 N^i (e_{klj} ω^l + e_{jlk} ω^l).
+
+Proof of exact vanishing: By the antisymmetry of the Levi-Civita symbol under index swap j ↔ k, e_{klj} + e_{jlk} = 0 identically for all index pairs. This term is strictly zero.
+
+• For ρ = l: 0.5 g^il (∂_j g_kl + ∂_k g_jl − ∂_l g_jk).
+
+Expanding with g^il = (1+2Φ)δ^il − N^iN^l and g_jl = (1−2Φ)δ_jl:
+
+Γ^i_jk = 0.5[(1+2Φ)δ^il − N^iN^l] * [−δ_kl∂_j(2Φ) − δ_jl∂_k(2Φ) + δ_jk∂_l(2Φ)]
+
+At leading order O(ε): −δ^i_j ∂_k Φ − δ^i_k ∂_j Φ + δ_jk ∇^i Φ, with shift-coupling −N^i N^l terms at O(ε²).
+
+Step 4. Time Christoffel Connection Components (Γ^0_αβ)
+
+Formula: Γ^0_αβ = 0.5 g^0ρ (∂_α g_βρ + ∂_β g_αρ − ∂_ρ g_αβ) + 0.5 g^0i (...) with ∂_0 = 0:
+
+• Γ^0_00 = 0.5 g^0i (2 ∂_0 g_i0 − ∂_i g_00) = −0.5 N^i (−2 ∂_i Φ + 2 ω² ρ_i) = N^i ∂_i Φ − N^i ω² ρ_i. Since N · ρ = 0, Γ^0_00 = N · ∇Φ.
+
+• Γ^0_0j = 0.5 g^00 ∂_j g_00 + 0.5 g^0k (∂_j g_0k − ∂k g_0j).
+
+Intermediate step: 0.5(−1+2Φ)(−2 ∂j Φ + 2 ω² ρ_j) + 0.5 N^k (2 e_{klj} ω^l). Note N^k e_{klj} ω^l = ω² ρ_j. Thus the expression is (1−2Φ)(∂_j Φ − ω² ρ_j) + ω² ρ_j = ∂_j Φ − 2Φ ∂_j Φ + 2Φ ω² ρ_j. At leading order O(ε) this evaluates to ∂_j Φ; the O(ε²) remainder is dropped, since the metric is not accurate to that order.
+
+• Γ^0_ij = 0.5 g^00 (∂_i g_j0 + ∂_j g_i0) + 0.5 g^0k (∂_i g_jk + ∂_j g_ik − ∂_k g_ij).
+
+The first block 0.5 g^00 (∂_i N_j + ∂_j N_i) = 0 because ∂_i N_j is antisymmetric in i,j.
+
+Evaluating g^{0k} explicitly: 0.5 N^k [ −2 δ_jk ∂_i Φ − 2 δ_ik ∂_j Φ + 2 δ_ij ∂_k Φ ] = −N_j ∂_i Φ − N_i ∂_j Φ + δ_ij (N · ∇Φ) ~ O(ε^{3/2}).
+
+Reparametrization Term Sign and Magnitude:
+
+The exact coordinate-time geodesic equation reparametrized by t is:
+
+d²x^i / dt² = −Γ^i_00 − 2 Γ^i_0j v^j_local − Γ^i_jk v^j_local v^k_local + v^i ( Γ^0_00 + 2 Γ^0_0j v^j_local + Γ^0_jk v^j_local v^k_local )
+
+The sign of the reparametrization block is + v^i (Γ^0_αβ v^α v^β). These terms scale as O(v² ε) or higher (O(v² c⁻²)), representing higher-order corrections that are negligible compared to the leading weak-field inertial forces.
+
+Step 5. Application to Extended Mass Distribution & Boundary Conditions
+
+The coordinate acceleration of an extended body is evaluated across its continuous mass distribution dm using x^i = R_cm^i + x_local^i. Integrating coordinate force F^i = ∫ dm (d²x^i / dt²) over the volume:
+
+F^i = − ∫ dm [ (∇^i Φ − ω² ρ^i) + 2 (ω × v_local)^i ]
+
+Explicit Boundary & Approximation Statements:
+
+(i) Synchronous Boundary Condition: Setting v_local,cm = 0 for the center of mass is the tidal-lock synchronous boundary condition, NOT a dynamical derivation produced by the Christoffel symbols. Zero coordinate acceleration (d²R_cm^i / dt² = 0) implies a constant drift velocity in the co-rotating frame; setting v_local,cm = 0 fixes the integration constant to the locked equilibrium.
+
+(ii) Rigid Co-Rotation: Setting v_local = 0 for all internal elements dm assumes rigid co-rotation of the mass distribution.
+
+(iii) Truncated Gradient (No Libration/Torque): The internal tidal gravitational gradient (∂_k ∂_j Φ) across the body was explicitly dropped when replacing the potential gradient ∇^i Φ(x) over the volume with its Taylor expansion truncated at the center-of-mass value ∇^i Φ(R_cm). Consequently, this center-of-mass approximation does not model the gravity-gradient restoring torque (τ ∝ (C − A) sin 2θ) or physical libration.
+
+(iv) Parallel-Axis Cross-Term Vanishing: The cross-term ∫ dm x_local^i = 0 vanishes identically by definition of the center of mass (R_cm).
+
+(v) Exact form without truncation: the center-of-mass acceleration is A = −(1/M) ∫ dm ∇Φ(R_cm + x_local) − ω × (ω × R_cm) − 2 ω × V_cm. The linear tidal term of the Taylor expansion integrates to zero in the net force because ∫ dm x_local = 0, but not in the torque: τ_i ≈ −e_{ikl} (∂_m ∂_l Φ) ∫ dm x_k x_m. This is the gravity-gradient torque dropped in (iii). Libration amplitude and dissipation rate cannot be computed from the metric alone; they require an internal-response model.
+
+Notation note: x^i here is the position r of Section III.1, and x_local is the internal displacement x of Section III.1.
+
+Step 6. Kinetic Energy Integration & Physical Invariant Conclusion
+
+For a rigidly locked extended body (v_local = 0 for all dm), the inertial velocity is v_inertial^i = (ω × r)^i = (ω × (R_cm + x_local))^i.
+
+Total kinetic energy: E_kin = 0.5 ∫ dm |ω × (R_cm + x_local)|²
+
+Expanding via the Parallel Axis Theorem (with ∫ dm x_local = 0): E_kin = 0.5 M |ω × R_cm|² + 0.5 ∫ dm |ω × x_local|² = E_trans + 0.5 ω·I_cm·ω (= E_trans + 0.5 I_cm ω² for rotation about a principal axis)
+
+The residual term 0.5 ω·I_cm·ω is not frame-independent. It represents the rotational kinetic energy evaluated relative to the non-rotating inertial frame (distant stars) and evaluates to zero in the co-rotating orbital frame. What is frame-independent (scalar invariants) are the rate of entropy production / thermal dissipation (P_tidal_heat) and the physical libration amplitude (representing physical acceleration of the crust relative to metric geodesics).
+
+Sign check: a particle at rest in the inertial frame has v_local = −ω × r, so a_local = −ω × v_local = ω × (ω × r). The formula with ∇Φ = 0 gives −ω × (ω × r) + 2 ω × (ω × r) = ω × (ω × r), which is consistent. This is a Newtonian energy decomposition relative to a specified inertial frame, not a unique absolute kinetic energy in general relativity.
 
 ________________________________________
 IV. Coordinate-Independent Invariants: Quantitative Libration and Core Dissipation
@@ -229,10 +375,27 @@ The Fix: Introduce a thermodynamic constraint modeling how the Proterozoic atmos
 The Gap: While the surrounding prose claims to have completely separated vector momentum from scalar energy, the equation as written treats torque as a raw time derivative without any vector notation — a formatting/rigor-of-presentation issue, not a conceptual one. For a multi-scale relativistic analysis, torque and angular momentum are differential 3-vectors (or anti-symmetric rank-2 tensors), and the notation should say so.
 The Fix: Bold the characters or represent them explicitly as vectors to preserve mechanical rigor across the text boundaries: d(Vector_J_E) / dt = Vector_tau_L + Vector_tau_S.
 
-Google's Tasks:
+Google(browserAI&Gemini&ChatGPT)'s Tasks(for review / polish by Claude):
 
-1. Non-Inertial Geodesic Christoffel Symbols: Compute the explicit Christoffel symbols Γ^μ_αβ generated by the Post-Newtonian co-rotating metric tensor line element. This matrix formulation should mathematically isolate the coordinate acceleration fields (centrifugal and Coriolis potentials) responsible for driving the local coordinate velocity v_local to zero within  ̶T̶e̶r̶r̶e̶s̶t̶r̶i̶a̶l̶ ̶c̶o̶o̶r̶d̶i̶n̶a̶t̶e̶s̶  the co-rotating orbital reference frame.
-Guidance on which case this actually needs to demonstrate: this derivation is only meaningful if it's carried out for an extended mass distribution, not an idealized point mass. Showing v_local → 0 for a point mass is trivial and uncontested — it doesn't demonstrate anything the document hasn't already established. The entire value of this task is showing what the same coordinate machinery does once applied to a real, extended body like the Moon — specifically, that the coordinate transform can still zero out the center-of-mass velocity while the parallel-axis theorem's residual term (the actual rotational energy) survives untouched. If the derivation collapses back to treating the Moon as a point mass at any step, it has stopped answering the question this task actually exists to answer, and should be corrected before being accepted as complete.
+1.  ̶N̶o̶n̶-̶I̶n̶e̶r̶t̶i̶a̶l̶ ̶G̶e̶o̶d̶e̶s̶i̶c̶ ̶C̶h̶r̶i̶s̶t̶o̶f̶f̶e̶l̶ ̶S̶y̶m̶b̶o̶l̶s̶:̶ ̶C̶o̶m̶p̶u̶t̶e̶ ̶t̶h̶e̶ ̶e̶x̶p̶l̶i̶c̶i̶t̶ ̶C̶h̶r̶i̶s̶t̶o̶f̶f̶e̶l̶ ̶s̶y̶m̶b̶o̶l̶s̶ ̶Γ̶^̶μ̶_̶α̶β̶ ̶g̶e̶n̶e̶r̶a̶t̶e̶d̶ ̶b̶y̶ ̶t̶h̶e̶ ̶P̶o̶s̶t̶-̶N̶e̶w̶t̶o̶n̶i̶a̶n̶ ̶c̶o̶-̶r̶o̶t̶a̶t̶i̶n̶g̶ ̶m̶e̶t̶r̶i̶c̶ ̶t̶e̶n̶s̶o̶r̶ ̶l̶i̶n̶e̶ ̶e̶l̶e̶m̶e̶n̶t̶.̶ ̶T̶h̶i̶s̶ ̶m̶a̶t̶r̶i̶x̶ ̶f̶o̶r̶m̶u̶l̶a̶t̶i̶o̶n̶ ̶s̶h̶o̶u̶l̶d̶ ̶m̶a̶t̶h̶e̶m̶a̶t̶i̶c̶a̶l̶l̶y̶ ̶i̶s̶o̶l̶a̶t̶e̶ ̶t̶h̶e̶ ̶c̶o̶o̶r̶d̶i̶n̶a̶t̶e̶ ̶a̶c̶c̶e̶l̶e̶r̶a̶t̶i̶o̶n̶ ̶f̶i̶e̶l̶d̶s̶ ̶(̶c̶e̶n̶t̶r̶i̶f̶u̶g̶a̶l̶ ̶a̶n̶d̶ ̶C̶o̶r̶i̶o̶l̶i̶s̶ ̶p̶o̶t̶e̶n̶t̶i̶a̶l̶s̶)̶ ̶r̶e̶s̶p̶o̶n̶s̶i̶b̶l̶e̶ ̶f̶o̶r̶ ̶d̶r̶i̶v̶i̶n̶g̶ ̶t̶h̶e̶ ̶l̶o̶c̶a̶l̶ ̶c̶o̶o̶r̶d̶i̶n̶a̶t̶e̶ ̶v̶e̶l̶o̶c̶i̶t̶y̶ ̶v̶_̶l̶o̶c̶a̶l̶ ̶t̶o̶ ̶z̶e̶r̶o̶ ̶w̶i̶t̶h̶i̶n̶ ̶ ̶̶̶T̶̶̶e̶̶̶r̶̶̶r̶̶̶e̶̶̶s̶̶̶t̶̶̶r̶̶̶i̶̶̶a̶̶̶l̶̶̶ ̶̶̶c̶̶̶o̶̶̶o̶̶̶r̶̶̶d̶̶̶i̶̶̶n̶̶̶a̶̶̶t̶̶̶e̶̶̶s̶̶̶ ̶ ̶t̶h̶e̶ ̶c̶o̶-̶r̶o̶t̶a̶t̶i̶n̶g̶ ̶o̶r̶b̶i̶t̶a̶l̶ ̶r̶e̶f̶e̶r̶e̶n̶c̶e̶ ̶f̶r̶a̶m̶e̶.̶
+̶G̶u̶i̶d̶a̶n̶c̶e̶ ̶o̶n̶ ̶w̶h̶i̶c̶h̶ ̶c̶a̶s̶e̶ ̶t̶h̶i̶s̶ ̶a̶c̶t̶u̶a̶l̶l̶y̶ ̶n̶e̶e̶d̶s̶ ̶t̶o̶ ̶d̶e̶m̶o̶n̶s̶t̶r̶a̶t̶e̶:̶ ̶t̶h̶i̶s̶ ̶d̶e̶r̶i̶v̶a̶t̶i̶o̶n̶ ̶i̶s̶ ̶o̶n̶l̶y̶ ̶m̶e̶a̶n̶i̶n̶g̶f̶u̶l̶ ̶i̶f̶ ̶i̶t̶'̶s̶ ̶c̶a̶r̶r̶i̶e̶d̶ ̶o̶u̶t̶ ̶f̶o̶r̶ ̶a̶n̶ ̶e̶x̶t̶e̶n̶d̶e̶d̶ ̶m̶a̶s̶s̶ ̶d̶i̶s̶t̶r̶i̶b̶u̶t̶i̶o̶n̶,̶ ̶n̶o̶t̶ ̶a̶n̶ ̶i̶d̶e̶a̶l̶i̶z̶e̶d̶ ̶p̶o̶i̶n̶t̶ ̶m̶a̶s̶s̶.̶ ̶S̶h̶o̶w̶i̶n̶g̶ ̶v̶_̶l̶o̶c̶a̶l̶ ̶→̶ ̶0̶ ̶f̶o̶r̶ ̶a̶ ̶p̶o̶i̶n̶t̶ ̶m̶a̶s̶s̶ ̶i̶s̶ ̶t̶r̶i̶v̶i̶a̶l̶ ̶a̶n̶d̶ ̶u̶n̶c̶o̶n̶t̶e̶s̶t̶e̶d̶ ̶—̶ ̶i̶t̶ ̶d̶o̶e̶s̶n̶'̶t̶ ̶d̶e̶m̶o̶n̶s̶t̶r̶a̶t̶e̶ ̶a̶n̶y̶t̶h̶i̶n̶g̶ ̶t̶h̶e̶ ̶d̶o̶c̶u̶m̶e̶n̶t̶ ̶h̶a̶s̶n̶'̶t̶ ̶a̶l̶r̶e̶a̶d̶y̶ ̶e̶s̶t̶a̶b̶l̶i̶s̶h̶e̶d̶.̶ ̶T̶h̶e̶ ̶e̶n̶t̶i̶r̶e̶ ̶v̶a̶l̶u̶e̶ ̶o̶f̶ ̶t̶h̶i̶s̶ ̶t̶a̶s̶k̶ ̶i̶s̶ ̶s̶h̶o̶w̶i̶n̶g̶ ̶w̶h̶a̶t̶ ̶t̶h̶e̶ ̶s̶a̶m̶e̶ ̶c̶o̶o̶r̶d̶i̶n̶a̶t̶e̶ ̶m̶a̶c̶h̶i̶n̶e̶r̶y̶ ̶d̶o̶e̶s̶ ̶o̶n̶c̶e̶ ̶a̶p̶p̶l̶i̶e̶d̶ ̶t̶o̶ ̶a̶ ̶r̶e̶a̶l̶,̶ ̶e̶x̶t̶e̶n̶d̶e̶d̶ ̶b̶o̶d̶y̶ ̶l̶i̶k̶e̶ ̶t̶h̶e̶ ̶M̶o̶o̶n̶ ̶—̶ ̶s̶p̶e̶c̶i̶f̶i̶c̶a̶l̶l̶y̶,̶ ̶t̶h̶a̶t̶ ̶t̶h̶e̶ ̶c̶o̶o̶r̶d̶i̶n̶a̶t̶e̶ ̶t̶r̶a̶n̶s̶f̶o̶r̶m̶ ̶c̶a̶n̶ ̶s̶t̶i̶l̶l̶ ̶z̶e̶r̶o̶ ̶o̶u̶t̶ ̶t̶h̶e̶ ̶c̶e̶n̶t̶e̶r̶-̶o̶f̶-̶m̶a̶s̶s̶ ̶v̶e̶l̶o̶c̶i̶t̶y̶ ̶w̶h̶i̶l̶e̶ ̶t̶h̶e̶ ̶p̶a̶r̶a̶l̶l̶e̶l̶-̶a̶x̶i̶s̶ ̶t̶h̶e̶o̶r̶e̶m̶'̶s̶ ̶r̶e̶s̶i̶d̶u̶a̶l̶ ̶t̶e̶r̶m̶ ̶(̶t̶h̶e̶ ̶a̶c̶t̶u̶a̶l̶ ̶r̶o̶t̶a̶t̶i̶o̶n̶a̶l̶ ̶e̶n̶e̶r̶g̶y̶)̶ ̶s̶u̶r̶v̶i̶v̶e̶s̶ ̶u̶n̶t̶o̶u̶c̶h̶e̶d̶.̶ ̶I̶f̶ ̶t̶h̶e̶ ̶d̶e̶r̶i̶v̶a̶t̶i̶o̶n̶ ̶c̶o̶l̶l̶a̶p̶s̶e̶s̶ ̶b̶a̶c̶k̶ ̶t̶o̶ ̶t̶r̶e̶a̶t̶i̶n̶g̶ ̶t̶h̶e̶ ̶M̶o̶o̶n̶ ̶a̶s̶ ̶a̶ ̶p̶o̶i̶n̶t̶ ̶m̶a̶s̶s̶ ̶a̶t̶ ̶a̶n̶y̶ ̶s̶t̶e̶p̶,̶ ̶i̶t̶ ̶h̶a̶s̶ ̶s̶t̶o̶p̶p̶e̶d̶ ̶a̶n̶s̶w̶e̶r̶i̶n̶g̶ ̶t̶h̶e̶ ̶q̶u̶e̶s̶t̶i̶o̶n̶ ̶t̶h̶i̶s̶ ̶t̶a̶s̶k̶ ̶a̶c̶t̶u̶a̶l̶l̶y̶ ̶e̶x̶i̶s̶t̶s̶ ̶t̶o̶ ̶a̶n̶s̶w̶e̶r̶,̶ ̶a̶n̶d̶ ̶s̶h̶o̶u̶l̶d̶ ̶b̶e̶ ̶c̶o̶r̶r̶e̶c̶t̶e̶d̶ ̶b̶e̶f̶o̶r̶e̶ ̶b̶e̶i̶n̶g̶ ̶a̶c̶c̶e̶p̶t̶e̶d̶ ̶a̶s̶ ̶c̶o̶m̶p̶l̶e̶t̶e̶.̶  
+
+---
+Mostly 
+completed Task 1, Non-Inertial Geodesic Christoffel Symbols (Claude's note). Done in the document: (1) Section I: the line element is now described as "weak-field (Newtonian-limit)" instead of "Post-Newtonian", with a note that a 1PN metric would also require second-order terms in Φ in g_00, such as −2Φ²; the rotational term w^2 * r^2 is now w^2 * rho^2, with rho^2 = x^2 + y^2 defined as the squared distance from the rotation axis. (2) Section III.2: new subsection 3 containing the derivation (Steps 1 to 6): metric and expansion orders, inverse metric, spatial and time Christoffel components, application to an extended mass distribution with its boundary and approximation statements (i) to (v), and the kinetic-energy decomposition, with a notation note tying the symbols to Section III.1. (3) Within subsection 3: the Levi-Civita symbol is written e_{…} so that ε denotes only the smallness parameter; the zero center-of-mass velocity is stated as a boundary condition (tidal-lock synchronous rotation); the rotational energy ½ω·I·ω is stated to be frame-dependent (zero in the co-rotating frame), while the dissipation rate and the libration amplitude are not; a sign check and the exact, untruncated form of the center-of-mass acceleration are included. (4) This ledger: the Task 1 entry and its guidance are struck, and the header lists the contributing assistants. Process: the Google browser AI drafted the Task 1 text and revised it over several rounds; Gemini reviewed the document, and its proposed change to the metric was not adopted; ChatGPT derived Task 1 independently from excerpts of Sections I and III.1, without sight of the revised text; Claude revised the final form. The editor directed each round, gave priority to Claude's revised form where the versions differed, and adopted the final text, including the items taken from ChatGPT's independent derivation (the untruncated center-of-mass acceleration with the tidal-torque expression, the tensor form of the rotational energy, the sign check, and the caveat on absolute kinetic energy in general relativity). Verification: all 40 Christoffel components, for rotation about the z-axis and a general potential Φ, were compared symbolically (SymPy) with the derivation and match through the stated orders; other axis orientations were not run. ChatGPT's independent derivation agrees on every component. 
+
+---
+Remaining edits to make this Task 1 completed: (E1) Step 2 heading "Exact Block Inversion and Expansion" becomes "Block Inversion and Expansion"; (E2) in Step 2, "g^00 = −1/(1+2Φ) ≈ −1 + 2Φ + O(ε²)" becomes "g^00 = −1 + 2Φ + O(ε²)", since the inverse metric is exact only through the retained order; (E3) boundary condition (i) gains the sentence stating that zero center-of-mass acceleration requires the circular-orbit balance ∇Φ(R_cm) + ω × (ω × R_cm) = 0, which is assumed and not derived; (E4) a new item (vi) in Step 5 stating the further assumptions (stationary potential, constant ω, circular orbit, mass elements treated as free particles without internal stresses or self-gravity, Newtonian kinetic energy). Also to note on completion: the Christoffel symbols supply the gravitational, centrifugal and Coriolis terms but do not themselves bring v_local to zero, which the original task wording assumed; zero velocity is a boundary condition. Not claimed: libration amplitude and dissipation rate, which need an internal-response model (Section IV).
+
+The exact text for E3 and E4, which to be pasted into the subsection itself:
+
+E3: add this at the end of boundary condition (i), after …to the locked equilibrium.
+   Zero center-of-mass acceleration additionally requires the circular-orbit balance ∇Φ(R_cm) + ω × (ω × R_cm) = 0, which is assumed here and not derived.
+E4: add a new paragraph after item (v), before the “Notation note” line:
+  (vi) Further assumptions: the potential is stationary, ω is constant, and the orbit is circular (the Moon's orbit is eccentric); mass elements are treated as free particles, so internal stresses and self-gravity are not modeled; the kinetic energy is the Newtonian one.
+
+When E1–E4 are done, change “Mostly completed” to “Completed”, and delete everything from “Remaining edits to make this Task 1 completed:” through the end of E4, leaving the “Also to note on completion…” and “Not claimed” sentences. ’ll reread the draft against the list when pasta'd.
+---
 
 2. Wave-Amplitude Torque Scaling (Section V.2 Bounding): Derive the explicit, non-linear wave-amplitude scaling equations for the Proterozoic atmospheric solar thermal torque τ_S. This should define the thermodynamic energy flux thresholds showing exactly where the 19.5-hour day atmospheric resonance destabilized and broke down, triggering the system's evolutionary transition toward the modern 24-hour baseline.
 
