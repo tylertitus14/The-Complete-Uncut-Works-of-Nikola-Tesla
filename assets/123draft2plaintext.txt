@@ -129,7 +129,7 @@ Expanding fully:
 
 Order classification and symmetric treatment:
 
-• Leading order O(ε): ∇^i Φ − ω² ρ^i. This isolates the Newtonian gravitational acceleration (∇^i Φ) and the outward centrifugal acceleration (−ω² ρ^i).
+• Leading order O(ε): ∇^i Φ − ω² ρ^i. These are the connection terms for Newtonian gravity (∇^i Φ) and the centrifugal term (−ω² ρ^i). The geodesic equation uses their negatives, so the accelerations are −∇^i Φ (gravity) and +ω² ρ^i (outward centrifugal).
 
 • Second order O(ε²): +2Φ ∇^i Φ, −2Φ ω² ρ^i, and −N^i N^k (∂_k Φ − ω² ρ_k). All three cross-terms are discarded because the metric isn’t accurate to O(ε²).
 
