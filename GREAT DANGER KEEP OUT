@@ -19307,6 +19307,8 @@ confidential proposal to resolve the era's biggest metallurgical challenge: **Po
 
 --------------
 --------------
+'Around 1933, Tesla approached Dr. A.J. Phillips, the chief metallurgist for the American Smelting and Refining Company (ASARCO), with a highly technical, confidential proposal' can you find a source?
+--------------
 I couldn’t find any source for the Tesla–Phillips–ASARCO pitch. Treat it as unsourced and don’t add it to the repo as fact.
 Phillips was real and fits the story. Albert J. Phillips worked at ASARCO from 1931 until 1967, finishing as Vice President and Director of Research. He was known for research on how gases affect copper melting and casting. AIME honorary membership page. So the name and the “gas porosity in molten metal” angle are plausible, but nothing on that page mentions Tesla.
 Nothing in the Tesla material I checked mentions it. Two Tesla Universe items were both clean misses. One was a Leland Anderson letter in the FBI files. The other was a Heinz History Center fragment from Anderson. Two broader searches for Tesla and ASARCO or American Smelting also turned up nothing.
@@ -19333,7 +19335,28 @@ Perth Amboy, the Hotel McAlpin and the chauffeured limousine. The archive.org te
 Google’s links. They cite the Kelley article for Cheney’s chapter and the archive.org text for details that aren’t in it, so the attributions are loose.
 What the process was. Kelley says the plan was to remove bubbles from copper, not the vacuum chamber with electron bombardment of molten copper and iron that the memo describes. The “ASARCO passed on it” ending is also unsourced.
 For the repo, the sources are Cheney (Tesla: Man Out of Time, 1981) and Kelley (1987). The details above should be checked against Cheney’s own text for the ASARCO chapter before you quote them.
-
+--------------
+What about any of these claims of google's 'Around 1933, Nikola Tesla approached Dr. Albert J. Phillips, the chief metallurgist for the American Smelting and Refining Company (ASARCO), with a highly technical, confidential proposal to degasify and refine copper using a novel purification process. [1, 2]
+Tesla’s goal was to eliminate microscopic gas bubbles and impurities from molten copper to produce a structurally perfect metal. His interest in metallurgy stemmed largely from his ongoing frustration with the materials available at the time, which frequently failed or warped under the extreme thermal and mechanical stresses of his high-speed Tesla turbine experiments. [1, 2, 3]
+The ASARCO Experiment
+The Investment: Intrigued by the pitch, ASARCO invested $25,000 (a substantial sum during the Great Depression) to test Tesla's theories. [1]
+The Execution: Dr. Phillips and his research team set up experimental parameters exactly as Tesla instructed. [1]
+The Outcome: The results were entirely negative. According to Dr. Phillips' later recollections, the treated copper samples were in no way different from standard copper that had not undergone the Tesla treatment. [1]
+Despite the failure of this specific commercial venture, Tesla continued to iterate on his refining concepts. A decade later, following Tesla's death in 1943, variations of his degasifying and high-frequency material processing ideas were systematically reviewed by MIT engineer John G. Trump under a mandate from the U.S. National Defense Research Committee (NDRC). [1]
+--------------
+a “formulated a process of degasifying copper and interested the American Smelting and Refining Company,” citing Phillips’s recollections. Kelley’s article (Tesla Universe) puts the approach to Phillips at about 1933. Worcester Sun/Sinacola, quoting Cheney; Kelley.
+The test setup and the negative result. Per Cheney, Phillips and ASARCO ran the tests exactly as Tesla instructed. The copper samples were “in no way different from copper that had not been subject to the Tesla treatment.” Same Worcester Sun article.
+Carlson’s corroboration. Carlson (Tesla: Inventor of the Electrical Age) confirms the early-1930s degassing work and says Tesla “appears to have licensed this process” to ASARCO. So the venture is documented in two biographies.
+John G. Trump and the NDRC. Both are mentioned in the Purple Plate page. I can’t confirm from its text that his review covered the “degasifying” work specifically.
+Weak or unsupported:
+The $25,000. Only the Purple Plate page says it (“Dr. A. J. Phillips, superintendent… stated that $25,000 was invested”). That page is a product sales page with no references and other claims I’d call unsupported (dematerialization, 50,000,000-volt tubes). The Worcester article doesn’t mention the figure.
+Sold vs. licensed. Purple Plate says “sold”; Carlson says “licensed.” Those aren’t the same, so I wouldn’t state either as fact.
+“Confidential proposal.” I found nothing for this in any source I read.
+“Chief metallurgist.” Kelley and Purple Plate use “Dr. A.J. Phillips” and “superintendent.” Phillips’s ASARCO biography says Vice President and Director of Research.
+The turbine-materials motivation. Neither article gives this as Tesla’s reason. It looks like an inference by the Google summary.
+“Intrigued by the pitch.” Also unsourced.
+Google’s citations. The archive.org text it cites only covers the front of Cheney’s book. It doesn’t reach the ASARCO chapter, so that citation can’t be checked.
+If you add this to the repo, cite it to Cheney and Carlson, say the experiment found no difference, and treat the $25,000 figure as unverified. The most solid next step would be the page in Cheney’s chapter and Carlson’s passage.
 --------------
 --------------
 
