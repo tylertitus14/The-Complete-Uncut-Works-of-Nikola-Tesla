@@ -268,21 +268,21 @@ In the lock scenario, the day length reaches a value, reported as between roughl
 Vector_tau_S = -Vector_tau_L ==> d(Vector_J_E) / dt = 0
 
 [Conditional model, not established fact. This block shows what a thermal-tide torque balance would require if one operated. It does not show that one did.
- 
+
 Setup (assumed). The solar-driven pressure perturbation is a migrating semidiurnal wave, delta_p = P sin^2(theta) cos(2(phi - phi_s) - delta), acting as a thin surface layer of mass per unit area delta_p/g. It feels the m = 2 part of the Sun's tidal potential, U = -(3/4)(GM_sun R^2 / a^3) sin^2(theta) cos(2(phi - phi_s)). The torque on the atmosphere is assumed to reach the solid Earth.
- 
+
 Derived. The torque about the spin axis is tau_S = -(8 pi / 5) (P / g) (GM_sun R^4 / a^3) sin(delta), where P is the equatorial amplitude and delta is the phase of the pressure maximum, measured eastward from the sub-solar meridian. With this sign convention the torque speeds up Earth's rotation when delta is negative. In SI units the coefficient is 3.35 x 10^13 N m per Pa (for |sin delta| = 1).
- 
+
 Derived. Balancing a retarding torque of magnitude 1.13 x 10^16 N m (the Precambrian gravitational torque in Farhat et al. 2024, roughly a quarter of today's 4.51 x 10^16 N m) requires P of about 338 Pa for |sin delta| = 1, 675 Pa for 0.5 and 3.4 x 10^3 Pa for 0.1. These are 0.33%, 0.67% and 3.3% of a mean surface pressure of 1.013 x 10^5 Pa. A small ratio alone does not establish that the response is linear.
- 
+
 Assumed reference scale. An amplitude of order 100 Pa, comparable to the observed present-day semidiurnal surface-pressure amplitude of 107 to 150 Pa (Farhat et al. 2024), would give about 3.3 x 10^15 N m, roughly 30% of that retarding torque, so a resonant gain of about 3.4 would be needed to reach the first threshold. This is a conditional ratio, not evidence that such a gain occurs. Farhat et al. (2024) obtain a factor of 3.9 on a different basis (their own pressure-coefficient measure), so the two figures are not the same quantity.
- 
+
 Derived. Holding that torque costs 1.0 x 10^12 W at a 19.5 h day and 9.4 x 10^11 W at 21 h, about 2.5 x 10^-5 of the roughly 4 x 10^16 W absorbed in the atmosphere (taking 80 W/m^2 as an assumed average). Total energy flux therefore does not by itself set a limit; the limit lies in how large and how well phased the atmospheric response can be.
- 
+
 Stability (derived within an assumed model). Let the net torque be T_net(Omega) = tau_S(Delta(Omega)) + tau_L(Omega), with detuning Delta = omega_natural - 2(Omega - Omega_orbit). A balance is locally stable, in this one-variable model of the spin, if dT_net/dOmega < 0. For an assumed damped-resonance response tau_S = C_0 gamma / (Delta^2 + gamma^2), the slope is dtau_S/dOmega = 4 C_0 gamma Delta / (Delta^2 + gamma^2)^2. If the lunar torque becomes less retarding as Omega rises (dtau_L/dOmega > 0, assumed), a stable balance, if one exists, lies on the Delta < 0 side, in a band bounded away from the resonance peak; if dtau_L/dOmega has the other sign, the stable region is different. No balance exists at all if the peak torque C_0 / gamma is smaller than |tau_L|. A single exact failure day length or energy flux cannot be derived from these premises: it depends on gamma, C_0, omega_natural (which varies with atmospheric temperature) and on dtau_L/dOmega.
- 
+
 Saturation (assumed; none of these is established). Three candidate limits are amplitude-dependent damping, an amplitude-dependent shift of the resonance from atmospheric heating (the Lamb-wave speed scales as the square root of temperature), and wave breaking when the induced wind reaches the wave's phase speed (threshold P_max = C_phase / kappa, with kappa an unspecified structural coefficient giving wind amplitude per unit pressure amplitude). Which, if any, applies to the Proterozoic atmosphere is unknown.
- 
+
 This block does not show that the resonance occurred.]
 
 If this balance held, it would have kept Earth's day length near a fixed value for a long interval. Zahnle and Walker (1987) placed the resonance about 600 million years ago, when the day was about 21 hours. Bartlett and Stevenson (2016) concluded that the stabilization could have lasted about a billion years before a drastic deglaciation, on the scale that follows the end of a snowball Earth, ended it. Wu et al. (2023) place their lock between about 2.2 billion and 0.6 billion years ago, although their best-fit model leaves the balance near 1.4 billion years ago. The proposals do not agree on the timing or the cause, and some studies conclude that no lock occurred. The scenario shows how a resonant feedback could in principle interrupt a simple linear spin-down; it does not establish that Earth's day length was ever locked.
@@ -452,6 +452,7 @@ https://teslauniverse.com/nikola-tesla/articles/famous-scientific-illusions
 https://teslauniverse.com/nikola-tesla/articles/moons-rotation
 https://teslauniverse.com/nikola-tesla/articles/moons-rotation-follow-up
 https://teslauniverse.com/nikola-tesla/articles/problem-increasing-human-energy
+https://teslauniverse.com/nikola-tesla/articles/disturbing-influence-solar-radiation-wireless-transmission-energy
 
 
 
