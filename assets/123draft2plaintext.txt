@@ -762,15 +762,15 @@ Two items entering the Errors section from this same revision round cover genuin
 28. In the Task 2 block, say explicitly that tau_S, tau_L and T_net are the spin-axis components of the vector torques of Section V.1 and V.2.
 
 29. Atmospheric damping. Bartlett and Stevenson (2016) quote an atmospheric Q of about 30 for the 10.5-hour wave (Lindzen and Blake 1972) and consider 10 to 500; with Q = 30 their damping factor is about 5.5 x 10^-6 per second (damping time about 50 hours). Work out how their Q and Gamma map onto the width parameter gamma of the Task 2 block (their Q is defined with their rotation-frequency omega_0, so check for a factor of 2), then decide whether to give gamma a sourced value in the block.
- 
+
 30. Section V.3 citations were not checked in the Section V revision. Check the claims and citations there (Gravity Probe B frame-dragging, the Type Ia supernova surveys, Penrose's conformal cyclic cosmology) against their sources, to the same standard applied to Section V.2. Done when each claim in V.3 is matched to a source or marked as unverified.
- 
+
 31. Mitchell and Kirscher (2023) are named in Section V.2 only as Farhat et al. (2024) describe them (their fit relies heavily on three Paleoproterozoic stromatolite records that other studies consider unsuitable for precise use). Read the paper and check that this is a fair description of it. Done when the statement is confirmed or reworded.
- 
+
 32. Zahnle and Walker (1987), Precambrian Research 37(2), 95-105: it has not been verified whether the paper is paywalled. If it is, a copy has to be supplied before item 23 can be done. Done when access is confirmed or the paper is obtained.
- 
+
 33. Wu et al. (2023) disagree with themselves on the end of the lock. The abstract gives 2.2 to 0.6 billion years ago, but the body has the best-fit model leaving the balance near 1.4 billion years ago, with a second, shorter lock between about 700 and 400 million years ago. Section V.2 reports both. Check the dates against the body text and figures of the paper. Done when the V.2 wording is confirmed not to read as firmer than the paper.
- 
+
 34. The Bartlett and Stevenson (2016) dates for the lock (beginning perhaps near 2 billion years ago, ending near 600 million years ago) depend on stromatolite data that the authors say should not be taken too seriously, and on the assumed evolution of ocean-tide dissipation. Section V.2 gives the dates; check that it also conveys this dependence. Done when the paragraph states it or the dates are removed.
 
 
