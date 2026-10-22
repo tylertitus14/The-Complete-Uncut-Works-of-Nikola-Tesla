@@ -4481,11 +4481,17 @@ ________________________________________
      [verified; title and author list corrected from earlier draft]
   Lloyd, S., Maccone, L., Garcia-Patron, R., Giovannetti, V. & Shikano, Y., "Quantum mechanics of time travel through post-selected teleportation," Phys. Rev. D 84 (2011), 025007. DOI 10.1103/PhysRevD.84.025007.
      [verified; added. The PP result is attributed to these two Lloyd et al. papers by a later survey (arXiv:1609.05507); not yet confirmed in the papers' own text]
+------------------------------------------
 
+# thanks... i added it at the bottom
 
+# There’s nothing (A)I’d want overwritten. Three things to keep in mind for when Y‎ (t)‎ ‎ ou come back  ̶t̶o̶ ̶i̶t̶:
 
+The PP result for post-selected loops is still verified only through a later survey, not the Lloyd papers themselves. It’s tagged that way in the file.
+The “Negative Latency budget” formula in Route E1 is an order-of-magnitude heuristic and says so. It needs a proper derivation before anything leans on it.
+The section disagrees with some earlier parts of the document. Those parts use 471,200 (Tesla printed 471,240) and say P = NP outright, while the section’s formal answer is NP ⊆ P_CTC. That’s a reconciliation job for the next round, not an error in the section.
 
-
+It’s fine to leave a(ss)-is' (in) in the mea(i)ntime.
 
 
 
