@@ -422,10 +422,57 @@ The wave-law specification uses one model with one setting:
   - β = 1 (Tesla): a small immediate onset, then the sharpest change at R (1 −
     cos θ) / c, i.e. 5.76 ms across the Atlantic instead of about 16 ms.
 
-That difference is the measurement that would tell the two apart. As far as we
-have found, it does not appear in any of Tesla's surviving notes. The full
-Colorado Springs Notes contain no timing measurement through the Earth, and
-his 1916 interview gives no measured figure.
+That difference is the measurement that would tell the two apart.
+
+Tesla's timing numbers are geometry, not measurement
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+As far as we have found, Tesla never measured the timing. The full Colorado
+Springs Notes contain no timing measurement through the Earth, and his 1916
+interview gives no measured figure. His own wording points the same way. In
+the patent he "estimated" the interval at "one-twelfth or probably 0.08484 of
+a second," and adds that "the wave length can be ascertained from simple rules
+of geometry." In 1905 the time was "approximately ascertained."
+
+Every number he gives follows from just two inputs: the speed of light rounded
+to 300,000 km/s, and the Earth's diameter.
+
+Tesla's figure                          Where it comes from
+-------------------------------------   --------------------------------------
+mean surface speed "about 471,240       (π/2) × 300,000 = 471,239 km/s
+km/s" (1905 patent)
+"probably 0.08484 of a second" (1905    twice the Earth's diameter divided by
+patent)                                 c (within 0.1% of the real diameter)
+"one-twelfth" of a second               the same quantity, rounded
+0.006 s across 4,800 km of Atlantic     the axis rule above, with R = 6,363
+(1912)                                  km, giving 0.00575 s
+
+We therefore work on the assumption that the timing law is the output of
+Tesla's "current along the axis at light speed" picture, not a measured
+result. That is why a construction that reproduces his reasoning (above) is
+the right test of a model of it. If a measured figure ever turns up, this
+changes.
+
+The experiment that would settle it
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It needs only one station. Send an impulse into the ground and time its return
+at the same place, so no second station or shared clock is required. This was
+within reach of 1899 equipment.
+
+Model                                                         Predicted return
+-----------------------------------------------------------   ----------------
+Tesla's law                                                   85 ms
+around the surface at light speed                             133.5 ms
+the real Earth–ionosphere cavity (about 0.74 c, from the      about 180 ms
+measured 7.8 Hz Schumann resonance)
+
+In this construction, only a detector that reads the potential (β = 1) would
+see the 85 ms return. Every instrument in use today, including
+lightning-location networks and low-frequency timing systems, reads the
+fields. So their silence neither confirms nor refutes the model. That is its
+honest present limit: a sharp prediction that only a new kind of detector
+could test.
 
 8. LIGHT CONES: WHERE EACH SIGNAL LIVES IN SPACE AND TIME
 ---------------------------------------------------------
@@ -577,11 +624,12 @@ welcome.
   - Then the power stages, following Tesla's own three steps from his January
     9, 1902 letter to J. P. Morgan (quoted in the introduction to the Colorado
     Springs Notes): feeble signals, then modest power, then industrial power.
-  - Keep hunting the one primary source that might hold an actual timing: the
-    letter in which, according to biographer Marc Seifer, Tesla told Morgan he
-    had sent impulses to the antipode and measured their return. Seifer gives
-    no date or figure from Tesla, and the editors of the Colorado Springs
-    Notes found no such event in the notebook.
+  - Add the one-station echo test to the model as a standard case.
+  - Stay alert for the one source that could overturn the working assumption:
+    the letter in which, according to biographer Marc Seifer, Tesla told
+    Morgan he had sent impulses to the antipode and measured their return.
+    Seifer gives no date or figure from Tesla, and the editors of the Colorado
+    Springs Notes found no such event in the notebook.
 
 When those are done, this note will be replaced by the full specification.
 
