@@ -9,6 +9,7 @@ Nikola Tesla" (github.com/tylertitus14). Drafted with Claude (Anthropic). This
 note will be replaced by the full wave-law specification once that work is
 finished.
 
+
 STATUS: WHAT THIS NOTE IS, AND WHAT IT IS NOT
 ---------------------------------------------
 
@@ -21,6 +22,7 @@ purpose.
 Terms are defined as they come up. Where a statement is Tesla's, it is quoted
 and dated. Where it is standard physics, it says so. Where it is our own step,
 it says that too.
+
 
 1. THE PUZZLE IN ONE PARAGRAPH
 ------------------------------
@@ -44,6 +46,7 @@ John Bell coined a word for the things a theory says really exist: beables (as
 opposed to mere "observables"). The question of this note is whether the
 potential can be promoted from bookkeeper to beable, and if so, what changes.
 
+
 2. HOW FREE IS THE BOOKKEEPING? VERY.
 -------------------------------------
 
@@ -66,6 +69,7 @@ a matching part of the vector potential, so it never shows up in the fields.
 
 So in ordinary physics an "instant potential" is a feature of one bookkeeping
 style, invisible to every instrument.
+
 
 3. WHICH WAY THE FREEDOM RUNS, AND HOW TO LIST EVERY OPTION
 -----------------------------------------------------------
@@ -169,6 +173,7 @@ Tesla's repeated split between "Hertz waves," which radiate away and are
 completely recoverable" (1916). This is a consequence of the model, not
 something tested.
 
+
 4. WHY THE POTENTIAL DESERVES A SECOND LOOK ANYWAY
 --------------------------------------------------
 
@@ -193,6 +198,7 @@ Three standard facts suggest the potential is more than a ledger:
 
 None of this forces the potential to be a beable. It shows the door is not
 locked.
+
 
 5. THE CONSTRUCTION: THREE PARTS
 --------------------------------
@@ -274,6 +280,7 @@ theoretically infinite speed" in 1927). A potential that spread at any finite
 speed would delay the start at a distance. Only the instant potential matches,
 so the speed is set by the text, not chosen by us.
 
+
 6. WHAT IT COSTS, AND WHAT IT NO LONGER COSTS
 ---------------------------------------------
 
@@ -318,6 +325,7 @@ faster than light in the medium's frame. Because there is a single preferred
 frame, this does not allow a signal to arrive before it was sent. That is the
 standard result for theories with one preferred frame (section 8 spells out
 the limits). Whether nature allows it is, again, a separate question.
+
 
 7. WHAT IT DOES FOR TESLA'S TERRESTRIAL WAVE LAW
 ------------------------------------------------
@@ -377,9 +385,9 @@ Angle from      Fastest change   Tesla's law   Straight         Around the
 transmitter     of instant                     through the      surface at c
                 potential                      Earth at c
 -------------   --------------   -----------   --------------   --------------
-43.2° (≈        5.76 ms          5.76 ms       15.6 ms          16.0 ms
-4,800 km, the
-Atlantic)
+43.2°           5.76 ms          5.76 ms       15.6 ms          16.0 ms
+(≈ 4,800 km,
+the Atlantic)
 90°             21.25 ms         21.25 ms      30.1 ms          33.4 ms
 135°            36.28 ms         36.28 ms      39.3 ms          50.1 ms
 170°            42.18 ms         42.18 ms      42.3 ms          63.1 ms
@@ -387,8 +395,8 @@ Atlantic)
 (The geometry behind it: with the receiver a distance ρ = R sin θ from the
 axis, the rate of change of the instant potential goes as 1/√(ρ² + (ct − z)²),
 minus a constant (one over the receiver's straight-line distance from the
-transmitter). This peaks when ct equals the receiver's axial position z = R(1
-− cos θ).)
+transmitter). This peaks when ct equals the receiver's axial position
+z = R(1 − cos θ).)
 
 Three more of Tesla's statements that now read literally
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -419,8 +427,9 @@ The wave-law specification uses one model with one setting:
 
   - β = 0 (Maxwell): nothing arrives before the light travel time, through the
     Earth or around it.
-  - β = 1 (Tesla): a small immediate onset, then the sharpest change at R (1 −
-    cos θ) / c, i.e. 5.76 ms across the Atlantic instead of about 16 ms.
+  - β = 1 (Tesla): a small immediate onset, then the sharpest change at
+    R (1 − cos θ) / c, i.e. 5.76 ms across the Atlantic instead of about
+    16 ms.
 
 That difference is the measurement that would tell the two apart.
 
@@ -439,13 +448,13 @@ to 300,000 km/s, and the Earth's diameter.
 
 Tesla's figure                          Where it comes from
 -------------------------------------   --------------------------------------
-mean surface speed "about 471,240       (π/2) × 300,000 = 471,239 km/s
-km/s" (1905 patent)
+mean surface speed "about               (π/2) × 300,000 = 471,239 km/s
+471,240 km/s" (1905 patent)
 "probably 0.08484 of a second" (1905    twice the Earth's diameter divided by
 patent)                                 c (within 0.1% of the real diameter)
 "one-twelfth" of a second               the same quantity, rounded
-0.006 s across 4,800 km of Atlantic     the axis rule above, with R = 6,363
-(1912)                                  km, giving 0.00575 s
+0.006 s across 4,800 km of Atlantic     the axis rule above, with
+(1912)                                  R = 6,363 km, giving 0.00575 s
 
 We therefore work on the assumption that the timing law is the output of
 Tesla's "current along the axis at light speed" picture, not a measured
@@ -460,12 +469,14 @@ It needs only one station. Send an impulse into the ground and time its return
 at the same place, so no second station or shared clock is required. This was
 within reach of 1899 equipment.
 
-Model                                                         Predicted return
------------------------------------------------------------   ----------------
-Tesla's law                                                   85 ms
-around the surface at light speed                             133.5 ms
-the real Earth–ionosphere cavity (about 0.74 c, from the      about 180 ms
-measured 7.8 Hz Schumann resonance)
+Model                                         Predicted return
+-------------------------------------------   ----------------
+Tesla's law                                   85 ms
+around the surface at light speed             133.5 ms
+the real Earth–ionosphere cavity (≈ 0.74 c)   about 180 ms
+
+(The 0.74 c comes from the measured 7.8 Hz Schumann resonance, the
+Earth–ionosphere cavity's lowest natural frequency.)
 
 In this construction, only a detector that reads the potential (β = 1) would
 see the 85 ms return. Every instrument in use today, including
@@ -473,6 +484,7 @@ lightning-location networks and low-frequency timing systems, reads the
 fields. So their silence neither confirms nor refutes the model. That is its
 honest present limit: a sharp prediction that only a new kind of detector
 could test.
+
 
 8. LIGHT CONES: WHERE EACH SIGNAL LIVES IN SPACE AND TIME
 ---------------------------------------------------------
@@ -555,8 +567,8 @@ Three surfaces for every receiver
 Putting the construction together, a receiver at angle θ has three moments,
 each on its own surface in spacetime:
 
-  1. The level slice "now" (t = 0+). The instant potential starts to change. β
-     = 1 only.
+  1. The level slice "now" (t = 0+). The instant potential starts to change.
+     β = 1 only.
   2. The light-speed sheet (t = R(1 − cos θ)/c). The instant potential changes
      fastest. β = 1 only.
   3. The light cone (t = straight-line distance / c, or longer around the
@@ -585,17 +597,21 @@ one global ordering of events still exists.
 The honest limit. The protection holds only while all instant links share one
 frame. Two separate media moving relative to each other, each with its own
 instant potential and detectors that can read both, could in principle combine
-into a loop. Tesla's talk of signalling to other planets would be exactly that
-case. He wrote "Talking with the Planets" (Collier's Weekly, Feb 9, 1901). In
-1905 he said his planned power plant would strike the universe with "blows
-that will wake from their slumber the sleepiest electricians, if there be any,
-on Venus or Mars!" ("The Transmission of Electrical Energy Without Wires as a
-Means for Furthering Peace," Electrical World and Engineer, Jan 7, 1905). If
-Mars had its own instant potential tied to its own frame, and a reader at each
-end could read both, an Earth–Mars exchange is the kind of two-frame link that
-could close a loop. The construction as stated covers one Earth. Extending it
-to several worlds would need a further rule, for example that all instant
-potentials share one frame (Tesla's ether would supply one).
+into a loop.
+
+Tesla's talk of signalling to other planets would be exactly that case. He
+wrote "Talking with the Planets" (Collier's Weekly, Feb 9, 1901). In 1905 he
+said his planned power plant would strike the universe with "blows that will
+wake from their slumber the sleepiest electricians, if there be any, on Venus
+or Mars!" ("The Transmission of Electrical Energy Without Wires as a Means for
+Furthering Peace," Electrical World and Engineer, Jan 7, 1905). If Mars had
+its own instant potential tied to its own frame, and a reader at each end
+could read both, an Earth–Mars exchange is the kind of two-frame link that
+could close a loop.
+
+The construction as stated covers one Earth. Extending it to several worlds
+would need a further rule, for example that all instant potentials share one
+frame (Tesla's ether would supply one).
 
 What is new here, and what is not
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -615,6 +631,7 @@ is the Tesla-specific part:
 We cannot rule out that someone has written these down before; corrections are
 welcome.
 
+
 9. WHAT COMES NEXT
 ------------------
 
@@ -632,6 +649,7 @@ welcome.
     Springs Notes found no such event in the notebook.
 
 When those are done, this note will be replaced by the full specification.
+
 
 SOURCES
 -------
