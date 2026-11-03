@@ -4,18 +4,20 @@
 How the electric potential can be something real, and what that does for
 Tesla's terrestrial wave law
 
-Working note, 1 November 2026. From the project "The Complete Uncut Works of
-Nikola Tesla" (github.com/tylertitus14). Drafted with Claude (Anthropic). This
-note will be replaced by the full wave-law specification once that work is
-finished.
+Working note, 1 November 2026, revised 3 November 2026. From the project "The
+Complete Uncut Works of Nikola Tesla" (github.com/tylertitus14). Drafted with
+Claude (Anthropic). This note will be replaced by the full wave-law
+specification once that work is finished.
 
 
 STATUS: WHAT THIS NOTE IS, AND WHAT IT IS NOT
 ---------------------------------------------
 
-This is a formal model. It shows that one of Tesla's ideas can be written down
-consistently with physics as it stands in 2026, changed at one clearly marked
-point.
+This is a formal model. It sets out a construction, motivated by Tesla's
+ideas, that keeps Maxwell's equations exactly as they are and adds one new
+kind of coupling at one clearly marked point. Some parts are not yet complete,
+in particular how a receiver takes energy and how it pushes back on the
+source; section 10 lists what is open.
 
 "Physics as it stands" means three things here: classical electrodynamics
 (Maxwell's equations together with the force law for charges), its quantum
@@ -23,25 +25,30 @@ form (quantum electrodynamics, part of the Standard Model of particle
 physics), and special relativity. All three have passed every experimental
 test so far, apart from a few disputed results discussed in section 10.
 
-The marked point is a single new coupling (section 5). In this note, a
+The marked point is one new kind of coupling (section 5). In this note, a
 receiver is any instrument that picks up electrical effects at a distance: a
 radio, a voltmeter, an oscilloscope probe, or one of Tesla's tuned terminals.
 A receiver could respond directly to the electric potential, specifically the
 instant potential described in section 2, and not only to the electric and
-magnetic fields. How strongly it does so is a number, β, which could differ
-from one receiver design to another and from one frequency to another (section
+magnetic fields. How strongly it does so is described by β (beta), which can
+differ from one receiver to another and from one frequency to another (section
 5 gives the exact definition). Standard physics rules this out on two
 principles. One is gauge invariance: many different sets of potentials
 describe the same situation equally well, and nothing measurable may depend on
 which set is used. The other is Lorentz invariance: no frame of reference is
-special. A receiver with β other than zero would break both.
+special. A receiver with β other than zero would break both, because the
+instant potential is defined in one chosen frame (section 5).
+
+Scope: one Earth. The chosen frame is anchored to the Earth (section 5). The
+note makes no claim about signalling between planets; extending it that way is
+an open question (sections 8 and 10).
 
 That would extend physics, not overturn it. Maxwell's equations, conservation
-of charge, and the accounting of energy all stay exactly as they are.
+of charge, and the total accounting of energy all stay as they are.
 
-β is a fixed property of each receiver, like a microphone's ability to hear
-ultrasound: always present, but noticeable only when there is something extra
-to hear.
+β is a property of each receiver as installed, like a microphone's ability to
+hear ultrasound: always present, but noticeable only when there is something
+extra to hear.
 
 The "something extra" comes from the source, meaning the transmitter,
 lightning stroke, or other place where charges are being moved. It exists only
@@ -51,26 +58,27 @@ cloud to ground) must be over in less time than light takes to travel from the
 source to the receiver. Light needs about 3 nanoseconds to travel one metre,
 and about 3 milliseconds to travel 1,000 km.
 
-  - If the source's change takes longer than light's travel time to the
-    receiver, as it does for nearly all everyday electrical equipment, a
-    receiver with β other than zero gives exactly the same reading as a
-    receiver with β = 0.
+  - If the source changes slowly compared with light's travel time to the
+    receiver, as nearly all everyday electrical equipment does, a receiver
+    with β other than zero gives the same reading as a receiver with β = 0.
+    The slower the change, the closer the agreement.
   - If the source's change is over in less than light's travel time to the
     receiver, both receivers respond when the ordinary fields arrive at light
     speed. The receiver with β other than zero also shows an extra, earlier
     response, before the ordinary fields arrive.
 
-                           Source's change takes      Source's change is over
-                           longer than light's        before light could reach
+                           Source changes slowly      Source's change is over
+                           compared with light's      before light could reach
                            travel time to the         the receiver
                            receiver
 ------------------------   ------------------------   ------------------------
 Receiver with β = 0        normal reading             normal reading, arriving
                                                       at light speed
 Receiver with β other      same normal reading        an extra, earlier
-than zero                                             response, and a slightly
-                                                      different reading until
-                                                      the change settles
+than zero                                             response, and a
+                                                      different reading while
+                                                      the source is still
+                                                      changing
 
 A β test needs two halves: a source whose change of charge is over before
 light could reach the receiver, and a receiver watched closely enough to catch
@@ -86,8 +94,17 @@ anomalies, but their results are disputed (section 10). So the β of everyday
 receivers is assumed to be zero, but it has not been measured in any
 undisputed way.
 
-What would be new is one extra interaction (receivers responding to the
-instant potential) and one preferred frame. Since both touch foundational
+Tesla's law needs a second claim. The construction alone does not give Tesla's
+timing law. With Maxwell's equations unchanged, the Earth's own charges move
+the ordinary way, and nothing then makes the instant potential peak at Tesla's
+times. His law follows only if, in addition, the Earth's charge moves the way
+he pictured it: seen from outside, like a front running down the Earth's axis
+at light speed (section 7). So the note splits Tesla's claim into two: a
+receiver claim (some receivers have β other than zero) and a source claim (the
+Earth's charge moves in his axial pattern). Together they reproduce his law.
+
+What would be new is one extra kind of interaction (receivers responding to
+the instant potential) and one preferred frame. Since both touch foundational
 principles, it would be a major extension, not a small tweak.
 
 It is not a claim that the effect has been observed. Whether the world works
@@ -137,17 +154,19 @@ standards:
     condition behind it, div A = 0 (Jackson and Okun 2001).
 
 Every member of the family gives the same, perfectly causal, light-speed
-fields. Jackson's own comment was that this shows how arbitrary and unphysical
-the potentials can be, while still yielding sensible fields. In the Coulomb
-gauge, for example, the instant part of the potential is cancelled exactly by
-a matching part of the vector potential, so it never shows up in the fields.
+fields. (Strictly, it is the scalar potential that spreads at the chosen
+speed; the vector potential then takes a mixed form.) Jackson uses the family
+to make the point that the potentials are arbitrary while the fields stay
+causal. In the Coulomb gauge, for example, the instant part of the potential
+is cancelled exactly by a matching part of the vector potential, so it never
+shows up in the fields.
 
 So in ordinary physics an "instant potential" is a feature of one bookkeeping
 style, invisible to every receiver.
 
 
-3. WHICH WAY THE FREEDOM RUNS, AND HOW TO LIST EVERY OPTION
------------------------------------------------------------
+3. WHICH WAY THE FREEDOM RUNS
+-----------------------------
 
 A common first guess is that many different electric and magnetic fields can
 share the same potential. For the full potential it is the other way round.
@@ -168,45 +187,20 @@ Hand over Φ and A, and there is one and only one E and one B.
 Fields to potentials: infinitely many answers, and a way to list them all
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Going backwards, from given fields to potentials, has endless answers. Every
-one of them can be generated in two steps.
-
-Step 1. Find any one set of potentials that works. Three standard recipes:
-
-  - Straight-line recipe (the "Poincaré gauge"; Brittin, Smythe and Wyss,
-    1982). Pick a reference point. Then add up the fields along the straight
-    line from it to each place:
-    Φ(x, t) = −∫₀¹ x·E(λx, t) dλ  and  A(x, t) = −∫₀¹ λ x×B(λx, t) dλ.
-    This turns any given E and B directly into potentials.
-  - Instant recipe (Coulomb gauge). Φ is the electrostatic potential of the
-    charges at that moment, and A is built from the swirl of B.
-  - Light-speed recipe (Lorenz gauge). Both potentials are built from the
-    charges and currents as they were at the moment their influence, moving at
-    light speed, set out.
-
-Step 2. Generate all the others. Choose any smooth function of place and time,
-call it χ (chi). Then
+Going backwards, from given fields to potentials, has endless answers, and all
+of them can be listed. Start from any one set of potentials that gives the
+fields (the technical box at the end of this section gives three standard
+recipes). Then choose any smooth function of place and time, call it χ (chi):
 
   - new Φ = old Φ − (rate of change of χ)
   - new A = old A + (slope of χ)
 
-always gives the same fields. In a region without holes, every valid set of
-potentials arises this way, and only these do. (If the region has holes, as
+This always gives the same fields. In a region without holes, every valid set
+of potentials arises this way, and only these do. (If the region has holes, as
 around the shielded magnet in the Aharonov–Bohm experiment, the loop totals of
 A around the holes are an extra fixed quantity.) So "all valid potentials for
 given fields" is the same thing as "all smooth functions χ": one free function
 of space and time.
-
-Step 3, optional. Narrow it down. A gauge condition is a rule that cuts down
-the choice of χ:
-
-  - The Coulomb rule leaves only χ with ∇²χ = 0. With sensible conditions at
-    the boundaries, that is just a constant.
-  - The Lorenz rule leaves only χ that themselves travel as waves at light
-    speed.
-  - Jackson's velocity gauge leaves χ travelling at the chosen speed v.
-
-Jackson (2002) writes out the χ that converts one gauge into another.
 
 A small example. A uniform magnetic field B pointing up (along z) can come
 from A = ½B(−y, x, 0) or from A = B(0, x, 0). These look quite different but
@@ -221,33 +215,67 @@ is unknown, and many different E and B do share it.
 In our construction the real potential is the instant potential, and this case
 is exactly what the extra, potential-reading part of a receiver faces (the β
 part; see section 5). Here is precisely what the instant potential pins down
-and what it leaves free:
+and what it leaves open:
 
   - It fixes the charge. The charge density follows from it by Poisson's
     equation, ∇²Φ = −ρ/ε₀.
   - It fixes the charge-bound part of the electric field. Split any electric
     field into a part that spreads out from charges (no swirl) and a part that
     only swirls (no spreading). This split is called the Helmholtz
-    decomposition, and with sensible conditions at the boundaries it is
-    unique. The instant potential fixes the first part exactly: E_bound = −∇Φ.
-  - It leaves the rest free. The swirling electric part and the whole magnetic
-    field can be anything consistent with Maxwell's equations and the
-    currents. That is the radiating part of the field: light, radio, Hertz
-    waves.
+    decomposition. For fields that die away far from their sources it is
+    unique; inside a bounded region it also depends on the conditions at the
+    boundary. The instant potential fixes the first part exactly:
+    E_bound = −∇Φ.
+  - It leaves the rest to Maxwell's equations. The swirling electric part and
+    the whole magnetic field are whatever Maxwell's equations give for the
+    currents and any incoming waves. This swirling part includes radiation
+    (light, radio, Hertz waves) and also induction fields: the non-radiating
+    swirl around changing currents, as in a transformer.
 
 So every E and B with the same instant potential = the same charge-bound part
-+ any radiating part allowed by Maxwell's equations. To list them: fix E_bound
-from Φ, then add any solution of Maxwell's equations for the swirling part
-(any pattern of currents, any incoming waves).
++ a swirling part allowed by Maxwell's equations. (The currents are not
+entirely free: the part of the current that piles up charge is fixed by how
+the charge changes.)
 
 What this means for the Tesla model. The instant potential carries only the
-charge-bound part of the field, none of the radiating part. So, under the
-definition of β in section 5, a receiver responds to radiated waves at (1 − β)
-times normal strength: fully at β = 0, not at all at β = 1. That lines up with
-Tesla's repeated split between "Hertz waves," which radiate away and are
-"hopelessly lost" (1916), and the earth current, which "is stored and
-completely recoverable" (1916). This is a consequence of the model, not
-something tested.
+charge-bound part of the field. Under the definition of β in section 5, a
+receiver responds to the swirling part of the field at (1 − β) times normal
+strength: fully at β = 0, not at all at β = 1. Hertz waves belong to the
+swirling part, so this lines up with Tesla's repeated split between "Hertz
+waves," which radiate away and are "hopelessly lost" (1916), and the earth
+current, which "is stored and completely recoverable" (1916). Two cautions:
+the swirling part also includes induction, which Tesla's own coils rely on;
+and this is a consequence of the model, not something tested.
+
+Technical box: recipes and gauge rules
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Three standard recipes for a first set of potentials:
+
+  - Straight-line recipe (the "Poincaré gauge"; Brittin, Smythe and Wyss,
+    1982). Pick a reference point. Then add up the fields along the straight
+    line from it to each place:
+    Φ(x, t) = −∫₀¹ x·E(λx, t) dλ  and  A(x, t) = −∫₀¹ λ x×B(λx, t) dλ.
+    This works for any E and B that obey Maxwell's source-free equations
+    (∇·B = 0 and ∇×E = −∂B/∂t), in a region where every straight line from the
+    reference point stays inside the region.
+  - Instant recipe (Coulomb gauge). Φ is the electrostatic potential of the
+    charges at that moment, and A is built from the swirl of B.
+  - Light-speed recipe (Lorenz gauge). Both potentials are built from the
+    charges and currents as they were at the moment their influence, moving at
+    light speed, set out.
+
+A gauge condition is a rule that cuts down the choice of χ:
+
+  - The Coulomb rule leaves only χ with ∇²χ = 0. For fields that die away far
+    off, that leaves χ depending on time only, which shifts Φ by the same
+    amount everywhere at once. It changes no difference between two points, so
+    it changes no drive in this note.
+  - The Lorenz rule leaves only χ that themselves travel as waves at light
+    speed.
+  - Jackson's velocity gauge leaves χ travelling at the chosen speed v.
+
+Jackson (2002) writes out the χ that converts one gauge into another.
 
 
 4. WHY THE POTENTIAL DESERVES A SECOND LOOK ANYWAY
@@ -263,14 +291,15 @@ Three standard facts suggest the potential is more than a ledger:
   2. The energy identity in the Coulomb gauge. The total energy in an
      electromagnetic field splits exactly into two parts: half the sum, over
      all charge, of charge times the instant potential, plus the energy of the
-     swirling (transverse) part of the field, which includes all radiation.
-     The instant potential is not just a convenience here. It carries a
-     definite, exactly accounted share of the energy.
+     swirling (transverse) part of the field, which includes radiation and the
+     other swirling fields. The instant potential is not just a convenience
+     here. It carries a definite, exactly accounted share of the energy.
   3. The scalar part of the field in quantum electrodynamics. In the fully
      covariant version of the theory, the "longitudinal" and "scalar" parts of
      the potential never appear as free radiation, but they are what carry the
      electrical attraction and repulsion between charges. They are real enough
-     to do work, but bound to the charges.
+     to do work, but bound to the charges. (How this is divided up depends on
+     the formulation used, so it is a hint, not a proof.)
 
 None of this forces the potential to be a beable. It shows the door is not
 locked.
@@ -284,59 +313,109 @@ Our construction makes the potential real with the smallest possible change.
 (a) Maxwell's equations are left exactly as they are. No new terms, no new
 fields.
 
-(b) A law picks out the real potential. In the rest frame of the conducting
-medium (for our purposes, the Earth), the real potential is the instant
-potential: the electrostatic potential of all charges at that same moment.
-(Technically, the real potentials obey the Coulomb condition in the medium's
-frame.)
+(b) A law picks out the real potential. The real potential is the instant
+potential: the electrostatic (Coulomb) potential of all charges at the same
+instant. "Instant" means simultaneous in one fixed frame, called F_E in the
+rest of this note: its origin is the Earth's centre of mass, and its axes do
+not rotate relative to the distant stars. (Geodesists realise such a frame in
+practice as the Geocentric Celestial Reference System, GCRS.) The Earth
+anchors this frame but is not at rest in it: the Earth's surface turns through
+F_E at up to about 465 m/s. Simultaneity in F_E differs from simultaneity "on
+the surface" by at most about 66 ns across the whole Earth, negligible against
+every timing in this note, and by about 0.005 ps across a 1 m bench. The
+construction uses this one frame only. (Technically, the real potentials obey
+the Coulomb condition in F_E.)
+
+A frame that rotates with the Earth, or one that follows each piece of the
+Earth, would not do: neither defines a single instant across the whole Earth.
 
 (c) One new property. β (beta) is the property of a receiver introduced in the
 Status section. Here is its exact definition.
 
-A receiver picks up a signal between two points, for example its raised
+A receiver picks up a signal between two terminals, for example its raised
 terminal and its ground plate. Two things could drive that signal:
 
-  - the ordinary drive: what standard physics says, set by the electric and
-    magnetic fields along the receiver's pickup path. It arrives at light
-    speed.
-  - the instant drive: the difference in the instant potential between those
-    same two points. It changes the moment the source's charges move.
+  - the ordinary drive: the voltage that standard physics gives along the
+    receiver's own wiring between its two terminals (the electric field added
+    up along that path). It arrives at light speed.
+  - the instant drive: the difference in the instant potential between the
+    same two terminals. It changes the moment the source's charges move.
 
 β sets the mix:
 
     reading = ordinary drive + β × (instant drive − ordinary drive)
 
   - β = 0: the reading is purely the ordinary drive, as in standard physics.
-  - β = 1: the reading is purely the instant drive, Tesla's picture in full.
+  - β = 1: the reading is purely the instant drive, the full version of
+    Tesla's picture as modelled here.
   - In between: a blend.
 
-When the source's change takes longer than light's travel time to the
-receiver, the two drives are equal, so the bracket is zero and every receiver
-reads the same whatever its β (the Status section's first case).
+The same formula, regrouped. Section 3 split the electric field into a
+charge-bound part, which comes from the instant potential, and a swirling
+part. Added up along the receiver's wiring, that split gives exactly:
+
+    ordinary drive = instant drive + swirling drive
+
+where the swirling drive is the swirling part of the field added up along the
+same wiring. (In symbols: in the Coulomb gauge E = −∇Φ − ∂A/∂t with A purely
+swirling, so the voltage along the wiring is the difference in Φ between the
+terminals plus a term from A alone.) Putting this into the definition gives
+
+    reading = instant drive + (1 − β) × swirling drive
+
+In plain words: β is how much the receiver ignores the swirling part of the
+field. At β = 0 it ignores none of it (standard physics); at β = 1 it ignores
+all of it. Note what β does not do: it never makes the receiver respond more
+than normally to the charge-bound part. This form also shows where the missing
+physics sits. An ordinary piece of metal responds to the total field at each
+point; something real would have to make a receiver treat the two parts
+differently (section 10).
+
+Two special cases.
+
+  - Slow sources. When the source changes slowly compared with light's travel
+    time to the receiver, the swirling drive is small and the two drives
+    nearly agree, so every receiver reads nearly the same whatever its β (the
+    Status section's first case).
+  - The early window. Before the ordinary fields from a fast source arrive,
+    the ordinary drive is zero, so the reading is simply β × instant drive.
+    This is what the tests in section 9 measure.
 
 What else is pinned down:
 
   - β depends on frequency, written β(f). Each receiver has its own β at each
     frequency, the way a microphone has its own sensitivity at each pitch. A
-    single constant β is only the simplest case. Because a response cannot
-    come before its cause (in the preferred frame), β cannot vary with
-    frequency in an arbitrary way: the standard Kramers–Kronig relations link
-    its values at different frequencies.
-  - β belongs to the receiver alone. It is set by the receiver's design; to
-    get a different β you would build a different receiver. There is no knob.
+    single constant β is only the simplest case. At each frequency β has a
+    size and a timing shift (a phase; in the jargon, β is a complex number).
+    The plain statements below about "0 to 1" and "negative β" describe the
+    simple case with no timing shift. Because a response cannot come before
+    its cause (in F_E), β cannot vary with frequency in an arbitrary way;
+    exactly what that implies is still to be worked out (section 10).
+  - β belongs to the receiver as installed and operated: its design, its two
+    terminals and the wiring between them, its grounding, its load and its
+    mode. Change any of these and you have, in effect, a different receiver,
+    possibly with a different β. A receiver with a switch counts as two
+    receivers.
   - β is not a measurement. It is like a person's weight: the weight is a
     property, and the number on a scale is a measurement of it. A test gives a
     measured value of a receiver's β, with some uncertainty (section 9).
-  - Its natural range is 0 to 1. A value above 1 would give an early response
-    larger than the full instant drive and would turn the response to radiated
-    waves upside down; it would probably break the energy accounting of
-    section 6, though that is still to be checked. A negative value is
-    allowed: it would show as an early dip where Tesla's picture predicts an
-    early rise.
+  - Range, in the simple case. The natural range is 0 to 1. A value above 1
+    would give an early response larger than the full instant drive and would
+    turn the response to the swirling part upside down; it would probably
+    break the energy accounting of section 6, though that is still to be
+    checked. A negative value is allowed: it would show as an early dip where
+    Tesla's picture predicts an early rise.
   - Two assumptions remain, both standard and both checkable: that a receiver
     responds in proportion to the signal (doubling the signal doubles the
     response, which holds for small signals and can be tested by changing the
     pulse strength), and that it does not change during a test.
+  - A requirement from existing experiments. β cannot be something every atom
+    has. Atomic clocks, optical cavities and Michelson–Morley-type experiments
+    rule out, to extreme precision, any preferred-frame effect in how ordinary
+    atoms and light behave. So in this model β must be a property that emerges
+    in particular receiver designs, while the atoms inside those receivers
+    behave normally. How a design could do that is the central open question
+    (section 10).
 
 Who owns what. It is easy to think β depends on the transmission, because
 frequency is a property of the signal. It does not. The receiver owns a whole
@@ -346,9 +425,10 @@ matters.
 
 Belongs to                              What it sets
 -------------------------------------   --------------------------------------
-The receiver                            its β curve, β(f), fixed by its
-                                        design; its own circuit response; its
-                                        two pickup points
+The receiver (as installed)             its β curve, β(f), fixed by its design
+                                        and installation; its own circuit
+                                        response; its two terminals and the
+                                        wiring between them
 The source                              how much charge moves and how fast,
                                         which decides which frequencies are
                                         present and how strong the instant
@@ -364,13 +444,17 @@ easier to see.
 
 Everyday receivers are assumed to have β = 0 at every frequency (see the
 Status section). They cannot tell this model from standard physics, because
-the difference lives entirely in the bracket. The open question is whether any
-real receiver has β other than zero at any frequency. Section 9 describes how
-to measure it.
+the difference lives entirely in the gap. One limit is already clear: ordinary
+radio and GPS receivers respond to radio waves at full strength, so a β near 1
+is ruled out for them. The open question is whether any real receiver has β
+other than zero at any frequency. Section 9 describes how to measure it.
 
-That is the whole construction. Parts (a) and (b) change nothing anyone can
-measure. Part (c) is the single place where this model and standard physics
-part ways.
+That completes the construction as a rule for what receivers read. Parts (a)
+and (b) change nothing anyone can measure. Part (c) is the single place where
+this model and standard physics part ways. What the construction does not yet
+supply is a physical law for how a receiver's charges move under the new
+coupling, how energy reaches the receiver, and how the receiver pushes back on
+the source (section 10).
 
 Why a law, and not just a choice
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -399,27 +483,39 @@ There are two existing ways to try this:
     Route 2's main open problem, noted by Modanese, is that the new field can
     only be produced where charge is not conserved locally.
 
-They turn out to be one idea. Route 1 is simply Route 2's field C (defined to
-match the chosen speed) held at zero. And there is a standard result that says
-when C stays at zero: if charge is conserved everywhere, C can never be
-produced; if it starts at zero, it stays at zero. (Taking the divergence of
-the extended field equations gives a wave equation for C whose only source is
-non-conservation of charge. That is why C never appears in ordinary physics.)
+They turn out to be one idea. Route 1 is Route 2's field C (defined to match
+the chosen speed) held at zero; the full derivation is still to be written out
+(section 10). And there is a standard result that says when C stays at zero:
+if charge is conserved everywhere, C can never be produced; if it starts at
+zero, it stays at zero. (Taking the divergence of the extended field equations
+gives a wave equation for C whose only source is non-conservation of charge.
+That is why C never appears in ordinary physics.)
 
-Tesla, as it happens, says outright that charge behaves this way. In his 1916
-interview he said:
+Tesla, as it happens, describes charge this way. In his 1916 interview he
+said:
 
     "electricity, whatever it is, certainly it is incompressible because all
     our experiments show that." (Nikola Tesla On His Work With Alternating
     Currents, ed. L. I. Anderson, p. ~132)
 
-Incompressible electricity is never created or destroyed, only moved, so
-charge is conserved. (Strictly, "incompressible" says even more: no piling up
-inside the bulk. In his water-bag analogy the elastic bag, i.e. the surface,
-takes up the change. The argument here needs only the weaker part.) So C stays
-at zero, and "C = 0" stops being a convention and becomes a law. A law that
-singles out one potential from the many is exactly what it means for that
-potential to be real.
+We read this as saying that electricity is never created or destroyed, only
+moved, so charge is conserved. That is an interpretation: "incompressible"
+says something about a fluid-like substance, and it says even more than
+conservation (no piling up inside the bulk; in his water-bag analogy the
+elastic bag, i.e. the surface, takes up the change). The argument here needs
+only the weaker part.
+
+The argument therefore has three parts of different standing:
+
+  1. Mathematics: if charge is conserved and C starts at zero, C stays at
+     zero.
+  2. The model's postulate: the potential with C = 0, in F_E, is the real one.
+     A law that singles out one potential from the many is exactly what it
+     means for that potential to be real.
+  3. History: Tesla's remark motivates that choice.
+
+Only the first is a theorem. And C = 0 does no observable work by itself:
+everything measurable that is new sits in β.
 
 Why the instant potential, and not some other speed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -435,27 +531,38 @@ so the speed is set by the text, not chosen by us.
 ---------------------------------------------
 
 Each of the two earlier routes had a price. In the single construction, each
-is paid off:
+is paid off or stated openly:
 
-Earlier cost                            How it is resolved
+Earlier cost                            How it is handled
 -------------------------------------   --------------------------------------
 Route 2's new wave can only be          Not needed. C stays at zero, and no
 produced by charge that is not          new wave equation is added. (This also
 conserved.                              sidesteps the published dispute over
                                         the van Vlaenderen–Waser equations;
                                         see Bruhn.)
-Route 1's potential is not              The frame is the Earth's own rest
-relativistically covariant; it needs    frame, the frame of a material
-a preferred frame.                      conductor. That is normal in the
-                                        electrodynamics of materials
-                                        (Minkowski 1908), and it can be
-                                        written covariantly using the medium's
-                                        velocity. If one wants Tesla's ether,
-                                        it plays the same role.
-How does a receiver drawing on the      By the exact energy identity in
-potential balance its energy?           section 4. The receiver draws on the
-                                        instant-potential share. Nothing is
-                                        created or destroyed.
+Route 1's potential is not              The frame is F_E, anchored to the
+relativistically covariant; it needs    Earth (section 5). This is a postulate
+a preferred frame.                      of the model. The physics of materials
+                                        shows that frames tied to bodies are
+                                        nothing exotic (Minkowski 1908), but
+                                        it does not supply this one:
+                                        Minkowski's frames are local,
+                                        following each piece of moving
+                                        material, and they cannot define one
+                                        instant across a rotating Earth. With
+                                        a preferred frame, Lorentz invariance
+                                        is broken, though only through
+                                        receivers with β other than zero. If
+                                        one wants Tesla's ether, it plays the
+                                        same role.
+How does a receiver drawing on the      The exact energy identity of section 4
+potential balance its energy?           keeps the total right: the receiver
+                                        draws on the instant-potential share,
+                                        and nothing is created or destroyed.
+                                        What is not yet supplied is how that
+                                        energy travels locally to the
+                                        receiver, and how the receiver pushes
+                                        back on the source (section 10).
 
 A counter-view, stated openly. Heras (2010) argues that only the light-speed
 (Lorenz) potentials can count as physical, because only they follow from the
@@ -468,14 +575,15 @@ where this model makes a prediction that standard physics does not. A caution
 for honesty: an ordinary voltmeter connected between a raised terminal and a
 ground plate reads only the fields along its own wire in standard physics, so
 the model assumes it has β = 0. The model's claim concerns a particular kind
-of receiver, Tesla's tuned, resonant terminal (section 9 describes how to test
-one).
+of receiver, Tesla's tuned, resonant terminal. Section 9 names that target
+receiver and its frequency band in advance, so that a null result cannot be
+explained away afterwards.
 
 One more consequence should be stated plainly. With β other than zero, signals
-can move faster than light in the medium's frame. Because there is a single
-preferred frame, this does not allow a signal to arrive before it was sent.
-That is the standard result for theories with one preferred frame (section 8
-spells out the limits). Whether nature allows it is, again, a separate
+can move faster than light in F_E. Because there is a single preferred frame,
+this does not allow a signal to arrive before it was sent. That is the
+standard result for theories with one preferred frame (section 8 spells out
+the assumptions and limits). Whether nature allows it is, again, a separate
 question.
 
 
@@ -513,28 +621,55 @@ Two of his own statements seemed to pull against each other:
   - 1916 (interview): "the resultant current flows continuously with the same
     velocity of light" along the axis.
 
-What the construction gives
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What the construction gives, and what it needs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Put the Earth's charge in motion along the axis at the speed of light, as in
-Tesla's 1916 picture. Then look at the instant potential at a receiver on the
+With Maxwell's equations unchanged, the Earth's own charges move the ordinary
+way: they spread over the surface, and through the gap between the ground and
+the ionosphere, at light speed or slower. Nothing in the construction then
+makes the instant potential peak at Tesla's times. The waveform would have to
+be computed, and there is no reason to expect his law.
+
+Tesla's law comes out only with a second, separate claim about the source:
+that the Earth's charge moves in his 1916 pattern. Stated carefully, the
+source claim is that the Earth's surface charge changes in a way that, seen
+from outside, is equivalent to a charge front running down the axis at light
+speed. A literal charge crossing the inside of a conducting Earth is not
+needed, and would be at odds with the way a conductor carries its charge on
+its surface.
+
+Grant the source claim, and look at the instant potential at a receiver on the
 surface:
 
   - It starts changing immediately, the moment any charge moves anywhere. That
     is the "infinite speed" start, and the "instant" of 1915.
-  - It changes fastest when the moving charge passes the receiver's projected
-    point on the axis, because that is when the charge is closest to the
-    receiver. That moment is exactly R (1 − cos θ) / c. That is Tesla's law,
-    and the "speed of light along the axis" of 1916.
+  - It reaches its peak when the front passes the receiver's projected point
+    on the axis, because that is when the charge is closest to the receiver.
+    That moment is exactly R (1 − cos θ) / c. That is Tesla's law, and the
+    "speed of light along the axis" of 1916.
 
 So the two statements hold at once, without choosing between them.
+
+Two claims, tested in order. Promoting the bookkeeper therefore splits Tesla's
+claim into two: the receiver claim (some receiver has β other than zero) and
+the source claim (the axial-equivalent charge history). Together they
+reproduce his law. They are separate ideas, but an Earth-scale timing test
+checks both at once: without a receiver with β other than zero, the instant
+potential cannot be seen, so its peak cannot be timed. The tests in section 9
+are ordered accordingly: first establish or bound β for a named receiver with
+a known source, then use that same receiver to test the source claim.
+
+What "arrival" means. Arrival is the peak of the calculated instant drive at
+the receiver's two terminals. A real receiver's output peaks later by its own
+response time (its resonance, gating and integration), which has to be allowed
+for separately.
 
 A quick numerical check, in the simplest case: a uniform charge front moving
 at light speed along the axis, with the matching opposite charge left at the
 transmitter, and no reflections yet (R = 6,371 km):
 
-Angle from      Fastest change   Tesla's law   Straight         Around the
-transmitter     of instant                     through the      surface at c
+Angle from      Peak of          Tesla's law   Straight         Around the
+transmitter     instant                        through the      surface at c
                 potential                      Earth at c
 -------------   --------------   -----------   --------------   --------------
 43.2°           5.76 ms          5.76 ms       15.6 ms          16.0 ms
@@ -544,24 +679,28 @@ the Atlantic)
 135°            36.28 ms         36.28 ms      39.3 ms          50.1 ms
 170°            42.18 ms         42.18 ms      42.3 ms          63.1 ms
 
-(The geometry behind it: with the receiver a distance ρ = R sin θ from the
-axis, the rate of change of the instant potential goes as 1/√(ρ² + (ct − z)²),
-minus a constant (one over the receiver's straight-line distance from the
-transmitter). This peaks when ct equals the receiver's axial position
-z = R(1 − cos θ).)
+(The geometry behind it: put the receiver a distance ρ = R sin θ from the
+axis, at axial position z = R(1 − cos θ), and a straight-line distance D from
+the transmitter. A charge on the front, with the opposite charge left at the
+transmitter, gives an instant potential proportional to
+1/√(ρ² + (ct − z)²) − 1/D. This is largest when ct = z. Its rate of change is
+zero at that moment and largest a time ρ/(c√2) before and after; an earlier
+draft of this note mixed up the two. The "straight through the Earth" column
+is a geometric comparison only; ordinary signals travel around the surface or
+through the ground–ionosphere gap.)
 
 Three more of Tesla's statements that now read literally
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   - "Whether this current passing through the center of the earth to the
     opposite side is real, or whether it is merely an effect of these surface
-    currents, makes absolutely no difference" (1916). The instant potential
-    depends only on where the charge is, and electrostatics has a standard
-    result that a charge spread over a surface can be swapped for a suitable
-    inner charge without changing the potential outside. So whether the axial
-    current is "real" or the equivalent of surface currents makes no
-    difference to the instant potential. Tesla's sentence is literally true of
-    the real potential.
+    currents, makes absolutely no difference" (1916). Outside a body, a
+    suitable pattern of surface charge can give exactly the same potential as
+    a charge inside it. So Tesla's sentence is true of the instant potential
+    if the Earth's surface charge follows that particular pattern, which is
+    the source claim above. Whether a real Earth's surface charge does so has
+    to be shown, first by simulation and then by measurement; it cannot be
+    assumed.
   - "Variations of potential at the earth's surface" drive the distant
     receiver (1916). Similarly, in his 1905 patent the effect is "greatest in
     a maximum and zero in a nodal region." Tesla consistently describes his
@@ -569,32 +708,37 @@ Three more of Tesla's statements that now read literally
     measures.
   - Hertz waves versus earth currents (1916, 1919, 1927). The instant
     potential belongs to the part of the electric field that is tied to
-    charges and does not radiate away. Hertz waves are the radiating part.
-    Tesla's sharp split between the two lines up with the standard split
-    between the two parts of the field.
+    charges and does not radiate away. Hertz waves belong to the swirling
+    part. Tesla's sharp split between the two lines up with the standard split
+    between the two parts of the field, with one caution: the swirling part
+    also includes induction fields, not only radiation.
 
 The switch between Maxwell and Tesla
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The wave-law specification uses one model with one setting:
+The wave-law specification uses one model with two settings, one for the
+receiver and one for the source:
 
   - β = 0 (Maxwell): nothing arrives before the light travel time, through the
     Earth or around it.
-  - β above zero (Tesla): a small immediate onset, then the sharpest change at
-    R (1 − cos θ) / c, i.e. 5.76 ms across the Atlantic instead of about
-    16 ms.
+  - β other than zero, ordinary charge motion: an early response, whose shape
+    has to be computed.
+  - β above zero, axial-equivalent source (Tesla): an immediate onset, then
+    the peak at R (1 − cos θ) / c, i.e. 5.76 ms across the Atlantic instead of
+    about 16 ms.
 
-That difference is the measurement that would tell the two apart.
+That difference is the measurement that would tell them apart.
 
 Tesla's timing numbers are geometry, not measurement
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As far as we have found, Tesla never measured the timing. The full Colorado
-Springs Notes contain no timing measurement through the Earth, and his 1916
-interview gives no measured figure. His own wording points the same way. In
-the patent he "estimated" the interval at "one-twelfth or probably 0.08484 of
-a second," and adds that "the wave length can be ascertained from simple rules
-of geometry." In 1905 the time was "approximately ascertained."
+No record of Tesla measuring the timing has been found in the materials
+examined. The full Colorado Springs Notes contain no timing measurement
+through the Earth, and his 1916 interview gives no measured figure. His own
+wording points the same way. In the patent he "estimated" the interval at
+"one-twelfth or probably 0.08484 of a second," and adds that "the wave length
+can be ascertained from simple rules of geometry." In 1905 the time was
+"approximately ascertained."
 
 Every number he gives follows from just two inputs: the speed of light rounded
 to 300,000 km/s, and the Earth's diameter.
@@ -606,8 +750,9 @@ mean surface speed "about               (π/2) × 300,000 = 471,239 km/s
 "probably 0.08484 of a second" (1905    twice the Earth's diameter divided by
 patent)                                 c (within 0.1% of the real diameter)
 "one-twelfth" of a second               the same quantity, rounded
-0.006 s across 4,800 km of Atlantic     the axis rule above, with
-(1912)                                  R = 6,363 km, giving 0.00575 s
+"less than 0.006 second" across         the axis rule above, with
+4,800 km of Atlantic (1912,             R = 6,363 km, giving 0.00575 s
+Electrical Review)
 
 We therefore work on the assumption that the timing law is the output of
 Tesla's "current along the axis at light speed" picture, not a measured
@@ -615,28 +760,108 @@ result. That is why a construction that reproduces his reasoning (above) is
 the right test of a model of it. If a measured figure ever turns up, this
 changes.
 
-The experiment that would settle it
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tesla's Earth frequencies: six per second, or twelve?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Tesla gives both numbers, apparently for different quantities. Patent 787,412
+(1905) states three requirements side by side:
+
+    "First. The earth's diameter passing through the pole should be an odd
+    multiple of the quarter wave length ..."
+
+    "The lowest frequency would appear to be six per second, in which case
+    there will be but one node, at or near the ground-plate, and, paradoxical
+    as it may seem, the effect will increase with the distance and will be
+    greatest in a region diametrically opposite the transmitter."
+
+    "Third. ... irrespective of frequency the wave or wave-train should
+    continue for a certain interval of time, which I have estimated to be not
+    less than one-twelfth or probably 0.08484 of a second and which is taken
+    in passing to and returning from the region diametrically opposite the
+    pole ..."
+
+Elsewhere he gives twelve:
+
+    "When it is struck electrically, the charge oscillates, approximately,
+    twelve times a second." (1908)
+
+    "The time of one complete swing is about one-twelfth of a second." (1913)
+
+The first requirement describes a quarter-wave pattern: a node at the ground
+plate, a maximum at the antipode, and the Earth's diameter equal to a quarter
+wavelength or an odd number of them. In that pattern a wave comes back from
+the antipode inverted, so one full oscillation takes two round trips. The
+lowest frequency is then c/(8R), about 5.9 Hz, and only odd multiples are
+allowed (5.9, 17.7, 29.5 Hz, and so on). That rule excludes 11.8 Hz as a
+resonance.
+
+Quantity            Value for the       Tesla's basis       Status
+                    Earth
+-----------------   -----------------   -----------------   ------------------
+Round trip to the   0.08484 s, about    1905 patent:        given as the
+antipode and back   85 ms               "passing to and     minimum length of
+                                        returning from"     a wave train, not
+                                                            as a period
+Echo rate (one      about 11.8 per      1908, "twelve       Tesla's words; how
+per round trip)     second              times a second";    it relates to
+                                        1913, "one          resonance is open
+                                        complete swing"
+Lowest resonance    about 5.9 Hz        1905 patent: "odd   Tesla's resonance
+on the odd                              multiple of the     claim
+quarter-wave rule                       quarter wave
+                                        length"; "six per
+                                        second"
+Higher resonances   17.7, 29.5 Hz,      odd multiples of    follow from the
+on the same rule    ...                 the lowest          same rule
+
+One possible reconciliation, not yet shown: in a 5.9 Hz quarter-wave pattern,
+several things repeat about twelve times a second. The surge returns once
+every 85 ms, the charge piled up at the antipode peaks twice per cycle, and
+the energy of any oscillation pulses at twice its frequency. So a "swing" may
+mean a there-and-back, half a full oscillation. Alternatively the two numbers
+describe different modes, or Tesla revised his estimate. The readings predict
+different sets of frequencies (odd multiples of 5.9 Hz, or a series built on
+11.8 Hz), so a measurement could tell them apart (section 9).
+
+Both figures belong to Tesla's model of the Earth as a line along its axis;
+they are not computed resonances of a real sphere. The real cavity between the
+ground and the ionosphere resonates at about 7.8 Hz (the Schumann resonance),
+a different phenomenon. Tesla also described the slow limit: "With
+oscillations still slower the earth, strictly speaking, will not resonate, but
+simply act as a capacity."
+
+A one-station echo test
+~~~~~~~~~~~~~~~~~~~~~~~
 
 It needs only one station. Send an impulse into the ground and time its return
 at the same place, so no second station or shared clock is required. This was
 within reach of 1899 equipment.
 
-Model                                         Predicted return
--------------------------------------------   ----------------
-Tesla's law                                   85 ms
-around the surface at light speed             133.5 ms
-the real Earth–ionosphere cavity (≈ 0.74 c)   about 180 ms
+Model                                             Predicted return
+-----------------------------------------------   ----------------------------
+Tesla's law (the front reverses at the antipode   85 ms
+and comes back along the axis)
+around the surface at light speed                 133.5 ms
+the real ground–ionosphere cavity                 roughly 180 ms (an estimate)
 
-(The 0.74 c comes from the measured 7.8 Hz Schumann resonance, the
-Earth–ionosphere cavity's lowest natural frequency.)
+(Where the estimate comes from: an ideal cavity between a perfectly conducting
+ground and ionosphere would have its lowest resonance at √2 × c/(2πR), about
+10.6 Hz. The measured 7.8 Hz is about 0.74 of that, so signals near that
+frequency behave as if slowed to about 0.74 c, giving about 180 ms around the
+globe. A pulse's real travel time depends on its frequency content, so this is
+an estimate, not a prediction.)
 
-In this construction the 85 ms return would show up only on a receiver with β
-other than zero. The receivers in use today, including those of
-lightning-location networks and low-frequency timing systems, are assumed to
-have β = 0 and, as far as we know, have not been checked for an earlier
-response, so their silence neither confirms nor refutes the model. Section 9
-lays out how to measure β directly.
+The 85 ms figure depends on a reflection assumption: the front must reverse at
+the antipode and return along the axis. In the quarter-wave reading above, it
+returns inverted.
+
+In this construction the 85 ms return needs both claims: a receiver with β
+other than zero, and the axial-equivalent source. The receivers in use today,
+including those of lightning-location networks and low-frequency timing
+systems, are assumed to have β = 0 and, as far as we know, have not been
+checked for an earlier response, so their silence neither confirms nor refutes
+the model. A null result would settle the question only for the receivers and
+frequencies actually used. Section 9 lays out how to measure β directly.
 
 
 8. LIGHT CONES: WHERE EACH SIGNAL LIVES IN SPACE AND TIME
@@ -717,11 +942,12 @@ meeting point sweeps across the surface arbitrarily fast.
 Does the shape of the "earth" matter?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Partly. The construction's timing rule does not depend on shape: the instant
-potential at a receiver changes fastest when the moving charge passes closest
-to it, whatever the body looks like. Only the formula R(1 − cos θ)/c is
-specific to a sphere; for a flattened Earth or a car-shaped body the same rule
-gives a different formula, worked out from the actual geometry.
+Partly. The construction's timing rule does not depend on shape: given the
+source claim of section 7, the instant potential at a receiver peaks when the
+moving charge passes closest to it, whatever the body looks like. Only the
+formula R(1 − cos θ)/c is specific to a sphere; for a flattened Earth or a
+car-shaped body the same rule gives a different formula, worked out from the
+actual geometry.
 
 Resonance is different. The natural frequencies and the positions of the nodes
 depend on the real shape, in standard physics and in Tesla's. Tesla relied on
@@ -738,8 +964,9 @@ each on its own surface in spacetime:
 
   1. The level slice "now" (t = 0+). The instant potential starts to change.
      Receivers with β other than zero only.
-  2. The light-speed sheet (t = R(1 − cos θ)/c). The instant potential changes
-     fastest. Receivers with β other than zero only.
+  2. The light-speed sheet (t = R(1 − cos θ)/c). The instant potential peaks,
+     given the source claim of section 7. Receivers with β other than zero
+     only.
   3. The light cone (t = straight-line distance / c, or longer around the
      surface). The ordinary field response begins. Seen by every receiver.
 
@@ -749,7 +976,7 @@ at the antipode.
 Does this break cause and effect?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-"Now" is not the same for every observer. Someone moving relative to the Earth
+"Now" is not the same for every observer. Someone moving relative to F_E
 slices spacetime at a tilt. To them, two "instant" events are not
 simultaneous, and for some observers an instant signal appears to arrive
 slightly before it was sent. A real paradox, a signal sent into its own past,
@@ -757,11 +984,19 @@ needs more than that: it needs a reply that is also faster than light, but
 "instant" in a different frame, so the two legs can close a loop.
 
 In this construction every faster-than-light link is tied to the same frame,
-the Earth's. All of them run forward in Earth time, and no loop can close.
-This is the general result for theories with a single preferred frame
-(Liberati, Sonego and Visser 2002). The Earth's rotation and orbit make its
-frame not perfectly uniform, but they do not change the conclusion, because
-one global ordering of events still exists.
+F_E (section 5), which has a single global time. Two assumptions make the
+argument exact:
+
+  1. Every link that uses the instant potential, and every transmitter,
+     receiver and automatic relay, uses that one frame.
+  2. "Instant" is the limit of very fast links; any real link or relay takes
+     some positive time in F_E.
+
+Then time in F_E never decreases along any chain of signals and increases
+around any real round trip, so no loop can close. This is the general result
+for theories with a single preferred frame (Liberati, Sonego and Visser 2002).
+It shows that the model's assumptions are consistent about cause and effect;
+it is not evidence that nature has such a frame.
 
 The honest limit. The protection holds only while all instant links share one
 frame. Two separate media moving relative to each other, each with its own
@@ -778,9 +1013,10 @@ its own instant potential tied to its own frame, and a reader at each end
 could read both, an Earth–Mars exchange is the kind of two-frame link that
 could close a loop.
 
-The construction as stated covers one Earth. Extending it to several worlds
-would need a further rule, for example that all instant potentials share one
-frame (Tesla's ether would supply one).
+The construction as stated covers one Earth, and makes no claim about
+signalling between planets. Extending it to several worlds would need a
+further rule, for example that all instant potentials share one frame (Tesla's
+ether would supply one); section 10 lists the options.
 
 What is new here, and what is not
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -795,8 +1031,10 @@ is the Tesla-specific part:
   - the three-surface timeline for each receiver;
   - tying the instant potential to his "incompressible" remark and his
     "theoretically infinite speed" start;
-  - the result that a receiver with β = 1 would not respond to Hertz waves at
-    all.
+  - the result that a receiver with β = 1 would not respond to the swirling
+    part of the field at all, Hertz waves included;
+  - splitting Tesla's law into a receiver claim and a source claim (section
+    7).
 
 We cannot rule out that someone has written these down before; corrections are
 welcome.
@@ -811,27 +1049,65 @@ whether it picks up anything an ordinary receiver can't. The check is simple
 in principle: set the two side by side, start the clock on both with the same
 signal, and watch for anything that arrives before light could.
 
-Here are two designs, one on a bench and one at planet scale.
+A small β does not move the main arrival: the ordinary signal still comes when
+it always did. It adds an early signal about β times the size of the instant
+drive (section 5). So these tests are about detecting a small early signal,
+not about timing the main peak more precisely.
 
-Design 1: a metal ball on a bench
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The targets, declared in advance
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Because β can depend on the receiver and on the frequency, a null result could
+always be blamed on "the wrong receiver" or "the wrong frequency." To prevent
+that, the targets are named here, before any data:
+
+  - Primary target: a linear Tesla-type receiver tested below 20 kHz, using
+    lightning (Design 2). This is Tesla's own stated band for his Earth
+    system: the frequency "should be smaller than twenty thousand per second"
+    (US 787,412). A null result here is the headline: "this receiver has β
+    below such-and-such in this band."
+  - Secondary target: the Earth-resonance band, 5 to 15 Hz, tested by watching
+    phase and coherence over long runs rather than single pulses. Both
+    readings of Tesla's frequency (section 7) are declared in advance: odd
+    multiples of about 5.9 Hz, or a series built on about 11.8 Hz. This is
+    where the source claim can be tested.
+  - Methods test: the bench sphere (Design 1), at hundreds of megahertz to
+    gigahertz. A null result there says nothing about Tesla's bands; it tests
+    the method and gives a limit in its own band.
+
+"Linear Tesla-type" means a modern analogue, built to respond in proportion to
+the signal so that β can be measured. Tesla's own receivers were threshold and
+gated devices. A replica of his apparatus can be tested too, as a historical
+check, but not as the β measurement.
+
+Before any run, these are written down and fixed: the receiver's construction,
+height, terminal, coil, grounding, orientation and load; the band; the
+expected sign of β (positive in Tesla's direction, though either sign is
+reported); the smallest β the run can detect; the analysis window; and what
+result counts as a null. A later test with a different receiver is a new
+hypothesis and is labelled as one.
+
+Design 1: a metal ball on a bench (methods test)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is Tesla's Earth shrunk down. In 1908 he wrote that a sphere "the size of
 a little marble" offers a greater impediment to a current than the whole
 Earth, and "every experiment, then, which can be performed with such a small
 sphere can likewise be carried out, and much more perfectly, with the immense
-globe." His law is pure geometry, so it scales: on a sphere of radius R the
-lowest frequency is c/(8R), and an echo from the far side returns in 4R/c.
+globe." On the bench, though, the sphere is a conductor whose charge stays on
+its surface, so the bench does not test Tesla's timing law (that needs the
+source claim of section 7). It tests whether a receiver responds to the
+instant drive at all.
 
 Parts
   - The "earth": a spun-aluminum sphere about 1 m across (R = 0.5 m), on an
     insulating stand. A 2 m sphere doubles every timing gap.
   - The "transmitter": a fast, low-energy pulse generator (rise time about
     0.1 ns, a few hundred volts), connected between the sphere's top point and
-    a small ball held just above it. That is Tesla's layout in miniature: a
+    a small ball held 20 cm above it. That is Tesla's layout in miniature: a
     ground connection plus a raised terminal.
   - Receivers, in pairs, at 45°, 90° and 135° around the sphere:
-    - Tesla-style receiver: a small ball on a short insulated post, wired to
+    - Tesla-style receiver: a small ball on a 20 cm insulated post, wired to
       the sphere's surface just below it, like his tuned receivers sitting
       between ground and a raised terminal.
     - Control receiver: a standard electric-field probe at the same spot.
@@ -847,29 +1123,35 @@ standard tool for pulling a weak, repeating signal out of noise. It is exactly
 what this test needs, with one change: set the gate inside the early window,
 before light could arrive, instead of at the ordinary maximum.
 
-What to look for (1 m sphere, time after the pulse fires):
+What to look for. The earliest ordinary signal reaches a receiver by the
+shortest path through the air around the sphere. (A straight line between two
+points on the sphere runs through the metal.) For points near the surface,
+that is close to the along-the-surface time. The early window runs from the
+pulse to that arrival, less a margin for the post heights; it has to be
+computed for the actual layout.
 
-Receiver position   Tesla's law         Light, straight     Light, along the
-                    predicts            line through the    surface
-                                        air
------------------   -----------------   -----------------   ------------------
-45°                 0.49 ns             1.28 ns             1.31 ns
-90°                 1.67 ns             2.36 ns             2.62 ns
-135°                2.85 ns             3.08 ns             3.93 ns
-
-At 90° there is a 0.7 ns window in which only a Tesla-type effect could show
-up. A modern oscilloscope averaging thousands of pulses can time to about 0.01
-to 0.02 ns.
+Receiver position   Light along the surface (roughly the end of the early
+                    window)
+-----------------   ----------------------------------------------------------
+45°                 1.31 ns
+90°                 2.62 ns
+135°                3.93 ns
 
 Controls that make the result trustworthy
   - Swap the receivers between channels and between positions.
   - Repeat with the sphere removed.
-  - Put the Tesla-style receiver inside a closed metal can. This is the most
-    telling check. Ordinary fields cannot get in until the can's own charges
-    respond, and that takes light-speed time. In this model the real potential
-    changes instantly anyway. So an early signal that survives the can is the
-    strongest possible evidence, and one that disappears inside it was
-    ordinary fields leaking through.
+  - Put the Tesla-style receiver inside a closed metal can. In the
+    construction, the can's own charges move only when the ordinary fields
+    reach them, so during the early window the can cannot cancel the instant
+    drive. An early signal that survives the can would be strong evidence. One
+    that disappears is not clean proof of leakage, because putting the
+    receiver in a can changes its installation, and so possibly its β. The
+    can's nearest wall is closer to the source than the receiver, which
+    shortens the early window. Wires through the can, seams and gaps must be
+    controlled; a battery-powered recorder inside the can avoids cables. (Why
+    the can's metal should behave like ordinary metal with β = 0 while the
+    receiver does not is part of the open question of what sets β; section
+    10.)
 
 Working out a receiver's β from its reading
 
@@ -880,106 +1162,148 @@ the way down, and whatever its sign, not just "yes or no." A clear null result
 gives an upper limit instead: "this receiver's β is below such-and-such." It
 works like this:
 
-  1. Work out the full-strength signal. From the charge the pulse puts on the
-     sphere (measured at the generator), Coulomb's law gives the instant
-     potential at each receiver: what a β = 1 receiver would pick up, and
-     when. Its shape is known in advance: it starts at once and rises fastest
-     at Tesla's time (1.67 ns at 90°).
+  1. Work out the full-strength signal. The source's charges obey ordinary
+     physics, so a standard electromagnetic simulation of the bench gives how
+     charge moves on the generator, the small ball and the sphere. Coulomb's
+     law, applied to that charge moment by moment, gives the instant drive
+     between each receiver's two terminals: what a β = 1 receiver would pick
+     up. It starts at once.
   2. Measure the early part. Take the Tesla-style receiver's signal inside the
-     early window, before light could arrive, and subtract the control
-     receiver's signal from the same spot. In that window the ordinary drive
-     is still zero, so by the definition in section 5 the reading is simply β
-     × the instant drive.
+     early window, referred back to its input (that is, with its ordinary gain
+     removed, found by calibrating it with an ordinary signal). Use the
+     control receiver to check for leakage. In the window the ordinary drive
+     is zero, so by the definition in section 5 the reading is simply β × the
+     instant drive.
   3. Compare the two. The receiver's β equals the scale factor that makes the
      full-strength curve match what was measured. Half the predicted size
      means the receiver's β is 0.5; a tenth means 0.1; an inverted copy would
-     mean a negative β.
+     mean a negative β. If β depends on frequency, the comparison is done
+     frequency by frequency rather than with one scale factor. Keep the order
+     of the two terminals fixed, so that a reversed lead is not mistaken for a
+     negative β.
 
-For a 1 nC pulse, the full-strength signal at the receivers is about 13 V:
+Size of the signal. Just after the pulse, before the sphere's charge has had
+time to spread, the source is a small charge pair: +q on the ball and −q at
+the top of the sphere, 20 cm apart. For q = 1 nC, Coulomb's law gives an
+instant drive across a receiver's 20 cm post of about 3.9 V at 45°, 0.9 V at
+90° and 0.5 V at 135°. (With 5 cm spacings it would be about ten times
+smaller.) The waveform after that comes from the simulation in step 1. At 90°:
 
 Receiver's β         Early signal you would see   How it would look
 ------------------   --------------------------   ----------------------------
-1                    about 13 V                   impossible to miss
-0.5                  about 6.5 V                  obvious on a single pulse
-0.1                  about 1.3 V                  obvious on a single pulse
-0.01                 about 130 mV                 clear after a little
+1                    about 0.9 V                  impossible to miss
+0.1                  about 90 mV                  obvious on a single pulse
+0.01                 about 9 mV                   clear after a little
                                                   averaging
-0.001                about 13 mV                  visible after averaging
+0.001                about 0.9 mV                 visible after averaging
                                                   thousands of pulses
-below about 0.0001   under about 1 mV             lost in the noise; sets an
+below about 0.0001   under about 0.1 mV           lost in the noise; sets an
                                                   upper limit instead
 
+(An earlier draft gave 13 V. That figure treated the pulse as a lone 1 nC
+charge and left out the opposite charge.)
+
+Timing. 0.1 ns is 3 cm of light path. Cable lengths, channel skew, trigger
+jitter, and the gap between the generator's trigger and the actual movement of
+charge all matter more than anything else at this scale, so an independent
+marker of the source event and a full timing budget are needed. Averaging does
+not remove errors that repeat on every pulse. The choice of frame does not
+matter here: across 1 m, F_E and the lab frame differ by about 0.005 ps.
+
 Which frequencies this measures. Nanosecond pulses on a 1 m sphere probe a
-receiver's β at frequencies of hundreds of megahertz to gigahertz. Because β
-can depend on frequency, a null result here would not rule out β at the 6 Hz
-of Tesla's own system.
+receiver's β at hundreds of megahertz to gigahertz. Because β can depend on
+frequency, a null result here says nothing about Tesla's operating band (below
+20 kHz) or his Earth resonance (5 to 15 Hz).
 
-A real early signal must also have the right shape and timing (starting at
-once, steepest at Tesla's time, the same at each position once scaled), and it
-must survive the controls. A leak or a wiring fault will not follow that
-pattern.
+A real early signal must also have the right shape (the computed instant-drive
+waveform, the same at each position once scaled), and it must survive the
+controls. A leak or a wiring fault will not follow that pattern.
 
-Effort: serious-hobby or university-lab grade, a few thousand dollars with
-used equipment.
+Effort: serious-hobby or university-lab grade. A few thousand dollars with
+used equipment is an optimistic estimate.
 
-Design 2: the whole Earth, with lightning as the transmitter
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Design 2: the whole Earth, with lightning as the transmitter (primary target)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lightning was Tesla's own signal source in 1899. It is free, and there are
 thousands of strikes a day. His receiver patents say the method serves just as
 well for "terrestrial, solar, or other disturbances produced by natural
-causes" (US 685,954).
+causes" (US 685,954). Lightning's strongest long-range signals lie below
+20 kHz, in Tesla's stated band.
 
 Parts
   - Strike times and locations from a lightning-location network: for example
     Blitzortung, a community network built from home receiver kits, or the
-    research network WWLLN.
+    research network WWLLN. Where available, also estimates of how much charge
+    each stroke moved and over what height (its "charge moment"), which some
+    research networks and extremely-low-frequency stations provide.
   - One station with two receivers on one GPS-timed recorder (GPS time stamps
     are good to well under a microsecond):
-    - Tesla-style receiver: a raised terminal, a coil, and a ground rod.
+    - Tesla-style receiver: the declared linear Tesla-type receiver: a raised
+      terminal, a coil, and a ground rod.
     - Control receiver: an ordinary very-low-frequency loop antenna, the kind
       lightning networks already use.
 
 What to look for (time after the strike):
 
-Strike distance   Tesla's law predicts   Ordinary radio arrival (light speed
-                                         along the surface)
----------------   --------------------   -------------------------------------
-1,000 km          0.26 ms                3.3 ms
-2,000 km          1.0 ms                 6.7 ms
-4,800 km          5.8 ms                 16 ms
-10,000 km         21 ms                  33 ms
+Strike distance   Tesla's law predicts (if the   Ordinary radio arrival (light
+                  source claim holds)            speed along the surface)
+---------------   ----------------------------   -----------------------------
+1,000 km          0.26 ms                        3.3 ms
+2,000 km          1.0 ms                         6.7 ms
+4,800 km          5.8 ms                         16 ms
+10,000 km         21 ms                          33 ms
 
 The gaps are milliseconds, easy for GPS timing. Stack thousands of strikes,
 lined up on their strike times, and look for anything on the Tesla-style
-receiver before the ordinary arrival. The receiver's β is worked out the same
-way as on the bench: lightning networks estimate each strike's size, which
-gives the full-strength signal to compare against. Lightning tests probe β at
-kilohertz frequencies, closer to Tesla's own system than the bench, but still
-not the same. A few months of data would also test the faint daily timing
-shift that a single universal clock would predict.
+receiver before the ordinary arrival. Any early signal tests the receiver
+claim; an early peak at Tesla's times would also support the source claim.
+
+In the early window the reading is β × the instant drive. The instant drive
+comes from the charge each stroke moved and the shape of its channel (peak
+current alone is not enough), together with the Earth's response. A β value
+also needs an uncertainty analysis that covers strike timing, multiple
+strokes, the receiver's own delay (a resonant coil's output lags its input),
+and day–night changes in the ionosphere. A few months of data would also test
+the daily timing shift that a universal frame would predict (section 10).
 
 Safety: record distant strikes only. Never work on a raised terminal with a
 storm anywhere nearby, and ground everything properly.
+
+Design 3: a cross-check that needs no fast timing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The regrouped form of β (section 5) suggests a test with no nanosecond timing
+at all. At one frequency, compare a receiver's response to a nearby source,
+whose field at the receiver is mostly charge-bound, with its response to a
+distant source, whose field is mostly swirling (radiation). For a receiver
+with β, the second response is scaled by (1 − β) relative to the first; for a
+β = 0 reference receiver with the same ordinary response, it is not. This
+needs careful calibration of both receivers' ordinary response, but it tests
+the regrouped definition directly.
 
 Other "earths": how the numbers scale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Because Tesla's law is geometry, it applies to any conducting body, and the
-numbers scale with size. For a sphere of radius R, the lowest natural
-frequency is c/(8R), Tesla's echo from the far side returns in 4R/c, and an
-ordinary light-speed signal around the surface and back takes 2πR/c.
+numbers scale with size. For a sphere of radius R in Tesla's model: the lowest
+resonance on his odd quarter-wave rule is c/(8R); the echo rate, one per round
+trip, is c/(4R); his echo from the far side returns in 4R/c; and an ordinary
+light-speed signal around the surface and back takes 2πR/c. These are Tesla's
+model figures, not computed resonances of a real sphere.
 
-Body                    Lowest frequency   Tesla echo   Light-speed echo
-                                                        around the surface
----------------------   ----------------   ----------   ----------------------
-bench sphere, 1 m       75 MHz             6.7 ns       10.5 ns
-across
-car-sized body, about   17 MHz             30 ns        47 ns
+Body             Lowest           Echo rate,       Tesla echo   Light-speed
+                 resonance,       c/(4R)                        echo around
+                 c/(8R)                                         the surface
+--------------   --------------   --------------   ----------   --------------
+bench sphere,    75 MHz           150 MHz          6.7 ns       10.5 ns
+1 m across
+car-sized        17 MHz           33 MHz           30 ns        47 ns
+body, about
 4.5 m long
-the Moon                21.6 Hz            23 ms        36 ms
-Mars                    11.1 Hz            45 ms        71 ms
-the Earth               5.9 Hz             85 ms        134 ms
+the Moon         21.6 Hz          43.2 Hz          23 ms        36 ms
+Mars             11.1 Hz          22.2 Hz          45 ms        71 ms
+the Earth        5.9 Hz           11.8 Hz          85 ms        134 ms
 
 Two cautions. A ship at sea is not a separate "earth" at low frequency,
 because its hull is electrically joined to the ocean. A car on rubber tyres is
@@ -989,26 +1313,30 @@ frequencies. Real bodies also are not spheres (see section 8).
 What a receiver's β would mean in practice
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A receiver's β never changes when the early signal arrives; Tesla's time stays
-Tesla's time. It changes how strong that signal is, and strength decides what
-it could be used for. What matters in each case is the receiver's β at the
-frequency actually used.
+A receiver's β never changes when the ordinary signal arrives. It sets the
+size of the early signal, and size decides what it could be used for. What
+matters in each case is the receiver's β at the frequency actually used.
 
   - Signalling only needs the signal to be noticed. A smaller β can be made up
     for: a receiver with 10 times smaller β needs about 10 times more charge
     moved by the transmitter, or about 100 times more averaging.
-  - Wireless power, Tesla's real goal, needs energy actually collected, and
-    there resonance is the key. Under the definition in section 5, the
-    coupling between transmitter and receiver is the ordinary coupling plus β
-    times the extra coupling the instant potential would add, written Δk.
-    Close to the transmitter (well within a wavelength) the instant and
-    ordinary drives nearly agree, so Δk is small and β hardly matters: nearby
-    power transfer is ordinary physics. Δk matters at distances comparable to
-    the wavelength, which is Tesla's planet-scale case. The standard result
-    for two coupled resonant circuits (Kurs et al. 2007; Karalis, Joannopoulos
-    and Soljačić 2008) gives the best possible efficiency in terms of a single
-    number, the total coupling × √(Q_t × Q_r), where Q_t and Q_r measure how
-    little energy each end loses per cycle; it must reach about 2.8 for 50%
+  - Wireless power, Tesla's real goal, needs energy actually collected. That
+    is harder to model than detecting a signal: the receiver must take energy
+    and push back on the source, and the construction does not yet describe
+    either (section 10). So this part is conditional, and detection and power
+    may turn out to need separate β values. With that caution: under the
+    definition in section 5, the coupling between transmitter and receiver is
+    the ordinary coupling plus β times the extra coupling the instant
+    potential would add, written Δk. Δk has not been derived yet; the symbol
+    names the missing quantity. Close to the transmitter (well within a
+    wavelength) the instant and ordinary drives nearly agree, so Δk is small
+    and β hardly matters: nearby power transfer is ordinary physics. Δk
+    matters at distances comparable to the wavelength, which is Tesla's
+    planet-scale case. The standard result for two coupled resonant circuits
+    (Kurs et al. 2007; Karalis, Joannopoulos and Soljačić 2008) gives the best
+    possible efficiency in terms of a single number,
+    the total coupling × √(Q_t × Q_r), where Q_t and Q_r measure how little
+    energy each end loses per cycle; it must reach about 2.8 for 50%
     efficiency. The table shows what the β part alone would need.
 
 Receiver's β   Signalling            Wireless power:       What it would mean
@@ -1032,11 +1360,10 @@ Receiver's β   Signalling            Wireless power:       What it would mean
 0.001          works, slowly (a      about 2,800           the same, tiny;
                few bits per                                still a discovery
                second)
-0              impossible            impossible            standard
-                                                           electrodynamics is
-                                                           the whole story;
-                                                           Tesla's law is
-                                                           geometry only
+0              impossible through    impossible through    standard
+               the β channel         the β channel         electrodynamics is
+               (ordinary radio       (ordinary resonant    the whole story for
+               still works)          power still works)    receivers
 
 For scale, resonators with Q in the hundreds to thousands are routine today
 (the 2007 MIT coils were around 1,000), but Δk for a receiver thousands of
@@ -1050,11 +1377,11 @@ What to expect
 ~~~~~~~~~~~~~~
 
 Standard physics predicts that every receiver's β is 0. Tesla's picture, as
-modelled here, needs some receiver's β to be above zero. The test does not
-favour either: it measures whatever the receiver's β turns out to be, from 1
-down to about one ten-thousandth, at the frequencies the test uses. Any clear
-value above zero would be new physics and the measurement Tesla never left us.
-A clean zero would put a hard number on the claim instead of leaving it to
+modelled here, needs some receiver's β to be above zero. The tests do not
+favour either: they measure the named receiver's β, from 1 down to about one
+ten-thousandth, at the frequencies used. Any clear value other than zero would
+be new physics, and the measurement Tesla never left us. A clean zero for the
+declared target would put a hard number on the claim instead of leaving it to
 opinion.
 
 
@@ -1064,73 +1391,105 @@ opinion.
 This note is a working version. Here is what is still open, grouped by what it
 would change.
 
+Settled in this version
+~~~~~~~~~~~~~~~~~~~~~~~
+
+  - The frame is F_E, anchored to the Earth (section 5). The note's scope is
+    one Earth.
+  - Tesla's law needs a source claim as well as a receiver claim (section 7).
+  - The test targets are declared in advance (section 9).
+  - Tesla's 1934–41 particle-beam claims are treated in a separate working
+    note and are not used here.
+
 Decisions that would change this note's text
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  - Which clock defines "instant." The note currently uses the Earth's own
-    rest frame (sections 5, 6 and 8). The leading alternative is a single
-    universal clock: the frame in which the universe's total momentum is zero,
-    measured as the rest frame of the cosmic microwave background. If adopted:
-    - Sections 5, 6 and 8 would be rewritten around one universal "now."
-    - Faster-than-light loops would be ruled out between any bodies, including
-      planets (for a speed quoted relative to Earth, only above roughly 811
-      times light speed could one run backward in universal time).
-    - It predicts something new: Tesla-mode timings would shift with direction
-      by up to about 52 microseconds across the Earth, cycling once a day as
-      the Earth turns. That is small next to milliseconds, so the timing
-      tables would stand, but it is a test in its own right.
-    - Tying "now" to where observers are (so far, only on Earth) would amount
-      to choosing the Earth's frame. It would not prevent loops, because a
-      loop needs only an automatic relay at the far end, not an observer.
-      Which frame is right is settled by measurement: the daily shift above.
+  - One frame for everything: the open extension. The note uses F_E and covers
+    one Earth. Extending it to other planets would need a further rule. The
+    options:
+    - one frame for the whole solar system (the barycentric frame astronomers
+      already use);
+    - one universal frame, for example the rest frame of the cosmic microwave
+      background (CMB). Standard cosmology does not single that frame out as
+      fundamental, so adopting it would be an added postulate. It predicts
+      something testable: Tesla-mode timings would shift with direction by up
+      to about 26 microseconds at one station (about 52 microseconds between
+      opposite sides of the Earth), cycling once a day as the Earth turns.
+      Under F_E there is no such daily shift, so that contrast is the test
+      between the two. With a universal frame, a link quoted relative to Earth
+      could run backward in universal time only above roughly 811 times light
+      speed;
+    - each body keeps its own frame, plus a rule that no receiver can read
+      another body's frame.
 
-  - Tesla's "peace beam." Whether, and how, to cover his 1934 to 1941
-    particle-beam claims. Findings so far:
-    - His 1935 treatise computes 16 to 160 km/s for practical tungsten
-      particles.
-    - His March 1941 telegrams to Sava Kosanović are translated from Serbian,
-      which writes decimals with a comma. Read that way they give 3.94579
-      times light speed, and "neutrons ... 3.723 times lighter than
-      electrons."
-    - Tesla's own size-scaling, pushed to that speed, points to a particle
-      about the size of an atomic nucleus.
-    - Loose ends: the same telegram says the particles can be "larger than ...
-      the diameter of an Hydrogen atom"; a modern neutron is about 1,839 times
-      heavier than an electron, not lighter; and his speed formula ignores
-      relativity.
+    Underneath is one question: is β a fundamental law, which points to one
+    universal frame, or a property of the Earth-and-receiver system, which
+    points to F_E? This note takes the second view.
 
   - Individualization (Tesla's multi-frequency "combination-lock" receivers,
     US 723,188 and 725,605). It could lower the noise floor of the tests in
-    section 9; its claimed "non-interferable" quality may connect to the
-    model, since the potential-reading part of a receiver ignores radiated
-    waves.
+    section 9. Under the definition in section 5, a receiver with β turns down
+    its response to the swirling part of the field by (1 − β) rather than
+    ignoring radiated waves outright, and it still responds to the instant
+    potential of every moving charge everywhere, so frequency selection would
+    do most of the work of rejecting interference. Whether this connects to
+    Tesla's "non-interferable" claim has to be argued, not assumed.
 
 Open physics questions
 ~~~~~~~~~~~~~~~~~~~~~~
 
-  - What physically sets β. Tesla's patents give a design recipe (mirror the
-    transmitter, move a large quantity of charge, smooth terminals, resonance,
-    a careful ground, low frequency, time-gating, individualization,
-    placement), but no mechanism. Each item becomes a test variable.
+  - A physical law for the receiver. The construction says what a receiver
+    reads, not how its charges move. Still needed: the coupling that acts on
+    the receiver's charges, how energy reaches the receiver locally, how the
+    receiver pushes back on the source, and how momentum balances. Until then,
+    wireless power (section 9) is conditional.
+
+  - What physically sets β, and why atoms do not have it. Tesla's patents give
+    a design recipe (mirror the transmitter, move a large quantity of charge,
+    smooth terminals, resonance, a careful ground, low frequency, time-gating,
+    individualization, placement), but no mechanism. Each item becomes a test
+    variable. Any mechanism must give a large β in a Tesla terminal while the
+    atoms inside it still pass atomic-clock and cavity tests (section 5).
+
+  - Metal and shielding. Why ordinary metal, such as the can and the sphere in
+    section 9, should behave as β = 0 while a receiver does not.
+
+  - How β can vary with frequency. A response that cannot come before its
+    cause, in F_E, limits how β(f) can vary. The standard Kramers–Kronig
+    relations apply to proper response functions, and β may be a ratio of two
+    of them, so what exactly follows is still to be worked out.
 
   - Can a potential-reading coupling exist with charge conserved? The known
     routes to a potential-sensitive effect (section 5, Route 2) need charge
     that is not conserved locally, which this construction rules out.
 
+  - Route 1 as Route 2's C held at zero. To be written out in full: the
+    definition of C for the chosen speed, the extended field equations, and
+    the starting conditions.
+
+  - The source claim. Simulate whether any realistic transmitter-and-Earth
+    arrangement gives the axial-equivalent surface-charge history, and compute
+    what ordinary surface spreading gives instead.
+
+  - Tesla's six and twelve (section 7): the same quantity described two ways,
+    two different modes, or a revised estimate.
+
   - A possible bridge to known theory: Bell and Bohm's pilot-wave theory (the
     source of the word "beable") needs a hidden preferred time-slicing, and
     Valentini's "quantum non-equilibrium" is a proposal under which that
-    slicing could become detectable. To be checked against the primary sources
-    before any claim is made.
+    slicing could become detectable. A preferred time-slicing by itself gives
+    no coupling to the Coulomb potential or to a receiver's β, so for now the
+    link is an analogy. To be checked against the primary sources before any
+    claim is made.
 
   - Bounds on β from existing experiments. No clean limit on β exists yet.
     Static tests of electromagnetism (Coulomb's law, the photon's mass) cannot
     see β at all, because for unchanging charges the instant potential and the
-    ordinary fields agree. Precision tests of Lorentz invariance are very
-    sensitive, but they test how fields behave, not whether a receiver
-    responds to the potential; turning them into a limit on β would need a
-    model that does not exist yet. The experiments that bear on β directly are
-    timing experiments on the field bound to charges, and they are disputed:
+    ordinary fields agree. Precision tests of Lorentz invariance rule out β as
+    a property of ordinary atoms and light (section 5), but they cannot bound
+    the β of a particular receiver design without a coupling law. The
+    experiments that bear on β directly are timing experiments on the field
+    bound to charges, and they are disputed:
     - Kholmetskii, Missevitch and colleagues (J. Appl. Phys. 2007; EPL 93,
       64004, 2011) report "anomalously small retardation of bound EM fields"
       close to their antennas, an arrival earlier than light-travel time would
@@ -1140,9 +1499,13 @@ Open physics questions
       beam itself." Shabad (Eur. Phys. J. C 76, 508, 2016) argues that what
       was registered was the ordinary acceleration-dependent field instead;
       the authors replied in 2017, standing by their reading.
+    - Lightning-location and very-low-frequency networks are the most
+      promising existing data: millions of recorded strikes, millisecond early
+      windows and microsecond timing. Their noise floors could give a real
+      upper limit on β for those specific receivers in their band.
     - Everyday high-speed electronics shows no early precursors, which
-      suggests that ordinary probes have small β, but no published analysis
-      turns this into a number.
+      suggests that ordinary probes have small β at gigahertz frequencies, but
+      no published analysis turns this into a number.
 
     The task: for each of these, compute what β the measurement would imply or
     rule out under this model.
@@ -1150,30 +1513,35 @@ Open physics questions
   - Assumptions used in this note: that receivers respond in proportion to the
     signal and do not change during a test (section 5); that the
     coupled-resonator result applies (it assumes high Q and weak coupling);
-    and that the extra coupling Δk can be estimated for long distances. Still
-    to check: whether a β above 1 really breaks the energy accounting, and how
-    β(f) is constrained once it is measured at a few frequencies. Tesla's
-    coherer-type receivers were strongly non-proportional, so the first
-    assumption may not hold for his own devices.
+    and that the extra coupling Δk can be derived and estimated for long
+    distances. Still to check: whether a β above 1 really breaks the energy
+    accounting. Tesla's coherer-type receivers were strongly non-proportional,
+    so the first assumption may not hold for his own devices (section 9 uses a
+    linear analogue for that reason).
 
   - Carried over from the wave-law work:
     - What medium could make the Earth's body nearly lossless, as Tesla's
-      figures require.
+      figures require. The Earth's finite conductivity damps and delays fast
+      changes, so long-distance tests have to use low frequencies.
     - Which of Tesla's loss figures to treat as the main one: 1% to keep the
       Earth vibrating (1916), at most 5% across the globe (1917), or 0.5%
       (1927).
     - Tesla accepted Hertz waves in 1916 but wrote "if they exist" in 1927.
-    - Whether the axial current is real or a stand-in (a conducting Earth
-      shields its interior).
+    - Whether the axial current is real or a stand-in: now the source claim of
+      section 7.
     - An optional run below the Earth's resonance, where the potential is
-      nearly uniform everywhere.
+      nearly uniform everywhere ("simply act as a capacity," 1905).
 
 Model and simulations
 ~~~~~~~~~~~~~~~~~~~~~
 
-  - Add β to the project's transmission-line model of the Earth. Run onset and
-    fastest-change times against distance for β = 0 and β = 1, on a sphere and
-    on the real, slightly flattened Earth.
+  - Add β and the source claim to the project's transmission-line model of the
+    Earth. Run onset and peak times against distance for β = 0 and β = 1, for
+    ordinary surface spreading and for the axial-equivalent source, on a
+    sphere and on the real, slightly flattened Earth.
+
+  - Simulate the bench sphere: the surface-charge history after the pulse, and
+    the instant drive it gives at each receiver.
 
   - Add the one-station echo test (section 7) as a standard case.
 
@@ -1188,11 +1556,14 @@ Model and simulations
 Experiments
 ~~~~~~~~~~~
 
-  - Build the bench test in section 9, using a gated integrator in the spirit
-    of Tesla's own receiver.
+  - Build the bench test in section 9 (methods test), using a gated integrator
+    in the spirit of Tesla's own receiver.
 
-  - Set up a lightning station (section 9, Design 2); a few months of data
-    would also test the universal clock's daily shift.
+  - Set up a lightning station (section 9, Design 2; the primary target). A
+    few months of data would also test the daily shift a universal frame would
+    predict.
+
+  - A long-run phase study in the 5 to 15 Hz band (the secondary target).
 
 Sources still to find or check
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1206,8 +1577,15 @@ Sources still to find or check
   - Check the approximate page numbers given for the 1916 interview against a
     printed copy.
 
-  - Original Serbian texts of the 1941 telegrams (likely at the Nikola Tesla
-    Museum, Belgrade).
+  - Confirm the source and date of two statements attributed to 1917: that the
+    nodes would let Tesla "measure it exactly within four feet," and the loss
+    of at most 5% across the globe.
+
+  - Check Jackson's own wording on how arbitrary the potentials are (section
+    2).
+
+  - The 1913 "Wireless Thumb" article is listed in the project's index, but
+    its text has not yet been transcribed there.
 
   - Primary sources not yet read for this question: Tesla's transmitter
     patents 645,576 and 649,621; Electrical World, Dec 9, 1909; Buffalo
@@ -1251,6 +1629,8 @@ Physics
     electrodynamics," Am. J. Phys. 50, 693 (1982).
   - J. A. Heras, "Can the Lorenz-gauge potentials be considered physical
     quantities?" (2010). https://arxiv.org/abs/1012.1063
+  - G. Petit and B. Luzum (eds.), IERS Conventions (2010), IERS Technical Note
+    36, for the GCRS.
   - J. A. Heras, "How potentials in different gauges yield the same retarded
     electric and magnetic fields." https://arxiv.org/abs/physics/0702217
   - Y. Aharonov and D. Bohm, "Significance of electromagnetic potentials in
@@ -1274,7 +1654,7 @@ Physics
   - K. J. van Vlaenderen, "A generalisation of classical electrodynamics for
     the prediction of scalar field effects" (2003).
     https://arxiv.org/abs/physics/0305098
-  - G. W. Bruhn, critique of van Vlaenderen.
+  - G. W. Bruhn, critique of van Vlaenderen (web page, not peer-reviewed).
     https://www2.mathematik.tu-darmstadt.de/~bruhn/Refutation-raccoon.html
 
 Tesla
@@ -1282,6 +1662,14 @@ Tesla
     and 725,605 (individualization, 1903).
   - US Patent 787,412, "Art of Transmitting Electrical Energy Through the
     Natural Mediums" (filed 1900, granted 1905).
+  - "The Future of the Wireless Art," in W. W. Massie and C. R. Underhill,
+    Wireless Telegraphy and Telephony (1908), pp. 67–71.
+  - "The Disturbing Influence of Solar Radiation on the Wireless Transmission
+    of Energy," Electrical Review and Western Electrician, July 6, 1912, pp.
+    34–35.
+  - "Nikola Tesla's Plan to Keep 'Wireless Thumb' on Ships at Sea," Nov 9,
+    1913. https://rastko.rs/rastko/delo/10829
+  - "The True Wireless," Electrical Experimenter, May 1919.
   - "Talking with the Planets," Collier's Weekly, Feb 9, 1901.
   - "The Transmission of Electrical Energy Without Wires as a Means for
     Furthering Peace," Electrical World and Engineer, Jan 7, 1905, pp. 21–24.
