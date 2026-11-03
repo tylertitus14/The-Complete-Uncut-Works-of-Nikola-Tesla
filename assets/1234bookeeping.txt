@@ -29,11 +29,12 @@ radio, a voltmeter, an oscilloscope probe, or one of Tesla's tuned terminals.
 A receiver could respond directly to the electric potential, specifically the
 instant potential described in section 2, and not only to the electric and
 magnetic fields. How strongly it does so is a number, β, which could differ
-from one receiver design to another. Standard physics rules this out on two
+from one receiver design to another and from one frequency to another (section
+5 gives the exact definition). Standard physics rules this out on two
 principles. One is gauge invariance: many different sets of potentials
 describe the same situation equally well, and nothing measurable may depend on
 which set is used. The other is Lorentz invariance: no frame of reference is
-special. A receiver with β above zero would break both.
+special. A receiver with β other than zero would break both.
 
 That would extend physics, not overturn it. Maxwell's equations, conservation
 of charge, and the accounting of energy all stay exactly as they are.
@@ -52,11 +53,11 @@ and about 3 milliseconds to travel 1,000 km.
 
   - If the source's change takes longer than light's travel time to the
     receiver, as it does for nearly all everyday electrical equipment, a
-    receiver with β above zero gives exactly the same reading as a receiver
-    with β = 0.
+    receiver with β other than zero gives exactly the same reading as a
+    receiver with β = 0.
   - If the source's change is over in less than light's travel time to the
     receiver, both receivers respond when the ordinary fields arrive at light
-    speed. The receiver with β above zero also shows an extra, earlier
+    speed. The receiver with β other than zero also shows an extra, earlier
     response, before the ordinary fields arrive.
 
                            Source's change takes      Source's change is over
@@ -66,8 +67,10 @@ and about 3 milliseconds to travel 1,000 km.
 ------------------------   ------------------------   ------------------------
 Receiver with β = 0        normal reading             normal reading, arriving
                                                       at light speed
-Receiver with β above      same normal reading        normal reading plus an
-zero                                                  extra, earlier response
+Receiver with β other      same normal reading        an extra, earlier
+than zero                                             response, and a slightly
+                                                      different reading until
+                                                      the change settles
 
 A β test needs two halves: a source whose change of charge is over before
 light could reach the receiver, and a receiver watched closely enough to catch
@@ -237,11 +240,12 @@ So every E and B with the same instant potential = the same charge-bound part
 from Φ, then add any solution of Maxwell's equations for the swirling part
 (any pattern of currents, any incoming waves).
 
-What this means for the Tesla model. A receiver with β above zero still feels
-the ordinary fields, but its extra, potential-reading part sees only the
-charge-bound part of the field and is blind to the radiating part. That lines
-up with Tesla's repeated split between "Hertz waves," which radiate away and
-are "hopelessly lost" (1916), and the earth current, which "is stored and
+What this means for the Tesla model. The instant potential carries only the
+charge-bound part of the field, none of the radiating part. So, under the
+definition of β in section 5, a receiver responds to radiated waves at (1 − β)
+times normal strength: fully at β = 0, not at all at β = 1. That lines up with
+Tesla's repeated split between "Hertz waves," which radiate away and are
+"hopelessly lost" (1916), and the earth current, which "is stored and
 completely recoverable" (1916). This is a consequence of the model, not
 something tested.
 
@@ -286,18 +290,83 @@ potential: the electrostatic potential of all charges at that same moment.
 (Technically, the real potentials obey the Coulomb condition in the medium's
 frame.)
 
-(c) One dial. β (beta) is the fixed property of each receiver introduced in
-the Status section. It enters a receiver's reading like this:
+(c) One new property. β (beta) is the property of a receiver introduced in the
+Status section. Here is its exact definition.
 
-    reading = (what it reads from the ordinary fields) + β × (what it reads
-    from the real, instant potential)
+A receiver picks up a signal between two points, for example its raised
+terminal and its ground plate. Two things could drive that signal:
 
-Everyday receivers are assumed to have β = 0 (see the Status section). They
-work perfectly, but they cannot tell this model from standard physics, because
-the difference lives entirely in the second term. A receiver with β above zero
-would read everything an ordinary one does, plus the instant potential on top.
-The open question is whether any real receiver has β above zero, even
-slightly. Section 9 describes how to measure it.
+  - the ordinary drive: what standard physics says, set by the electric and
+    magnetic fields along the receiver's pickup path. It arrives at light
+    speed.
+  - the instant drive: the difference in the instant potential between those
+    same two points. It changes the moment the source's charges move.
+
+β sets the mix:
+
+    reading = ordinary drive + β × (instant drive − ordinary drive)
+
+  - β = 0: the reading is purely the ordinary drive, as in standard physics.
+  - β = 1: the reading is purely the instant drive, Tesla's picture in full.
+  - In between: a blend.
+
+When the source's change takes longer than light's travel time to the
+receiver, the two drives are equal, so the bracket is zero and every receiver
+reads the same whatever its β (the Status section's first case).
+
+What else is pinned down:
+
+  - β depends on frequency, written β(f). Each receiver has its own β at each
+    frequency, the way a microphone has its own sensitivity at each pitch. A
+    single constant β is only the simplest case. Because a response cannot
+    come before its cause (in the preferred frame), β cannot vary with
+    frequency in an arbitrary way: the standard Kramers–Kronig relations link
+    its values at different frequencies.
+  - β belongs to the receiver alone. It is set by the receiver's design; to
+    get a different β you would build a different receiver. There is no knob.
+  - β is not a measurement. It is like a person's weight: the weight is a
+    property, and the number on a scale is a measurement of it. A test gives a
+    measured value of a receiver's β, with some uncertainty (section 9).
+  - Its natural range is 0 to 1. A value above 1 would give an early response
+    larger than the full instant drive and would turn the response to radiated
+    waves upside down; it would probably break the energy accounting of
+    section 6, though that is still to be checked. A negative value is
+    allowed: it would show as an early dip where Tesla's picture predicts an
+    early rise.
+  - Two assumptions remain, both standard and both checkable: that a receiver
+    responds in proportion to the signal (doubling the signal doubles the
+    response, which holds for small signals and can be tested by changing the
+    pulse strength), and that it does not change during a test.
+
+Who owns what. It is easy to think β depends on the transmission, because
+frequency is a property of the signal. It does not. The receiver owns a whole
+β curve; the transmission only decides which part of the curve is used, as the
+light you look at decides which part of a pair of tinted glasses' colour curve
+matters.
+
+Belongs to                              What it sets
+-------------------------------------   --------------------------------------
+The receiver                            its β curve, β(f), fixed by its
+                                        design; its own circuit response; its
+                                        two pickup points
+The source                              how much charge moves and how fast,
+                                        which decides which frequencies are
+                                        present and how strong the instant
+                                        drive is
+The situation (distance, medium,        light's travel time, and so how large
+place on the Earth)                     the gap between the instant drive and
+                                        the ordinary drive is at the receiver
+
+The reading combines them: (the gap, from the source and the situation) × (β
+at the signal's frequencies, from the receiver). A stronger or faster
+transmitter never changes β; it makes the gap bigger, which makes a small β
+easier to see.
+
+Everyday receivers are assumed to have β = 0 at every frequency (see the
+Status section). They cannot tell this model from standard physics, because
+the difference lives entirely in the bracket. The open question is whether any
+real receiver has β other than zero at any frequency. Section 9 describes how
+to measure it.
 
 That is the whole construction. Parts (a) and (b) change nothing anyone can
 measure. Part (c) is the single place where this model and standard physics
@@ -402,8 +471,8 @@ the model assumes it has β = 0. The model's claim concerns a particular kind
 of receiver, Tesla's tuned, resonant terminal (section 9 describes how to test
 one).
 
-One more consequence should be stated plainly. With β above zero, signals can
-move faster than light in the medium's frame. Because there is a single
+One more consequence should be stated plainly. With β other than zero, signals
+can move faster than light in the medium's frame. Because there is a single
 preferred frame, this does not allow a signal to arrive before it was sent.
 That is the standard result for theories with one preferred frame (section 8
 spells out the limits). Whether nature allows it is, again, a separate
@@ -563,11 +632,11 @@ the real Earth–ionosphere cavity (≈ 0.74 c)   about 180 ms
 Earth–ionosphere cavity's lowest natural frequency.)
 
 In this construction the 85 ms return would show up only on a receiver with β
-above zero. The receivers in use today, including those of lightning-location
-networks and low-frequency timing systems, are assumed to have β = 0 and, as
-far as we know, have not been checked for an earlier response, so their
-silence neither confirms nor refutes the model. Section 9 lays out how to
-measure β directly.
+other than zero. The receivers in use today, including those of
+lightning-location networks and low-frequency timing systems, are assumed to
+have β = 0 and, as far as we know, have not been checked for an earlier
+response, so their silence neither confirms nor refutes the model. Section 9
+lays out how to measure β directly.
 
 
 8. LIGHT CONES: WHERE EACH SIGNAL LIVES IN SPACE AND TIME
@@ -605,8 +674,8 @@ instant (v = ∞, Coulomb)      flattened completely into a level slice: "now,"
 In standard physics these extra cones are invisible. The parts of the
 potential that live on them are cancelled exactly in the fields, so the light
 cone is the only one any receiver ever sees. Once a receiver can read the
-potential (β above zero), the potential's cone becomes a real, second causal
-structure.
+potential (β other than zero), the potential's cone becomes a real, second
+causal structure.
 
 Two cones in one world is not exotic in itself. In air, sound has a cone well
 inside the light cone, and the air picks out the frame it is measured in. In
@@ -668,9 +737,9 @@ Putting the construction together, a receiver at angle θ has three moments,
 each on its own surface in spacetime:
 
   1. The level slice "now" (t = 0+). The instant potential starts to change.
-     Receivers with β above zero only.
+     Receivers with β other than zero only.
   2. The light-speed sheet (t = R(1 − cos θ)/c). The instant potential changes
-     fastest. Receivers with β above zero only.
+     fastest. Receivers with β other than zero only.
   3. The light cone (t = straight-line distance / c, or longer around the
      surface). The ordinary field response begins. Seen by every receiver.
 
@@ -726,7 +795,8 @@ is the Tesla-specific part:
   - the three-surface timeline for each receiver;
   - tying the instant potential to his "incompressible" remark and his
     "theoretically infinite speed" start;
-  - the potential-reading part of a receiver, which is blind to Hertz waves.
+  - the result that a receiver with β = 1 would not respond to Hertz waves at
+    all.
 
 We cannot rule out that someone has written these down before; corrections are
 welcome.
@@ -801,10 +871,14 @@ Controls that make the result trustworthy
     strongest possible evidence, and one that disappears inside it was
     ordinary fields leaking through.
 
-Turning the reading into a β value
+Working out a receiver's β from its reading
 
-The test reads β at any strength, from 1 all the way down, not just "yes or
-no." It works like this:
+The receiver's β is a property of the receiver (section 5); this test gives a
+measured value of it, with some uncertainty, the way a scale gives a reading
+of a person's weight. It can find a receiver's β whatever its size, from 1 all
+the way down, and whatever its sign, not just "yes or no." A clear null result
+gives an upper limit instead: "this receiver's β is below such-and-such." It
+works like this:
 
   1. Work out the full-strength signal. From the charge the pulse puts on the
      sphere (measured at the generator), Coulomb's law gives the instant
@@ -813,14 +887,17 @@ no." It works like this:
      at Tesla's time (1.67 ns at 90°).
   2. Measure the early part. Take the Tesla-style receiver's signal inside the
      early window, before light could arrive, and subtract the control
-     receiver's signal from the same spot.
-  3. Compare the two. β is the scale factor that makes the full-strength curve
-     match what was measured. Half the predicted size means β = 0.5; a tenth
-     means β = 0.1.
+     receiver's signal from the same spot. In that window the ordinary drive
+     is still zero, so by the definition in section 5 the reading is simply β
+     × the instant drive.
+  3. Compare the two. The receiver's β equals the scale factor that makes the
+     full-strength curve match what was measured. Half the predicted size
+     means the receiver's β is 0.5; a tenth means 0.1; an inverted copy would
+     mean a negative β.
 
 For a 1 nC pulse, the full-strength signal at the receivers is about 13 V:
 
-β                    Early signal you would see   How it would look
+Receiver's β         Early signal you would see   How it would look
 ------------------   --------------------------   ----------------------------
 1                    about 13 V                   impossible to miss
 0.5                  about 6.5 V                  obvious on a single pulse
@@ -831,6 +908,11 @@ For a 1 nC pulse, the full-strength signal at the receivers is about 13 V:
                                                   thousands of pulses
 below about 0.0001   under about 1 mV             lost in the noise; sets an
                                                   upper limit instead
+
+Which frequencies this measures. Nanosecond pulses on a 1 m sphere probe a
+receiver's β at frequencies of hundreds of megahertz to gigahertz. Because β
+can depend on frequency, a null result here would not rule out β at the 6 Hz
+of Tesla's own system.
 
 A real early signal must also have the right shape and timing (starting at
 once, steepest at Tesla's time, the same at each position once scaled), and it
@@ -870,10 +952,12 @@ Strike distance   Tesla's law predicts   Ordinary radio arrival (light speed
 
 The gaps are milliseconds, easy for GPS timing. Stack thousands of strikes,
 lined up on their strike times, and look for anything on the Tesla-style
-receiver before the ordinary arrival. β is read the same way as on the bench:
-lightning networks estimate each strike's size, which gives the full-strength
-signal to compare against. A few months of data would also test the faint
-daily timing shift that a single universal clock would predict.
+receiver before the ordinary arrival. The receiver's β is worked out the same
+way as on the bench: lightning networks estimate each strike's size, which
+gives the full-strength signal to compare against. Lightning tests probe β at
+kilohertz frequencies, closer to Tesla's own system than the bench, but still
+not the same. A few months of data would also test the faint daily timing
+shift that a single universal clock would predict.
 
 Safety: record distant strikes only. Never work on a raised terminal with a
 storm anywhere nearby, and ground everything properly.
@@ -902,66 +986,76 @@ because its hull is electrically joined to the ocean. A car on rubber tyres is
 insulated from the ground for steady currents but coupled to it at radio
 frequencies. Real bodies also are not spheres (see section 8).
 
-What a β value would mean in practice
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What a receiver's β would mean in practice
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-β never changes when the early signal arrives; Tesla's time stays Tesla's
-time. It changes how strong that signal is, and strength decides what it could
-be used for.
+A receiver's β never changes when the early signal arrives; Tesla's time stays
+Tesla's time. It changes how strong that signal is, and strength decides what
+it could be used for. What matters in each case is the receiver's β at the
+frequency actually used.
 
-  - Signalling only needs the signal to be noticed. A weaker β can be made up
+  - Signalling only needs the signal to be noticed. A smaller β can be made up
     for: a receiver with 10 times smaller β needs about 10 times more charge
     moved by the transmitter, or about 100 times more averaging.
   - Wireless power, Tesla's real goal, needs energy actually collected, and
-    there resonance is the key. In this model β multiplies the strength of the
-    link between transmitter and receiver: the coupling coefficient is
-    k = β × k₀, where k₀ is the plain geometric coupling set by their sizes,
-    their spacing, and (on the Earth) where the receiver sits in the standing
-    wave. The standard result for two coupled resonant circuits (Kurs et al.
-    2007; Karalis, Joannopoulos and Soljačić 2008) then gives the best
-    possible efficiency in terms of a single number, β × k₀ × √(Q_t × Q_r),
-    where Q_t and Q_r measure how little energy each end loses per cycle. That
-    number must reach about 2.8 for 50% efficiency. So high resonance can make
-    up for a small β, which may be why Tesla insisted so hard on resonance and
-    "great inertia."
+    there resonance is the key. Under the definition in section 5, the
+    coupling between transmitter and receiver is the ordinary coupling plus β
+    times the extra coupling the instant potential would add, written Δk.
+    Close to the transmitter (well within a wavelength) the instant and
+    ordinary drives nearly agree, so Δk is small and β hardly matters: nearby
+    power transfer is ordinary physics. Δk matters at distances comparable to
+    the wavelength, which is Tesla's planet-scale case. The standard result
+    for two coupled resonant circuits (Kurs et al. 2007; Karalis, Joannopoulos
+    and Soljačić 2008) gives the best possible efficiency in terms of a single
+    number, the total coupling × √(Q_t × Q_r), where Q_t and Q_r measure how
+    little energy each end loses per cycle; it must reach about 2.8 for 50%
+    efficiency. The table shows what the β part alone would need.
 
-β       Signalling              Wireless power:         What it would mean
-                                k₀ × √(Q_t × Q_r)
-                                needed for 50%
-                                efficiency
------   ---------------------   ---------------------   ----------------------
-1       easy, strong on every   about 2.8               Maxwell's equations
-        pulse                                           hold; his own choice
-                                                        of potential is real,
-                                                        and some receivers
-                                                        couple to it fully
-0.1     easy                    about 28                the same, at a tenth
-                                                        strength
-0.01    works with modest       about 280               the same, weak but
-        averaging or a                                  usable with good
-        stronger transmitter                            resonators
-0.001   works, slowly (a few    about 2,800             the same, tiny; still
-        bits per second)                                a discovery
-0       impossible              impossible              standard
-                                                        electrodynamics is the
-                                                        whole story; Tesla's
-                                                        law is geometry only
+Receiver's β   Signalling            Wireless power:       What it would mean
+                                     Δk × √(Q_t × Q_r)
+                                     needed for the β
+                                     part alone to reach
+                                     50% efficiency
+------------   -------------------   -------------------   -------------------
+1              easy, strong on       about 2.8             Maxwell's equations
+               every pulse                                 hold; his own
+                                                           choice of potential
+                                                           is real, and some
+                                                           receivers couple to
+                                                           it fully
+0.1            easy                  about 28              the same, at a
+                                                           tenth strength
+0.01           works with modest     about 280             the same, weak but
+               averaging or a                              usable with good
+               stronger                                    resonators
+               transmitter
+0.001          works, slowly (a      about 2,800           the same, tiny;
+               few bits per                                still a discovery
+               second)
+0              impossible            impossible            standard
+                                                           electrodynamics is
+                                                           the whole story;
+                                                           Tesla's law is
+                                                           geometry only
 
 For scale, resonators with Q in the hundreds to thousands are routine today
-(the 2007 MIT coils were around 1,000), but k₀ for a receiver thousands of
+(the 2007 MIT coils were around 1,000), but Δk for a receiver thousands of
 kilometres from its transmitter could be very small, which raises the bar.
-Note also what no row says: in none of them are Maxwell's equations wrong. The
-new physics, if any, is in how some receivers couple to the potential, not in
-the field equations.
+High resonance can still make up for a small β, which may be why Tesla
+insisted so hard on resonance and "great inertia." Note also what no row says:
+in none of them are Maxwell's equations wrong. The new physics, if any, is in
+how some receivers couple to the potential, not in the field equations.
 
 What to expect
 ~~~~~~~~~~~~~~
 
-Standard physics predicts β = 0. Tesla's picture, as modelled here, needs β
-above zero. The test does not favour either: it returns whatever β turns out
-to be, from 1 down to about one ten-thousandth. Any clear value above zero
-would be new physics and the measurement Tesla never left us. A clean zero
-would put a hard number on the claim instead of leaving it to opinion.
+Standard physics predicts that every receiver's β is 0. Tesla's picture, as
+modelled here, needs some receiver's β to be above zero. The test does not
+favour either: it measures whatever the receiver's β turns out to be, from 1
+down to about one ten-thousandth, at the frequencies the test uses. Any clear
+value above zero would be new physics and the measurement Tesla never left us.
+A clean zero would put a hard number on the claim instead of leaving it to
+opinion.
 
 
 10. OPEN ITEMS AND WHAT TO WORK ON NEXT
@@ -1053,10 +1147,14 @@ Open physics questions
     The task: for each of these, compute what β the measurement would imply or
     rule out under this model.
 
-  - Assumptions used in this note: that β is a single, fixed number per
-    receiver; that the coupled-resonator result applies (it assumes high Q and
-    weak coupling); and that the geometric coupling k₀ can be estimated for
-    long distances.
+  - Assumptions used in this note: that receivers respond in proportion to the
+    signal and do not change during a test (section 5); that the
+    coupled-resonator result applies (it assumes high Q and weak coupling);
+    and that the extra coupling Δk can be estimated for long distances. Still
+    to check: whether a β above 1 really breaks the energy accounting, and how
+    β(f) is constrained once it is measured at a few frequencies. Tesla's
+    coherer-type receivers were strongly non-proportional, so the first
+    assumption may not hold for his own devices.
 
   - Carried over from the wave-law work:
     - What medium could make the Earth's body nearly lossless, as Tesla's
