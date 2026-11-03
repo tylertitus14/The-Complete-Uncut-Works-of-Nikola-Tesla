@@ -110,9 +110,48 @@ principles, it would be a major extension, not a small tweak.
 It is not a claim that the effect has been observed. Whether the world works
 this way is a separate question, and it is kept separate on purpose.
 
-Terms are defined as they come up. Where a statement is Tesla's, it is quoted
-and dated. Where it is standard physics, it says so. Where it is our own step,
-it says that too.
+Terms are defined as they come up, and a short glossary sits at the end,
+before the Sources. Where a statement is Tesla's, it is quoted and dated.
+Where it is standard physics, it says so. Where it is our own step, it says
+that too.
+
+The main claims at a glance.
+
+Claim                          Kind of claim                  Where
+----------------------------   ----------------------------   ----------------
+Many different potentials      standard physics               sections 2 and 3
+give exactly the same fields
+The instant potential          standard physics               section 4
+carries an exact share of
+the field's energy;
+potentials matter in the
+Aharonov–Bohm effect
+Maxwell's equations are left   model postulate                section 5 (a)
+unchanged
+The real potential is the      model postulate                section 5 (b)
+instant potential in one
+frame, F_E
+A receiver reads               model postulate                section 5 (c)
+ordinary drive + β × (instant drive − ordinary drive)
+If charge is conserved, the    standard physics (a theorem)   section 5
+quantity C stays at zero
+Tesla's "incompressible"       our reading of Tesla           section 5
+electricity means conserved
+charge
+A receiver's response to the   follows from the model         sections 3 and 5
+swirling part of the field
+is (1 − β) times normal
+With one frame, faster-than-   follows from the model,        section 8
+light links cannot form        under two stated assumptions
+causal loops
+Tesla's timing law needs the   model postulate (the source    section 7
+Earth's charge to move in      claim, Tesla's picture)
+his axial pattern
+Tesla's timing figures come    our working assumption, from   section 7
+from geometry, not             his texts
+measurement
+Some real receiver has β       open: the claim to be tested   section 9
+other than zero
 
 
 1. THE PUZZLE IN ONE PARAGRAPH
@@ -953,8 +992,10 @@ Resonance is different. The natural frequencies and the positions of the nodes
 depend on the real shape, in standard physics and in Tesla's. Tesla relied on
 this himself. In 1916 he said that because the Earth "is an oblate spheroid,"
 it "makes all the difference" whether an apparatus is placed near the pole or
-near the equator. In 1917 he testified that his nodes would let him "measure
-it exactly within four feet," meaning the Earth's diameter.
+near the equator. In his 1917 testimony in the Wardenclyffe foreclosure case
+(reproduced in the Anderson volume; page still to be confirmed) he said his
+nodes would let him "measure it exactly within four feet," meaning the Earth's
+diameter.
 
 Three surfaces for every receiver
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1053,6 +1094,42 @@ A small β does not move the main arrival: the ordinary signal still comes when
 it always did. It adds an early signal about β times the size of the instant
 drive (section 5). So these tests are about detecting a small early signal,
 not about timing the main peak more precisely.
+
+What each test would show
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is measured    Standard physics    This model          Test
+-----------------   -----------------   -----------------   ------------------
+Any response        none                an early signal     Designs 1 and 2
+before the                              of β × the
+ordinary fields                         instant drive, if
+arrive                                  β is not zero
+When the ordinary   at the light-       the same            all
+signal arrives      speed travel time
+Response to the     full                (1 − β) times       Design 3
+swirling part of                        normal
+the field (radio
+waves)
+Response to         normal              the same            all (a check)
+slowly changing
+sources
+Timing of the       no early peak       at                  Design 2
+early peak across                       R(1 − cos θ)/c,
+the Earth                               if β is not zero
+                                        and the source
+                                        claim holds
+One-station echo    roughly 180 ms      85 ms, if both      section 7
+                    (cavity estimate)   claims hold
+Earth resonances    the Schumann        in addition,        secondary target
+seen by a β         series, about       Tesla's modes:
+receiver            7.8, 14, 20 Hz      odd multiples of
+                                        about 5.9 Hz, or
+                                        a series built on
+                                        about 11.8 Hz
+A daily,            none                none under F_E;     Design 2, long
+direction-                              up to about 26 μs   runs
+dependent timing                        per station under
+shift                                   a universal frame
 
 The targets, declared in advance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1577,22 +1654,58 @@ Sources still to find or check
   - Check the approximate page numbers given for the 1916 interview against a
     printed copy.
 
-  - Confirm the source and date of two statements attributed to 1917: that the
-    nodes would let Tesla "measure it exactly within four feet," and the loss
-    of at most 5% across the globe.
+  - Confirm the pages, in the Anderson volume's reproduction of Tesla's 1917
+    Wardenclyffe testimony, for "measure it exactly within four feet" and for
+    the loss of at most 5% across the globe.
 
   - Check Jackson's own wording on how arbitrary the potentials are (section
     2).
 
-  - The 1913 "Wireless Thumb" article is listed in the project's index, but
-    its text has not yet been transcribed there.
-
   - Primary sources not yet read for this question: Tesla's transmitter
     patents 645,576 and 649,621; Electrical World, Dec 9, 1909; Buffalo
-    Review, Jan 3, 1901; English Mechanic, July 21, 1893; Suffolk County News,
-    Sept 16, 1927; Manufacturer's Record, Oct 7, 1915.
+    Review, Jan 3, 1901; English Mechanic and World of Science, July 21, 1893;
+    Suffolk County News, Sept 16, 1927; Manufacturer's Record, Oct 7, 1915.
 
 When these are settled, this note will be replaced by the full specification.
+
+
+GLOSSARY
+--------
+
+  - Beable: something a theory says really exists, as opposed to bookkeeping
+    (John Bell's word).
+  - Gauge: a choice among the many sets of potentials that all give the same
+    fields.
+  - Instant potential: the electrostatic (Coulomb) potential of all charges at
+    the same instant in F_E. In this model, the real potential.
+  - F_E: the frame that defines "instant": centred on the Earth, not rotating
+    relative to the distant stars.
+  - Receiver: any instrument that picks up electrical effects at a distance,
+    read between two terminals.
+  - Source: the transmitter, lightning stroke, or other place where charges
+    are moved.
+  - Ordinary drive: the voltage standard physics gives along a receiver's own
+    wiring between its two terminals.
+  - Instant drive: the difference in the instant potential between a
+    receiver's two terminals.
+  - Swirling drive: the ordinary drive minus the instant drive: the
+    contribution of the swirling (transverse) part of the field, which
+    includes radiation and induction.
+  - β (beta): how a receiver mixes the two drives; equivalently, how much it
+    ignores the swirling drive. A property of the receiver as installed; it
+    can depend on frequency, written β(f).
+  - Early window: the time before the ordinary fields from a fast source reach
+    the receiver. In it, the reading is β × the instant drive.
+  - Receiver claim: that some real receiver has β other than zero.
+  - Source claim: that the Earth's surface charge moves, as seen from outside,
+    like a front running down its axis at light speed. Needed, with the
+    receiver claim, for Tesla's timing law.
+  - C: the quantity a gauge condition sets to zero, promoted to a field in
+    Route 2 (section 5). It stays at zero when charge is conserved.
+  - Δk: the extra coupling between two resonant circuits that the instant
+    potential would add (section 9). Not yet derived.
+  - Q: a measure of how little energy a resonant circuit loses per cycle;
+    higher is better.
 
 
 SOURCES
