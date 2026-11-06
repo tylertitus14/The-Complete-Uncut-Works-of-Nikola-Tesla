@@ -61,7 +61,9 @@ INDEXX (Periodicals, Books and Select Correspondence)
 --
 *Alternate-Current Motors (Jun 15)
 --
-A New System of Alternate Current Motors and Transformers (Jun 15) ##
+*A New System of Alternate Current Motors and Transformers (Jun 15) ##
+--
+*The Tesla Alternate Current Motor (Jun 22) ##
 --
 *Alternate Current Motors (Jun 29)
 --
@@ -133,11 +135,13 @@ A New System of Alternate Current Motors and Transformers (Jun 15) ##
 --
 *Alternating Currents of Short Period (Mar 14)
 --
-*Experiments With Alternate Currents of High Frequency. (Mar 18)
+*Experiments With Alternate Currents of High Frequency. (Mar 18) ##
 --
 *Alternate-Current Motors (New York)(Apr 3) ##
 --
 *Electro-Motors (London)(Apr 3) ##
+--
+*Experiments With Alternating Currents of High Frequency (London)(Apr 3) ##
 --
 *Phenomena of Currents of High Frequency (Apr 8)
 --
@@ -3756,7 +3760,7 @@ photocopy of original here=
 
 ##dup-diff:
 
-[see also: Electrical Review (New York) June 2nd, 1888 Page number(s): 2&3]
+[see also: Electrical Review (New York) June 2nd, 1888 Page number(s): 2-3]
 [see also: Electrical Engineer June 15th, 1888 Page number(s): 568-572]
 __________________
 @ 05-88
@@ -4057,7 +4061,7 @@ ENGINEERS, MAY 16 1888
 —————
 by Nikola Tesla
 Electrical Review (New York)
-June 2nd, 1888 Page number(s): 2&3
+June 2nd, 1888 Page number(s): 2-3
 Vol. XII - Mar 3 to Aug 25 - No. 14 ㅤ ㅤ ㅤ ㅤ ㅤ ㅤ
 -
 -
@@ -4171,7 +4175,7 @@ photocopy of original here=
 ##dup-diff:
 
 [see also: Lecture before the AIEE, Columbia College May 16th, 1888]
-[see also: Electrical Review (New York) June 2nd, 1888 Page number(s): 2]
+[see also: Electrical Review (New York) June 2nd, 1888 Page number(s): 2-3]
 __________________
 @ 06-88
 
@@ -5043,7 +5047,7 @@ __________________
 
 
 __________________
-
+#Dup (original)
 📰🧙📰
 EXPERIMENTS WITH ALTERNATE CURRENTS OF HIGH FREQUENCY.
 ————
@@ -5058,6 +5062,10 @@ xxx
 stylize font=
 insrt figrs tmplt=
 photocopy of original here=
+
+##dup-diff: reprinted in the Electrical Review (London) Apr 3 1891 with a different headline
+
+[see also: Electrical Review (London) April 3rd, 1891 Page number(s): 431-432]
 __________________
 @ 03-91
 
@@ -5271,7 +5279,7 @@ __________________
 
 
 __________________
-
+#Dup (reprint)
 📰🧙📰
 EXPERIMENTS WITH ALTERNATING CURRENTS OF HIGH FREQUENCY•
 —————
@@ -5288,6 +5296,10 @@ xxx
 stylize font=
 insrt figrs tmplt=
 photocopy of original here=
+
+##dup-diff: reprint of the Electrical Engineer (New York) Mar 18 1891 letter under a different headline
+
+[see also: Electrical Engineer (New York) March 18th, 1891 Page number(s): 336-337]
 __________________
 @ 04-91
 
@@ -14122,11 +14134,11 @@ NIKOLA TESLA TALKS OF THE FUTURE OF THE GREATEST PROBLEMS NOW CONFRONTING THE SC
 by E. Leslie Gilliams
 New York Press
 March 2nd, 1913 Page number(s): ?
---
---
+-
+-
 xxx
---
---
+-
+-
 stylize font=
 insrt figrs tmplt=
 photocopy of original here=
@@ -18838,7 +18850,7 @@ ______
 
     ⚡ ⚡ ⚡ ⚡ ⚡ ‘3️⃣7️⃣ ⚡ ⚡ ⚡ ⚡ '37
 __________________
-##dup
+##Dup
 
 DR. TESLA'S HONORS
 ————
