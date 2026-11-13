@@ -368,6 +368,23 @@ the Coulomb condition in F_E.)
 A frame that rotates with the Earth, or one that follows each piece of the
 Earth, would not do: neither defines a single instant across the whole Earth.
 
+(((Why F_E cannot rotate with the Earth.. The rotating-frame metric in "The
+Relativity of Celestial Torsion" (assets/123draft2plaintext.txt) shows it.
+Its ω²ρ² term in the dt² part is the centrifugal effect: it changes clock
+rates with distance ρ from the axis (ρ here is a distance, as in section 7,
+not the charge density of section 3), but does not stop clocks being
+synchronized. The cross term 2N·dx·dt, with N = ω × r, is the one that
+matters. A metric with a dt·dx cross term that twists around (nonzero curl,
+which rotation always has) cannot be given one consistent "now" by
+synchronizing clocks step by step: going around a closed loop, they come
+back out of step by
+    Δt = (1/c²) ∮ N·dl = 2ωA/c²
+where A is the area the loop encloses, projected onto the equator's plane
+(the Sagnac effect). Around the equator this is about 207 ns, the same
+correction GPS and international clock comparisons apply. So a frame
+spinning with the Earth's surface cannot define a single instant across the
+whole Earth, which is why F_E is anchored to a non-rotating frame.)))
+
 (c) One new property. β (beta) is the property of a receiver introduced in the
 Status section. Here is its exact definition.
 
