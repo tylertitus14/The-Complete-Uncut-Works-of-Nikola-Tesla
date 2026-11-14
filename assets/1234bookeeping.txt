@@ -357,7 +357,8 @@ potential: the electrostatic (Coulomb) potential of all charges at the same
 instant. "Instant" means simultaneous in one fixed frame, called F_E in the
 rest of this note: its origin is the Earth's centre of mass, and its axes do
 not rotate relative to the distant stars. (Geodesists realise such a frame in
-practice as the Geocentric Celestial Reference System, GCRS.) The Earth
+practice as the Geocentric Celestial Reference System, GCRS; that is a
+coordinate convention, not evidence that nature prefers this frame.) The Earth
 anchors this frame but is not at rest in it: the Earth's surface turns through
 F_E at up to about 465 m/s. Simultaneity in F_E differs from simultaneity "on
 the surface" by at most about 66 ns across the whole Earth, negligible against
@@ -382,7 +383,8 @@ synchronizing clocks step by step: going around a closed loop, they come
 back out of step by
     Δt = (1/c²) ∮ N·dl = 2ωA/c²
 where A is the area the loop encloses, projected onto the equator's plane
-(the Sagnac effect). Around the equator this is about 207 ns, the same
+(the Sagnac effect). Around the equator this is about 207 ns (light sent east
+and west around the equator differs by twice this, about 414 ns), the same
 correction GPS and international clock comparisons apply. The size is as
 small as the 66 ns above and as negligible for timing; the point is that the
 loop never closes, so a frame spinning with the Earth's surface has no single
@@ -1078,7 +1080,9 @@ could close a loop.
 The construction as stated covers one Earth, and makes no claim about
 signalling between planets. Extending it to several worlds would need a
 further rule, for example that all instant potentials share one frame (Tesla's
-ether would supply one); section 10 lists the options.
+ether would supply one); section 10 lists the options. The cross-readable
+case is option P' there; the Magic Box section (calculators repo) works out
+how large such a loop's advance could be.
 
 What is new here, and what is not
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1504,21 +1508,41 @@ Decisions that would change this note's text
 
   - One frame for everything: the open extension. The note uses F_E and covers
     one Earth. Extending it to other planets would need a further rule. The
-    options:
-    - one frame for the whole solar system (the barycentric frame astronomers
-      already use);
-    - one universal frame, for example the rest frame of the cosmic microwave
-      background (CMB). Standard cosmology does not single that frame out as
-      fundamental, so adopting it would be an added postulate. It predicts
-      something testable: Tesla-mode timings would shift with direction by up
-      to about 26 microseconds at one station (about 52 microseconds between
-      opposite sides of the Earth), cycling once a day as the Earth turns.
-      Under F_E there is no such daily shift, so that contrast is the test
-      between the two. With a universal frame, a link quoted relative to Earth
-      could run backward in universal time only above roughly 811 times light
-      speed;
-    - each body keeps its own frame, plus a rule that no receiver can read
-      another body's frame.
+    options, with the labels the Magic Box section and the formal-routes
+    section of "Gr8 AI Danger Keep Out" also use:
+    E    F_E alone (this note). No daily timing shift. No loops, as long as
+         every link runs forward in F_E time (section 8).
+    S    one frame for the whole solar system (the barycentric frame
+         astronomers already use). Earth moves through it at about 30 km/s,
+         so the instant arrival at two stations would differ by v·D/c², where
+         D is their separation along Earth's motion: up to about 2 μs per
+         Earth radius, changing through the day and the year.
+    U    one universal frame, for example the rest frame of the cosmic
+         microwave background (CMB). Earth moves through it at about
+         370 km/s: up to about 26 μs per Earth radius of separation (about
+         52 μs between stations on opposite sides of the Earth), cycling once
+         a sidereal day and pointing toward the CMB dipole. Standard
+         cosmology does not single that frame out as fundamental, and in
+         curved, expanding spacetime it is a flat-space idealisation, so
+         adopting it is an added postulate. A link that is instant in this
+         frame never runs backward in it; a link whose speed is fixed in
+         Earth's frame would run backward in universal time only above
+         c²/v, about 811 times light speed.
+    U*   one universal frame whose velocity is not assumed: like U, with the
+         size and direction of the daily shift left to measurement.
+    DYN  a "now" set by a physical field (Einstein-aether or khronometric
+         theories, or a Bohmian foliation). If that field also acts on
+         gravity, lunar laser ranging, pulsar timing and the equal arrival
+         of gravitational waves and light (GW170817) already bound it
+         tightly.
+    P    each body keeps its own frame, plus a rule that no receiver can read
+         another body's frame. On Earth, identical to E.
+    P'   each body keeps its own frame, and receivers can read across. This
+         alone permits loops (section 8, "The honest limit"); the Magic Box
+         section works out sizes for planetary relays. Paradox-prone.
+    A two-station timing run over a few months separates E from S and U by
+    the size and phase of a daily shift. E and P cannot be told apart on
+    Earth, and P' needs an off-Earth relay.
 
     Underneath is one question: is β a fundamental law, which points to one
     universal frame, or a property of the Earth-and-receiver system, which
@@ -1586,8 +1610,9 @@ Open physics questions
     ordinary fields agree. Precision tests of Lorentz invariance rule out β as
     a property of ordinary atoms and light (section 5), but they cannot bound
     the β of a particular receiver design without a coupling law. The
-    experiments that bear on β directly are timing experiments on the field
-    bound to charges, and they are disputed:
+    experiments that come closest are timing experiments on the field bound
+    to charges. They report field arrival times, not a β reading (turning them
+    into a bound on β needs a coupling law), and they are disputed:
     - Kholmetskii, Missevitch and colleagues (J. Appl. Phys. 2007; EPL 93,
       64004, 2011) report "anomalously small retardation of bound EM fields"
       close to their antennas, an arrival earlier than light-travel time would

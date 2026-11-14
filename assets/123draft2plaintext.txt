@@ -17,6 +17,8 @@ To evaluate this claim within general relativity without creating mathematical e
 
 ds^2 = -(1 + 2 * Phi - w^2 * rho^2) * dt^2 + 2 * N_i * dx^i * dt + (1 - 2 * Phi) * dx^2
 
+(Units with c = 1. The rotating coordinates hold only inside the light cylinder, w * rho < c. The cross term 2 * N_i * dx^i * dt is also why clocks cannot be synchronized consistently around a rotating loop, the Sagnac effect; the wave-law note, assets/1234bookeeping.txt, section 5b, uses it to show why its frame F_E cannot rotate.)
+
 Where Phi is the gravitational potential, rho^2 = x^2 + y^2 is the squared cylindrical distance from the rotation axis (the z-axis, w = w_z), dx^2 represents the standard spatial metric components, and N_i is the off-diagonal shift vector defined by the orbital tracking velocity:
 
 N_i = (w cross r)_i
@@ -25,7 +27,7 @@ This line element is a weak-field (Newtonian-limit) form, not a post-Newtonian (
 
 Under this specific coordinate transform, an observer restricted to the T̶e̶r̶r̶e̶s̶t̶r̶i̶a̶l̶ ̶R̶e̶f̶e̶r̶e̶n̶c̶e̶ ̶F̶r̶a̶m̶e̶ Co-Rotating Orbital Frame measures a local tracking velocity of exactly zero. The average spatial coordinate velocity of the satellite is completely absorbed by the shift vector N_i.
 
-It must be explicitly clarified that this coordinate choice merely alters how the energy of the system is described by a local observer plane; it does not mean that real, physical energy has been relocated into the components of the metric tensor itself. Because general relativity lacks a well-defined local gravitational energy-momentum density tensor, the shift vector N_i acts strictly as a geometric description of motion within a non-inertial frame. The underlying energy remains an invariant attribute of the physical matter fields, described differently based on the observer's coordinate orientation.
+It must be explicitly clarified that this coordinate choice merely alters how the energy of the system is described by a local observer plane; it does not mean that real, physical energy has been relocated into the components of the metric tensor itself. Because general relativity lacks a well-defined local gravitational energy-momentum density tensor, the shift vector N_i acts strictly as a geometric description of motion within a non-inertial frame. Kinetic and rotational energy are frame-dependent quantities, well defined once the frame is stated; what no coordinate choice changes is the invariant record: tidal dissipation, physical libration, and any local gyroscope or Sagnac reading.
 
 ________________________________________
 II. Distinguishing Angular Momentum from Rotational Kinetic Energy
@@ -240,7 +242,7 @@ beta = (C - A) / B
 
 gamma = (B - A) / C
 
-Where A, B, and C are the principal moments of inertia. The measured longitudinal libration amplitude exhibits a steady 3-year oscillation mode of approximately 1.8 arcseconds. Because a pure coordinate artifact cannot possess a moment of inertia or oscillate in response to real gravitational gradients, this LLR data provides coordinate-independent proof of a localized, non-zero central mass distribution.
+Where A, B, and C are the principal moments of inertia. Lunar laser ranging finds a libration in longitude with a 1,056-day (about 2.9-year) period: about 1.8 arcseconds for the combined free and forced term at that period (Newhall & Williams, Celest. Mech. Dyn. Astron. 66, 21-30, 1997), of which the free mode alone is about 1.3 arcseconds (Rambaux & Williams, Celest. Mech. Dyn. Astron. 109, 85-100, 2011; first detected by Calame, The Moon 15, 343-352, 1976, at about 1.7 arcseconds). Because a pure coordinate artifact cannot possess a moment of inertia or oscillate in response to real gravitational gradients, this LLR data provides coordinate-independent proof of a localized, non-zero central mass distribution.
 
 2. Core Thermal Dissipation Constants
 
@@ -293,7 +295,7 @@ If this balance held, it would have kept Earth's day length near a fixed value f
 
 To maintain absolute academic authority, all foundational field metrics are anchored strictly to primary peer-reviewed literature:
 
-•	Spacetime Frame Dragging: The operational boundaries of the shift vector N_i and localized spacetime dragging are verified by the empirical data sets of the Gravity Probe B relativistic gyroscope experiment.
+•	Spacetime Frame Dragging: The operational boundaries of the shift vector N_i and localized spacetime dragging are verified by the empirical data sets of the Gravity Probe B relativistic gyroscope experiment (geodetic precession about 6,602 mas/yr and frame dragging about 37 mas/yr, measured against the guide star IM Pegasi; an Earth-orbit test, cited here as evidence that rotation is measured against local inertial frames, not as a measurement of the Moon).
 
 •	Cosmological Horizon Boundaries: Cosmological models involving cyclic evolution must note that mainstream Type Ia Supernova surveys (established via the 1998 High-Z Supernova Search Team and Supernova Cosmology Project) confirm an accelerating cosmic expansion, positioning the Big Freeze as the baseline paradigm. Alternative configurations like Roger Penrose's Conformal Cyclic Cosmology (CCC) rely on Cosmic Microwave Background (CMB) "concentric rings" claims that have not held up under independent statistical scrutiny, and must be treated strictly as disfavored, speculative models.
 
@@ -374,7 +376,7 @@ At this fundamental quantum scale, space is no longer a smooth geometric backgro
 
 hat_T_k | Psi_resonant > = 0
 
-At this deep quantum limit, continuous kinetic friction and classical acceleration cease to exist. The connection between two quantum states transforms from a continuous transmission of classical mechanical force into a stable, non-radiating topological shortcut. It is only at this fundamental quantum gravity boundary—and explicitly not at the macroscopic scale of the lunar orbit—that continuous coordinate slip differentials vanish entirely. Tesla's mechanical intuition of a zero-energy rigid spoke finds its true validation not in the astronomy of the sky, but in the discrete, non-dissipative quantization of space at the Planck scale.
+At this deep quantum limit, continuous kinetic friction and classical acceleration cease to exist. The connection between two quantum states transforms from a continuous transmission of classical mechanical force into a stable, non-radiating topological shortcut. It is only at this fundamental quantum gravity boundary—and explicitly not at the macroscopic scale of the lunar orbit—that continuous coordinate slip differentials vanish entirely. Speculation, unverified: Tesla's mechanical intuition of a zero-energy rigid spoke finds its true validation not in the astronomy of the sky, but in the discrete, non-dissipative quantization of space at the Planck scale.
 
 ________________________________________
 📌 Google's Consolidated Task Ledger
