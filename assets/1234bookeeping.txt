@@ -559,7 +559,7 @@ said:
 
     "electricity, whatever it is, certainly it is incompressible because all
     our experiments show that." (Nikola Tesla On His Work With Alternating
-    Currents, ed. L. I. Anderson, p. ~132)
+    Currents, ed. L. I. Anderson, p. 132)
 
 We read this as saying that electricity is never created or destroyed, only
 moved, so charge is conserved. That is an interpretation: "incompressible"
@@ -1016,10 +1016,10 @@ Resonance is different. The natural frequencies and the positions of the nodes
 depend on the real shape, in standard physics and in Tesla's. Tesla relied on
 this himself. In 1916 he said that because the Earth "is an oblate spheroid,"
 it "makes all the difference" whether an apparatus is placed near the pole or
-near the equator. In his 1917 testimony in the Wardenclyffe foreclosure case
-(reproduced in the Anderson volume; page still to be confirmed) he said his
-nodes would let him "measure it exactly within four feet," meaning the Earth's
-diameter.
+near the equator. In his testimony in the Wardenclyffe foreclosure case (as
+printed in the 1922 appeal record, reproduced in the Anderson volume's
+appendix, p. 203) he said his nodes would let him "measure it exactly within
+four feet," meaning the Earth's diameter.
 
 Three surfaces for every receiver
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1648,8 +1648,8 @@ Open physics questions
       figures require. The Earth's finite conductivity damps and delays fast
       changes, so long-distance tests have to use low frequencies.
     - Which of Tesla's loss figures to treat as the main one: 1% to keep the
-      Earth vibrating (1916), at most 5% across the globe (1917), or 0.5%
-      (1927).
+      Earth vibrating (1916), at most 5% across the globe (Wardenclyffe
+      foreclosure testimony, Anderson p. 205), or 0.5% (1927).
     - Tesla accepted Hertz waves in 1916 but wrote "if they exist" in 1927.
     - Whether the axial current is real or a stand-in: now the source claim of
       section 7.
@@ -1699,11 +1699,18 @@ Sources still to find or check
     Colorado Springs Notes found no such event in the notebook.
 
   - Check the approximate page numbers given for the 1916 interview against a
-    printed copy.
+    printed copy. [Done Nov 14, 2026, against the archive.org scan of the 1992
+    edition: "incompressible" p. 132; "same velocity of light" and "starts
+    with infinite velocity" p. 140; "makes absolutely no difference" p. 141;
+    "variations of potential" p. 142.]
 
   - Confirm the pages, in the Anderson volume's reproduction of Tesla's 1917
     Wardenclyffe testimony, for "measure it exactly within four feet" and for
-    the loss of at most 5% across the globe.
+    the loss of at most 5% across the globe. [Done Nov 14, 2026: pp. 203 and
+    205. The testimony is printed from the 1922 appeal record (Appellate
+    Division, Second Department), not a 1917 proceeding, so the "1917" labels
+    in sections 8 and 10 were removed. When Tesla gave the testimony has not
+    been checked.]
 
   - Check Jackson's own wording on how arbitrary the potentials are (section
     2). [Done Nov 14, 2026: section 2 now quotes the aim stated in his
@@ -1838,7 +1845,8 @@ Tesla
   - Nikola Tesla On His Work With Alternating Currents (1916 pre-hearing
     interview), ed. L. I. Anderson.
     https://archive.org/details/nikola-tesla-on-his-work-with-alternating-currents
-    (page numbers above are approximate).
+    (page numbers are from this scan of the 1992 edition; the Wardenclyffe
+    foreclosure testimony is in its appendix, pp. 185-234).
   - "World System of Wireless Transmission of Energy," Telegraph and Telephone
     Age, Oct 16, 1927, pp. 457–460.
   - M. J. Seifer, "Tesla's Magnifying Transmitter: A Technical Discussion,"
