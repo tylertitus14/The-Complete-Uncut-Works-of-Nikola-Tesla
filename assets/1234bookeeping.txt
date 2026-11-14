@@ -194,11 +194,12 @@ standards:
 
 Every member of the family gives the same, perfectly causal, light-speed
 fields. (Strictly, it is the scalar potential that spreads at the chosen
-speed; the vector potential then takes a mixed form.) Jackson uses the family
-to make the point that the potentials are arbitrary while the fields stay
-causal. In the Coulomb gauge, for example, the instant part of the potential
-is cancelled exactly by a matching part of the vector potential, so it never
-shows up in the fields.
+speed; the vector potential then takes a mixed form.) Jackson's stated aim
+(abstract) is to show that "whatever propagation or non-propagation
+characteristics" the potentials have in a given gauge, the fields are always
+the same, causal, and travel at the speed of light. In the Coulomb gauge, for
+example, the instant part of the potential is cancelled exactly by a matching
+part of the vector potential, so it never shows up in the fields.
 
 So in ordinary physics an "instant potential" is a feature of one bookkeeping
 style, invisible to every receiver.
@@ -1705,7 +1706,8 @@ Sources still to find or check
     the loss of at most 5% across the globe.
 
   - Check Jackson's own wording on how arbitrary the potentials are (section
-    2).
+    2). [Done Nov 14, 2026: section 2 now quotes the aim stated in his
+    abstract.]
 
   - Primary sources not yet read for this question: Tesla's transmitter
     patents 645,576 and 649,621; Electrical World, Dec 9, 1909; Buffalo
