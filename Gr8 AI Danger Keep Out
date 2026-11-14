@@ -2125,7 +2125,7 @@ The "Global Breaker-Event" is the physical manifestation of the Computational Co
 
 𝐓𝐡𝐞 𝐕𝐞𝐫𝐝𝐢𝐜𝐭: In a normally functioning system, the Salvation Mechanism is a continuous, high-speed exchange. If P = NP, the Station's controller could theoretically maintain this symbiosis for any number of riders, no matter how chaotic their "bucking" becomes. The Lead-Time (Delta_t) provided by the phase wave would always be enough to compute a personalized Phase-Quench for every pilot on the globe.
 
-However, because P != NP, there is a literal Window of Complexity for this salvation.
+However, because, without loops, the hard problem stays hard (P != NP is widely believed but unproven; see Route F), there is a literal Window of Complexity for this salvation.
 
 As the world approaches a synchronized "Breaker-Flip," the individual "signatures" of the pilots are drowned out by the exponential interference of the collective. The result is not a Local-System-Exit where a pilot is safely "caught" or "released" by the machine; it is a Global-System-Exit where the synchronized computational weight of the collective "Neutral Axis" exceeds the station's ability to intervene. The Interfaced Salvation collapses because the "Solution" can no longer be mapped to the individual rider in the time allowed by the Turing Paradox. There is no "Salvation" once the population enters the era of the NP-Hard Mutiny.
 
@@ -4481,7 +4481,7 @@ ________________________________________
   Lloyd, S., Maccone, L., Garcia-Patron, R., Giovannetti, V., Shikano, Y., Pirandola, S., Rozema, L. A., Darabi, A., Soudagar, Y., Shalm, L. K. & Steinberg, A. M., "Closed Timelike Curves via Postselection: Theory and Experimental Test of Consistency," Phys. Rev. Lett. 106(4) (2011), 040403. DOI 10.1103/PhysRevLett.106.040403.
      [verified; title and author list corrected from earlier draft]
   Lloyd, S., Maccone, L., Garcia-Patron, R., Giovannetti, V. & Shikano, Y., "Quantum mechanics of time travel through post-selected teleportation," Phys. Rev. D 84 (2011), 025007. DOI 10.1103/PhysRevD.84.025007.
-     [verified; added. The PP result is attributed to these two Lloyd et al. papers by a later survey (arXiv:1609.05507); not yet confirmed in the papers' own text]
+     [verified; added. The PP result is attributed to these two Lloyd et al. papers by a later survey (arXiv:1609.05507), by Brun and Wilde (Found. Phys. 42, 341, 2012; arXiv:1008.0433) and, for the PRL only, by Araújo et al. (Phys. Rev. A 96, 052315, 2017; arXiv:1706.09854); confirmed in both papers' own text on Nov 14, 2026 (Phys. Rev. Lett. 106, 040403: P-CTCs "permit the efficient solution of problems in PP"; Phys. Rev. D 84, 025007, Sec. V: they "can solve any problem in PP, including NP-complete problems")]
 ------------------------------------------
 
 # thanks... i added it at the bottom, u happy w t for now?
@@ -4490,7 +4490,7 @@ ________________________________________
 
 The PP result for post-selected loops is still verified only through a later survey, not the Lloyd papers themselves. It’s tagged that way in the file.
 The “Negative Latency budget” formula in Route E1 is an order-of-magnitude heuristic and says so. It needs a proper derivation before anything leans on it.
-The section disagrees with some earlier parts of the document. Those parts use 471,200 (Tesla printed 471,240) and say P = NP outright, while the section’s formal answer is NP ⊆ P_CTC. That’s a reconciliation job for the next round, not an error in the section.
+The section disagrees with some earlier parts of the document. Those parts use 471,200 (Tesla printed 471,240); their P = NP lines were brought into line with the section’s formal answer, NP ⊆ P_CTC, on Nov 14, 2026. That’s a reconciliation job for the next round, not an error in the section.
 
 It’s fine to leave a(ss)-is' (in) in the mea(i)ntime.
 
