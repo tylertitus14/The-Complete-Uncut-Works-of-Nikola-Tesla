@@ -4261,7 +4261,7 @@ Tesla's statements (main file, True Wireless 1919; Patent 787,412; July 6, 1912 
   Area swept:                           A(t) = 2πR·c·t          ("equal areas in equal times")
   Mean speed, transmitter to antipode:  πR / (2R/c) = (π/2)·c
 
-Tesla's printed figures use c = 300,000 km/s: mean 471,240 km/s (π/2 rounded to 1.5708), round trip 0.08484 s. With measured c = 299,792.458 km/s the mean is 470,913 km/s; the ratio π/2 is the invariant.
+Tesla's printed figures use c = 300,000 km/s: mean 471,240 km/s (π/2 rounded to 1.5708), round trip 0.08484 s (Tesla's printed figure, twice his Earth diameter over c; with R = 6,371 km, 4R/c = 0.08495 s). With measured c = 299,792.458 km/s the mean is 470,913 km/s; the ratio π/2 is the invariant.
 
 Atlantic test case (L = 4,800 km, θ = 0.7534 rad, R = 6,371 km):
   Axis-law arrival:    5.75 ms   (Tesla: "less than 0.006 second", average ~800,000 km/s)

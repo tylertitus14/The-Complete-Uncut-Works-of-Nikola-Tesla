@@ -623,9 +623,11 @@ a preferred frame.                      of the model. The physics of materials
                                         one wants Tesla's ether, it plays the
                                         same role.
 How does a receiver drawing on the      The exact energy identity of section 4
-potential balance its energy?           balances the books: the receiver  
-                                        draws on the instant-potential share,
-                                        and nothing is created or destroyed.
+potential balance its energy?           balances the books: the receiver
+                                        draws on the instant-potential share.
+                                        This is an energy-accounting
+                                        assignment, not yet a demonstrated
+                                        transfer mechanism.
                                         What is not yet supplied is how that
                                         energy travels locally to the
                                         receiver, and how the receiver pushes
@@ -815,7 +817,7 @@ Tesla's figure                          Where it comes from
 mean surface speed "about               (π/2) × 300,000 ≈ 471,239 km/s
 471,240 km/s" (1905 patent)
 "probably 0.08484 of a second" (1905    twice the Earth's diameter divided by
-patent)                                 c (within 0.1% of the real diameter)
+patent)                                 c (within 0.13% of the mean diameter)
 "one-twelfth" of a second               the same quantity, rounded
 "less than 0.006 second" across         the axis rule above, with
 4,800 km of Atlantic (1912,             R = 6,363 km, giving 0.00575 s
@@ -1040,7 +1042,8 @@ each on its own surface in spacetime:
      surface). The ordinary field response begins. Seen by every receiver.
 
 Tesla mode puts the first two before the third. Away from the transmitter,
-the second and third meet only at the antipode.
+the second meets the straight-line light time only at the antipode, and it is
+always earlier than the around-the-surface time.
 
 Does this break cause and effect?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
