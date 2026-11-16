@@ -334,6 +334,8 @@ Three standard facts suggest the potential is more than a ledger:
      swirling (transverse) part of the field, which includes radiation and the
      other swirling fields. The instant potential is not just a convenience
      here. It carries a definite, exactly accounted share of the energy.
+     (For point charges both parts are infinite; the split is exact for
+     smooth charge distributions.)
   3. The scalar part of the field in quantum electrodynamics. In the fully
      covariant version of the theory, the "longitudinal" and "scalar" parts of
      the potential never appear as free radiation, but they are what carry the
@@ -359,7 +361,8 @@ instant. "Instant" means simultaneous in one fixed frame, called F_E in the
 rest of this note: its origin is the Earth's centre of mass, and its axes do
 not rotate relative to the distant stars. (Geodesists realise such a frame in
 practice as the Geocentric Celestial Reference System, GCRS; that is a
-coordinate convention, not evidence that nature prefers this frame.) The Earth
+coordinate convention, not evidence that nature prefers this frame. F_E is not
+an inertial frame: its origin falls freely around the Sun.) The Earth
 anchors this frame but is not at rest in it: the Earth's surface turns through
 F_E at up to about 465 m/s. Simultaneity in F_E differs from simultaneity "on
 the surface" by at most about 66 ns across the whole Earth, negligible against
@@ -380,7 +383,8 @@ axis, and section 3 for charge density), but does not stop clocks being
 synchronized. The cross term 2N·dx·dt, with N = ω × r, is the one that
 matters. A metric with a dt·dx cross term that twists around (nonzero curl,
 which rotation always has) cannot be given one consistent "now" by
-synchronizing clocks step by step: going around a closed loop, they come
+synchronizing clocks step by step (a coordinate time can still be defined;
+what fails is step-by-step synchronization): around a closed loop, they come
 back out of step by
     Δt = (1/c²) ∮ N·dl = 2ωA/c²
 where A is the area the loop encloses, projected onto the equator's plane
@@ -619,7 +623,7 @@ a preferred frame.                      of the model. The physics of materials
                                         one wants Tesla's ether, it plays the
                                         same role.
 How does a receiver drawing on the      The exact energy identity of section 4
-potential balance its energy?           keeps the total right: the receiver
+potential balance its energy?           balances the books: the receiver  
                                         draws on the instant-potential share,
                                         and nothing is created or destroyed.
                                         What is not yet supplied is how that
@@ -735,7 +739,7 @@ Angle from      Peak of          Tesla's law   Straight         Around the
 transmitter     instant                        through the      surface at c
                 potential                      Earth at c
 -------------   --------------   -----------   --------------   --------------
-43.2°           5.76 ms          5.76 ms       15.6 ms          16.0 ms
+43.17°          5.75 ms          5.75 ms       15.6 ms          16.0 ms
 (≈ 4,800 km,
 the Atlantic)
 90°             21.25 ms         21.25 ms      30.1 ms          33.4 ms
@@ -787,7 +791,7 @@ receiver and one for the source:
   - β other than zero, ordinary charge motion: an early response, whose shape
     has to be computed.
   - β above zero, axial-equivalent source (Tesla): an immediate onset, then
-    the peak at R (1 − cos θ) / c, i.e. 5.76 ms across the Atlantic instead of
+    the peak at R (1 − cos θ) / c, i.e. 5.75 ms across the Atlantic instead of
     about 16 ms.
 
 That difference is the measurement that would tell them apart.
@@ -808,7 +812,7 @@ to 300,000 km/s, and the Earth's diameter.
 
 Tesla's figure                          Where it comes from
 -------------------------------------   --------------------------------------
-mean surface speed "about               (π/2) × 300,000 = 471,239 km/s
+mean surface speed "about               (π/2) × 300,000 ≈ 471,239 km/s
 471,240 km/s" (1905 patent)
 "probably 0.08484 of a second" (1905    twice the Earth's diameter divided by
 patent)                                 c (within 0.1% of the real diameter)
@@ -910,7 +914,7 @@ the real ground–ionosphere cavity                 roughly 180 ms (an estimate)
 (Where the estimate comes from: an ideal cavity between a perfectly conducting
 ground and ionosphere would have its lowest resonance at √2 × c/(2πR), about
 10.6 Hz. The measured 7.8 Hz is about 0.74 of that, so signals near that
-frequency behave as if slowed to about 0.74 c, giving about 180 ms around the
+frequency have a phase velocity of about 0.74 c, giving about 180 ms around the
 globe. A pulse's real travel time depends on its frequency content, so this is
 an estimate, not a prediction.)
 
@@ -1035,8 +1039,8 @@ each on its own surface in spacetime:
   3. The light cone (t = straight-line distance / c, or longer around the
      surface). The ordinary field response begins. Seen by every receiver.
 
-Tesla mode puts the first two before the third. The second and third meet only
-at the antipode.
+Tesla mode puts the first two before the third. Away from the transmitter,
+the second and third meet only at the antipode.
 
 Does this break cause and effect?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1388,7 +1392,7 @@ the regrouped definition directly.
 Other "earths": how the numbers scale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Because Tesla's law is geometry, it applies to any conducting body, and the
+Because Tesla's law is geometry, it applies to any conducting sphere, and the
 numbers scale with size. For a sphere of radius R in Tesla's model: the lowest
 resonance on his odd quarter-wave rule is c/(8R); the echo rate, one per round
 trip, is c/(4R); his echo from the far side returns in 4R/c; and an ordinary
@@ -1402,8 +1406,8 @@ Body             Lowest           Echo rate,       Tesla echo   Light-speed
 bench sphere,    75 MHz           150 MHz          6.7 ns       10.5 ns
 1 m across
 car-sized        17 MHz           33 MHz           30 ns        47 ns
-body, about
-4.5 m long
+sphere, 4.5 m
+across
 the Moon         21.6 Hz          43.2 Hz          23 ms        36 ms
 Mars             11.1 Hz          22.2 Hz          45 ms        71 ms
 the Earth        5.9 Hz           11.8 Hz          85 ms        134 ms
