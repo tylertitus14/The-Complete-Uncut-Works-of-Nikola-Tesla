@@ -4403,8 +4403,8 @@ E1. Band-limited analyticity
   Within the model, an "abrupt" impact as seen at the receiver is fully determined by the present segment of the signal. The advance is unbounded in principle.
 
   Cost (built into the model): extrapolation is ill-conditioned. Noise is amplified roughly exponentially with the product of bandwidth and extrapolation length (Slepian's prolate-spheroidal concentration theory).
-  Heuristic Negative-Latency budget:  Δ_max ~ ln(SNR) / (2πW)
-  This is an order-of-magnitude scaling to be derived properly before use.
+  Negative-Latency budget:  Δ_max ~ ln(SNR) / (2πW)
+  Derivation (for one simple method, Taylor extrapolation): Bernstein's inequality bounds the k-th derivative of a signal band-limited to W by (2πW)^k times its peak amplitude A. Derivatives estimated from data whose noise (rms σ, also band-limited to W) carries errors of order (2πW)^k σ. Extrapolating a time Δ ahead with the Taylor series sums these errors to about σ Σ (2πWΔ)^k / k! = σ e^(2πWΔ). The forecast is useful only while that error stays below A, so e^(2πWΔ) < A/σ = SNR (amplitude ratio), which gives the formula. Example: W = 1 kHz and SNR = 1,000 give Δ_max ≈ 1.1 ms; each further factor of e in SNR buys only 1/(2πW) ≈ 0.16 ms more. Better extrapolation methods can change the constant; this derivation does not show that the logarithm is optimal.
 
 E2. Use Route C for abrupt scenarios
   A preferred-frame channel with a faster-than-light front carries discontinuities early, so the smoothness limit does not apply. Pair abrupt-event scenarios (ejection, impact) with Route C, and precursor scenarios (rupture, shudder) with Route B.
@@ -4421,6 +4421,8 @@ F1. Route C alone
 
 F2. Allow loops: computation with closed timelike curves
   If faster-than-light signaling holds in every inertial frame, signals can be relayed into their own past (the "tachyonic antitelephone"), and causal loops become possible. Route D3 then governs computation.
+
+  Numbers (from the Magic Box section, calculators repo): a relay a distance D away moves at speed v along the line, and each leg is instantaneous in its sender's own frame. The reply returns early by Δt = v D / c²; the Lorentz factor cancels. An advance of 0.10 s needs D ≥ 29,979 km even at v ≈ c, and about 300,000 km at v = 0.1 c. With planets as relays (frame option P′ of the wave-law note) the best case is a_E a_p |n_p − n_E| / c² (orbit radii a, orbital rates n): about 0.02 s for Venus, 0.24 s for Jupiter and 1.5 s for Neptune, and only when the planets' positions line up.
 
   Fixed-point search algorithm: send a candidate answer x back around the loop. If the verifier accepts x, send x again; otherwise send the next candidate. If a valid solution exists, the only self-consistent fixed points of this loop are valid solutions. If none exists, the classical loop has no consistent history; Deutsch's model always has a consistent (mixed-state) solution, and the computation then reports that none was found. This is a sketch of the idea; the published constructions below handle these cases properly. The answer is present before the computation that "produces" it is run.
 
@@ -4489,7 +4491,7 @@ ________________________________________
 # There’s nothing (A)I’d want overwritten. Three things to keep in mind for when Y‎ (t)‎ ‎ ou come back  ̶t̶o̶ ̶i̶t̶:
 
 The PP result for post-selected loops is still verified only through a later survey, not the Lloyd papers themselves. It’s tagged that way in the file. [Resolved Nov 14, 2026: confirmed in both Lloyd et al. papers' own text; see the reference above.]
-The “Negative Latency budget” formula in Route E1 is an order-of-magnitude heuristic and says so. It needs a proper derivation before anything leans on it.
+The “Negative Latency budget” formula in Route E1 is an order-of-magnitude heuristic and says so. It needs a proper derivation before anything leans on it. [Nov 17, 2026: derived in Route E1 for Taylor extrapolation, using Bernstein's inequality; the logarithm is not shown to be optimal.]
 The section used to disagree with some earlier parts of the document. Reconciled Nov 14, 2026: those parts now use Tesla's printed 471,240 km/s (they had 471,200 in ten places), and their P = NP lines no longer contradict the section’s formal answer, NP ⊆ P_CTC (the story's "If P = NP" verdict stays a hypothetical).
 
 It’s fine to leave a(ss)-is' (in) in the mea(i)ntime.
