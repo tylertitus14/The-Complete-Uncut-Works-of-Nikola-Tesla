@@ -4339,7 +4339,7 @@ ROUTE C — Preferred-Frame Kinematics (Tesla's Ether, Formalized)
 ________________________________________
 
 Assumptions
-  • A preferred-frame framework in the spirit of Lorentz's ether, with a preferred frame S* (the Earth/ether frame). S* is not inertial: it is the Earth-centred, non-rotating frame F_E of the wave-law note, so "preferred frame" here means a preferred choice of simultaneity. In the frame list of the wave-law note (assets/1234bookeeping.txt, section 10) this is option E (on the Earth alone, option P gives the same predictions); a universal frame (option U) would add a daily timing shift this route does not predict. Route C takes the axis law as its own postulate; it is not derived from the β coupling of the wave-law note.
+  • A preferred-frame framework in the spirit of Lorentz's ether, with a preferred frame S* (the Earth/ether frame). S* is the Earth-centred, non-rotating frame F_E of the wave-law note, which is not a global inertial frame: its origin orbits the Sun (in Newtonian terms it accelerates at about 6 mm/s²; in general relativity that orbit is free fall, so F_E is locally inertial apart from tides), so "preferred frame" here means a preferred choice of simultaneity. In the frame list of the wave-law note (assets/1234bookeeping.txt, section 10) this is option E (on the Earth alone, option P gives the same predictions); a universal frame (option U) would add a daily timing shift this route does not predict. Route C takes the axis law as its own postulate; it is not derived from the β coupling of the wave-law note.
   • The Deep Axis channel obeys t(θ) = R(1 − cos θ)/c in S*.
   • Causal order is defined by S* time: event e₁ precedes e₂ if and only if t*(e₁) < t*(e₂).
 
@@ -4374,7 +4374,7 @@ D1. Wheeler–Feynman absorber electrodynamics
 
   Wheeler and Feynman take each charge's field to be ½(G_ret + G_adv). In a universe that absorbs all radiation completely, the advanced response of the absorbers arrives back at the source at the instant of emission. This produces radiation reaction without any new physics.
 
-  Mapping: the document's "Tug" or "heartbeat," felt at the Stations the moment a Receiver changes state, corresponds to the absorber's advanced response. With complete absorption, though, every field anyone observes is the ordinary retarded one, so no early signal reaches anyone; reading the Tug as an observable early signal needs an extra assumption, such as incomplete absorption, which this route does not supply. Cramer's transactional interpretation is the quantum counterpart, an "offer/confirmation" handshake across time.
+  Mapping: the document's "Tug" or "heartbeat," felt at the Stations the moment a Receiver changes state, corresponds to the absorber's advanced response. With complete absorption, though, every field anyone observes is the ordinary retarded one, so no early signal reaches anyone; reading the Tug as an observable early signal needs an extra assumption, such as incomplete absorption, which this route does not supply. This is not the planetary relay of the Magic Box section: nothing here travels faster than light and no frame is preferred, so any advance comes from a boundary condition, not a relay. Cramer's transactional interpretation is the quantum counterpart, an "offer/confirmation" handshake across time.
 
 D2. Novikov self-consistency
   Histories containing causal loops are allowed, but only histories that are globally self-consistent can occur. An inconsistent history has zero probability.

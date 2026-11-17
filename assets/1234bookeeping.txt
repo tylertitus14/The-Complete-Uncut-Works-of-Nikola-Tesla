@@ -362,7 +362,11 @@ rest of this note: its origin is the Earth's centre of mass, and its axes do
 not rotate relative to the distant stars. (Geodesists realise such a frame in
 practice as the Geocentric Celestial Reference System, GCRS; that is a
 coordinate convention, not evidence that nature prefers this frame. F_E is not
-an inertial frame: its origin falls freely around the Sun.) The Earth
+a global inertial frame. Its origin orbits the Sun: in Newtonian terms it
+accelerates toward the Sun at about 6 mm/s². In general relativity that orbit
+is free fall, so F_E is a freely falling, non-rotating frame, locally inertial
+near its origin apart from tides of about 10^-6 m/s² across one Earth radius,
+mostly the Moon's.) The Earth
 anchors this frame but is not at rest in it: the Earth's surface turns through
 F_E at up to about 465 m/s. Simultaneity in F_E differs from simultaneity "on
 the surface" by at most about 66 ns across the whole Earth, negligible against
